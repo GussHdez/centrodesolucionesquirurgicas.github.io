@@ -1,0 +1,654 @@
+/*Fuentes externas*/
+@font-face {
+font-family: RobotoRegular;
+src: url(Roboto-Regular.ttf);
+}
+
+@font-face {
+font-family: RobotoBold;
+src: url(Roboto-Bold.ttf);
+}
+
+body{
+    font-family: RobotoRegular;
+}
+
+.container{
+    height: 50rem;
+}
+
+.tituloPrincipal{
+    color: aliceblue;
+}
+
+.imgCotizadorFondo{
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.piePagina{
+    position: relative !important;
+    bottom: 0 !important;
+    z-index: 1 !important;
+    width: 100% !important;
+    background-color: white !important;
+}
+
+.plastica{
+    display: none;
+}
+
+#cirugias{
+    display: none;
+}
+
+.CostoMembresiaCard{
+    color: darkcyan; 
+    padding: 3rem;
+}
+
+.tarjetasPagoCard{
+    padding: 3rem;
+}
+
+
+#SubPlastica{ display: none; }
+#SubObstetrica{ display: none; }
+#SubRecto{ display: none; }
+#SubBariatrica{ display: none; }
+#SubOncologica{ display: none; }
+#SubUrologica{ display: none; }
+#SubCabeza{ display: none; }
+#SubPaliativos{ 
+    display: none;
+    width: 100%;
+}
+#SubVascular{ 
+    display: none; 
+    width: 100%;
+}
+#SubGeneral{ display: none; }
+
+.plastica1Prices{ display: none; }
+
+.plastica2Prices{ display: none; }
+
+.plastica3Prices{ display: none; }
+
+.plastica4Prices{ display: none; }
+
+.plastica5Prices{ display: none; }
+
+.plastica6Prices{ display: none; }
+
+.plastica7Prices{ display: none; }
+
+.plastica8Prices{ display: none; }
+
+.plastica9Prices{ display: none; }
+
+.plastica10Prices{ display: none; }
+
+.plastica11Prices{ display: none; }
+
+.plastica12Prices{ display: none; }
+
+.plastica13Prices{ display: none; }
+
+.plastica14Prices{ display: none; }
+
+.plastica15Prices{ display: none; }
+
+.plastica16Prices{ display: none; }
+
+.plastica17Prices{ display: none; }
+
+.plastica18Prices{ display: none; }
+
+.plastica19Prices{ display: none; }
+
+.plastica20Prices{ display: none; }
+
+.plastica21Prices{ display: none; }
+
+.plastica22Prices{ display: none; }
+
+.plastica23Prices{ display: none; }
+
+.plastica24Prices{ display: none; }
+
+.plastica25Prices{ display: none; }
+
+.plastica26Prices{  display: none; }
+
+.plastica27Prices{ display: none; }
+
+.plastica28Prices{ display: none; }
+
+.plastica29Prices{ display: none; }
+
+.plastica30Prices{ display: none; }
+
+.plastica31Prices{ display: none; }
+
+.plastica32Prices{ display: none; }
+
+.plastica33Prices{ display: none;}
+
+.plastica34Prices{ display: none; }
+
+.plastica35Prices{ display: none; }
+
+.plastica36Prices{ display: none; }
+
+.obstetrica1Prices{ display: none; }
+.obstetrica2Prices{ display: none; }
+.obstetrica3Prices{ display: none; }
+.obstetrica4Prices{ display: none; }
+.obstetrica5Prices{ display: none; }
+.obstetrica6Prices{ display: none; }
+.obstetrica7Prices{ display: none; }
+.obstetrica8Prices{ display: none; }
+.obstetrica9Prices{ display: none; }
+.obstetrica10Prices{ display: none; }
+.obstetrica11Prices{ display: none; }
+.obstetrica12Prices{ display: none; }
+.obstetrica13Prices{ display: none; }
+.obstetrica14Prices{ display: none; }
+.obstetrica15Prices{ display: none; }
+.obstetrica16Prices{ display: none; }
+.obstetrica17Prices{ display: none; }
+.obstetrica18Prices{ display: none; }
+
+.recto1Prices{ display: none; }
+.recto2Prices{ display: none; }
+.recto3Prices{ display: none; }
+.recto4Prices{ display: none; }
+.recto5Prices{ display: none; }
+.recto6Prices{ display: none; }
+.recto7Prices{ display: none; }
+.recto8Prices{ display: none; }
+.recto9Prices{ display: none; }
+.recto10Prices{ display: none; }
+.recto11Prices{ display: none; }
+.recto12Prices{ display: none; }
+.recto13Prices{ display: none; }
+.recto14Prices{ display: none; }
+.recto15Prices{ display: none; }
+.recto16Prices{ display: none; }
+.recto17Prices{ display: none; }
+.recto18Prices{ display: none; }
+
+.bariatrica1Prices{ display: none; }
+.bariatrica2Prices{ display: none; }
+.bariatrica3Prices{ display: none; }
+.bariatrica4Prices{ display: none; }
+.bariatrica5Prices{ display: none; }
+.bariatrica6Prices{ display: none; }
+
+.oncologica1Prices{ display: none; }
+.oncologica2Prices{ display: none; }
+.oncologica3Prices{ display: none; }
+.oncologica4Prices{ display: none; }
+.oncologica5Prices{ display: none; }
+.oncologica6Prices{ display: none; }
+.oncologica7Prices{ display: none; }
+.oncologica8Prices{ display: none; }
+.oncologica9Prices{ display: none; }
+.oncologica10Prices{ display: none; }
+.oncologica11Prices{ display: none; }
+.oncologica12Prices{ display: none; }
+.oncologica13Prices{ display: none; }
+.oncologica14Prices{ display: none; }
+.oncologica15Prices{ display: none; }
+.oncologica16Prices{ display: none; }
+.oncologica17Prices{ display: none; }
+.oncologica18Prices{ display: none; }
+.oncologica19Prices{ display: none; }
+.oncologica20Prices{ display: none; }
+.oncologica21Prices{ display: none; }
+.oncologica22Prices{ display: none; }
+.oncologica23Prices{ display: none; }
+.oncologica24Prices{ display: none; }
+.oncologica25Prices{ display: none; }
+.oncologica26Prices{ display: none; }
+.oncologica27Prices{ display: none; }
+.oncologica28Prices{ display: none; }
+.oncologica29Prices{ display: none; }
+.oncologica30Prices{ display: none; }
+.oncologica31Prices{ display: none; }
+.oncologica32Prices{ display: none; }
+.oncologica33Prices{ display: none; }
+.oncologica34Prices{ display: none; }
+.oncologica35Prices{ display: none; }
+.oncologica36Prices{ display: none; }
+.oncologica37Prices{ display: none; }
+.oncologica38Prices{ display: none; }
+.oncologica39Prices{ display: none; }
+.oncologica40Prices{ display: none; }
+.oncologica41Prices{ display: none; }
+.oncologica42Prices{ display: none; }
+.oncologica43Prices{ display: none; }
+.oncologica44Prices{ display: none; }
+.oncologica45Prices{ display: none; }
+.oncologica46Prices{ display: none; }
+.oncologica47Prices{ display: none; }
+.oncologica48Prices{ display: none; }
+.oncologica49Prices{ display: none; }
+.oncologica50Prices{ display: none; }
+
+.urologica1Prices{ display: none; }
+.urologica2Prices{ display: none; }
+.urologica3Prices{ display: none; }
+.urologica4Prices{ display: none; }
+.urologica5Prices{ display: none; }
+.urologica6Prices{ display: none; }
+.urologica7Prices{ display: none; }
+.urologica8Prices{ display: none; }
+.urologica9Prices{ display: none; }
+.urologica10Prices{ display: none; }
+.urologica11Prices{ display: none; }
+.urologica12Prices{ display: none; }
+.urologica13Prices{ display: none; }
+.urologica14Prices{ display: none; }
+.urologica15Prices{ display: none; }
+.urologica16Prices{ display: none; }
+.urologica17Prices{ display: none; }
+.urologica18Prices{ display: none; }
+.urologica19Prices{ display: none; }
+.urologica20Prices{ display: none; }
+.urologica21Prices{ display: none; }
+.urologica22Prices{ display: none; }
+.urologica23Prices{ display: none; }
+.urologica24Prices{ display: none; }
+.urologica25Prices{ display: none; }
+.urologica26Prices{ display: none; }
+.urologica27Prices{ display: none; }
+.urologica28Prices{ display: none; }
+
+.cabeza1Prices{ display: none; }
+.cabeza2Prices{ display: none; }
+.cabeza3Prices{ display: none; }
+.cabeza4Prices{ display: none; }
+.cabeza5Prices{ display: none; }
+.cabeza6Prices{ display: none; }
+.cabeza7Prices{ display: none; }
+.cabeza8Prices{ display: none; }
+.cabeza9Prices{ display: none; }
+.cabeza10Prices{ display: none; }
+.cabeza11Prices{ display: none; }
+.cabeza12Prices{ display: none; }
+.cabeza13Prices{ display: none; }
+.cabeza14Prices{ display: none; }
+.cabeza15Prices{ display: none; }
+.cabeza16Prices{ display: none; }
+.cabeza17Prices{ display: none; }
+.cabeza18Prices{ display: none; }
+.cabeza19Prices{ display: none; }
+.cabeza20Prices{ display: none; }
+.cabeza21Prices{ display: none; }
+.cabeza22Prices{ display: none; }
+.cabeza23Prices{ display: none; }
+.cabeza24Prices{ display: none; }
+.cabeza25Prices{ display: none; }
+.cabeza26Prices{ display: none; }
+.cabeza27Prices{ display: none; }
+.cabeza28Prices{ display: none; }
+.cabeza29Prices{ display: none; }
+.cabeza30Prices{ display: none; }
+.cabeza31Prices{ display: none; }
+.cabeza32Prices{ display: none; }
+.cabeza33Prices{ display: none; }
+
+.paliativos1Prices{ display: none; }
+.paliativos2Prices{ display: none; }
+.paliativos3Prices{ display: none; }
+.paliativos4Prices{ display: none; }
+.paliativos5Prices{ display: none; }
+.paliativos6Prices{ display: none; }
+.paliativos7Prices{ display: none; }
+.paliativos8Prices{ display: none; }
+.paliativos9Prices{ display: none; }
+.paliativos10Prices{ display: none; }
+.paliativos11Prices{ display: none; }
+.paliativos12Prices{ display: none; }
+.paliativos13Prices{ display: none; }
+.paliativos14Prices{ display: none; }
+.paliativos15Prices{ display: none; }
+.paliativos16Prices{ display: none; }
+.paliativos17Prices{ display: none; }
+
+.vascular1Prices{ display: none; }
+.vascular2Prices{ display: none; }
+.vascular3Prices{ display: none; }
+.vascular4Prices{ display: none; }
+.vascular5Prices{ display: none; }
+.vascular6Prices{ display: none; }
+.vascular7Prices{ display: none; }
+.vascular8Prices{ display: none; }
+.vascular9Prices{ display: none; }
+.vascular10Prices{ display: none; }
+.vascular11Prices{ display: none; }
+.vascular12Prices{ display: none; }
+.vascular13Prices{ display: none; }
+.vascular14Prices{ display: none; }
+.vascular15Prices{ display: none; }
+.vascular16Prices{ display: none; }
+.vascular17Prices{ display: none; }
+.vascular18Prices{ display: none; }
+.vascular19Prices{ display: none; }
+.vascular20Prices{ display: none; }
+.vascular21Prices{ display: none; }
+.vascular22Prices{ display: none; }
+.vascular23Prices{ display: none; }
+.vascular24Prices{ display: none; }
+.vascular25Prices{ display: none; }
+.vascular26Prices{ display: none; }
+.vascular27Prices{ display: none; }
+.vascular28Prices{ display: none; }
+.vascular29Prices{ display: none; }
+.vascular30Prices{ display: none; }
+.vascular31Prices{ display: none; }
+
+.general1Prices{ display: none; }
+.general2Prices{ display: none; }
+.general3Prices{ display: none; }
+.general4Prices{ display: none; }
+.general5Prices{ display: none; }
+.general6Prices{ display: none; }
+.general7Prices{ display: none; }
+.general8Prices{ display: none; }
+.general9Prices{ display: none; }
+.general10Prices{ display: none; }
+.general11Prices{ display: none; }
+.general12Prices{ display: none; }
+.general13Prices{ display: none; }
+.general14Prices{ display: none; }
+.general15Prices{ display: none; }
+.general16Prices{ display: none; }
+.general17Prices{ display: none; }
+.general18Prices{ display: none; }
+.general19Prices{ display: none; }
+.general20Prices{ display: none; }
+.general21Prices{ display: none; }
+
+.plastica1Tarjeta1{ display: none; }	.plastica1Tarjeta2{ display: none; }	.plastica1Tarjeta3{ display: none; }	.plastica1Tarjeta4{ display: none; }	.plastica1Tarjeta5{ display: none; }	.plastica1Tarjeta6{ display: none; }	.plastica1Tarjeta7{ display: none; }
+.plastica2Tarjeta1{ display: none; }	.plastica2Tarjeta2{ display: none; }	.plastica2Tarjeta3{ display: none; }	.plastica2Tarjeta4{ display: none; }	.plastica2Tarjeta5{ display: none; }	.plastica2Tarjeta6{ display: none; }	.plastica2Tarjeta7{ display: none; }
+.plastica3Tarjeta1{ display: none; }	.plastica3Tarjeta2{ display: none; }	.plastica3Tarjeta3{ display: none; }	.plastica3Tarjeta4{ display: none; }	.plastica3Tarjeta5{ display: none; }	.plastica3Tarjeta6{ display: none; }	.plastica3Tarjeta7{ display: none; }
+.plastica4Tarjeta1{ display: none; }	.plastica4Tarjeta2{ display: none; }	.plastica4Tarjeta3{ display: none; }	.plastica4Tarjeta4{ display: none; }	.plastica4Tarjeta5{ display: none; }	.plastica4Tarjeta6{ display: none; }	.plastica4Tarjeta7{ display: none; }
+.plastica5Tarjeta1{ display: none; }	.plastica5Tarjeta2{ display: none; }	.plastica5Tarjeta3{ display: none; }	.plastica5Tarjeta4{ display: none; }	.plastica5Tarjeta5{ display: none; }	.plastica5Tarjeta6{ display: none; }	.plastica5Tarjeta7{ display: none; }
+.plastica6Tarjeta1{ display: none; }	.plastica6Tarjeta2{ display: none; }	.plastica6Tarjeta3{ display: none; }	.plastica6Tarjeta4{ display: none; }	.plastica6Tarjeta5{ display: none; }	.plastica6Tarjeta6{ display: none; }	.plastica6Tarjeta7{ display: none; }
+.plastica7Tarjeta1{ display: none; }	.plastica7Tarjeta2{ display: none; }	.plastica7Tarjeta3{ display: none; }	.plastica7Tarjeta4{ display: none; }	.plastica7Tarjeta5{ display: none; }	.plastica7Tarjeta6{ display: none; }	.plastica7Tarjeta7{ display: none; }
+.plastica8Tarjeta1{ display: none; }	.plastica8Tarjeta2{ display: none; }	.plastica8Tarjeta3{ display: none; }	.plastica8Tarjeta4{ display: none; }	.plastica8Tarjeta5{ display: none; }	.plastica8Tarjeta6{ display: none; }	.plastica8Tarjeta7{ display: none; }
+.plastica9Tarjeta1{ display: none; }	.plastica9Tarjeta2{ display: none; }	.plastica9Tarjeta3{ display: none; }	.plastica9Tarjeta4{ display: none; }	.plastica9Tarjeta5{ display: none; }	.plastica9Tarjeta6{ display: none; }	.plastica9Tarjeta7{ display: none; }
+.plastica10Tarjeta1{ display: none; }	.plastica10Tarjeta2{ display: none; }	.plastica10Tarjeta3{ display: none; }	.plastica10Tarjeta4{ display: none; }	.plastica10Tarjeta5{ display: none; }	.plastica10Tarjeta6{ display: none; }	.plastica10Tarjeta7{ display: none; }
+.plastica11Tarjeta1{ display: none; }	.plastica11Tarjeta2{ display: none; }	.plastica11Tarjeta3{ display: none; }	.plastica11Tarjeta4{ display: none; }	.plastica11Tarjeta5{ display: none; }	.plastica11Tarjeta6{ display: none; }	.plastica11Tarjeta7{ display: none; }
+.plastica12Tarjeta1{ display: none; }	.plastica12Tarjeta2{ display: none; }	.plastica12Tarjeta3{ display: none; }	.plastica12Tarjeta4{ display: none; }	.plastica12Tarjeta5{ display: none; }	.plastica12Tarjeta6{ display: none; }	.plastica12Tarjeta7{ display: none; }
+.plastica13Tarjeta1{ display: none; }	.plastica13Tarjeta2{ display: none; }	.plastica13Tarjeta3{ display: none; }	.plastica13Tarjeta4{ display: none; }	.plastica13Tarjeta5{ display: none; }	.plastica13Tarjeta6{ display: none; }	.plastica13Tarjeta7{ display: none; }
+.plastica14Tarjeta1{ display: none; }	.plastica14Tarjeta2{ display: none; }	.plastica14Tarjeta3{ display: none; }	.plastica14Tarjeta4{ display: none; }	.plastica14Tarjeta5{ display: none; }	.plastica14Tarjeta6{ display: none; }	.plastica14Tarjeta7{ display: none; }
+.plastica15Tarjeta1{ display: none; }	.plastica15Tarjeta2{ display: none; }	.plastica15Tarjeta3{ display: none; }	.plastica15Tarjeta4{ display: none; }	.plastica15Tarjeta5{ display: none; }	.plastica15Tarjeta6{ display: none; }	.plastica15Tarjeta7{ display: none; }
+.plastica16Tarjeta1{ display: none; }	.plastica16Tarjeta2{ display: none; }	.plastica16Tarjeta3{ display: none; }	.plastica16Tarjeta4{ display: none; }	.plastica16Tarjeta5{ display: none; }	.plastica16Tarjeta6{ display: none; }	.plastica16Tarjeta7{ display: none; }
+.plastica17Tarjeta1{ display: none; }	.plastica17Tarjeta2{ display: none; }	.plastica17Tarjeta3{ display: none; }	.plastica17Tarjeta4{ display: none; }	.plastica17Tarjeta5{ display: none; }	.plastica17Tarjeta6{ display: none; }	.plastica17Tarjeta7{ display: none; }
+.plastica18Tarjeta1{ display: none; }	.plastica18Tarjeta2{ display: none; }	.plastica18Tarjeta3{ display: none; }	.plastica18Tarjeta4{ display: none; }	.plastica18Tarjeta5{ display: none; }	.plastica18Tarjeta6{ display: none; }	.plastica18Tarjeta7{ display: none; }
+.plastica19Tarjeta1{ display: none; }	.plastica19Tarjeta2{ display: none; }	.plastica19Tarjeta3{ display: none; }	.plastica19Tarjeta4{ display: none; }	.plastica19Tarjeta5{ display: none; }	.plastica19Tarjeta6{ display: none; }	.plastica19Tarjeta7{ display: none; }
+.plastica20Tarjeta1{ display: none; }	.plastica20Tarjeta2{ display: none; }	.plastica20Tarjeta3{ display: none; }	.plastica20Tarjeta4{ display: none; }	.plastica20Tarjeta5{ display: none; }	.plastica20Tarjeta6{ display: none; }	.plastica20Tarjeta7{ display: none; }
+.plastica21Tarjeta1{ display: none; }	.plastica21Tarjeta2{ display: none; }	.plastica21Tarjeta3{ display: none; }	.plastica21Tarjeta4{ display: none; }	.plastica21Tarjeta5{ display: none; }	.plastica21Tarjeta6{ display: none; }	.plastica21Tarjeta7{ display: none; }
+.plastica22Tarjeta1{ display: none; }	.plastica22Tarjeta2{ display: none; }	.plastica22Tarjeta3{ display: none; }	.plastica22Tarjeta4{ display: none; }	.plastica22Tarjeta5{ display: none; }	.plastica22Tarjeta6{ display: none; }	.plastica22Tarjeta7{ display: none; }
+.plastica23Tarjeta1{ display: none; }	.plastica23Tarjeta2{ display: none; }	.plastica23Tarjeta3{ display: none; }	.plastica23Tarjeta4{ display: none; }	.plastica23Tarjeta5{ display: none; }	.plastica23Tarjeta6{ display: none; }	.plastica23Tarjeta7{ display: none; }
+.plastica24Tarjeta1{ display: none; }	.plastica24Tarjeta2{ display: none; }	.plastica24Tarjeta3{ display: none; }	.plastica24Tarjeta4{ display: none; }	.plastica24Tarjeta5{ display: none; }	.plastica24Tarjeta6{ display: none; }	.plastica24Tarjeta7{ display: none; }
+.plastica25Tarjeta1{ display: none; }	.plastica25Tarjeta2{ display: none; }	.plastica25Tarjeta3{ display: none; }	.plastica25Tarjeta4{ display: none; }	.plastica25Tarjeta5{ display: none; }	.plastica25Tarjeta6{ display: none; }	.plastica25Tarjeta7{ display: none; }
+.plastica26Tarjeta1{ display: none; }	.plastica26Tarjeta2{ display: none; }	.plastica26Tarjeta3{ display: none; }	.plastica26Tarjeta4{ display: none; }	.plastica26Tarjeta5{ display: none; }	.plastica26Tarjeta6{ display: none; }	.plastica26Tarjeta7{ display: none; }
+.plastica27Tarjeta1{ display: none; }	.plastica27Tarjeta2{ display: none; }	.plastica27Tarjeta3{ display: none; }	.plastica27Tarjeta4{ display: none; }	.plastica27Tarjeta5{ display: none; }	.plastica27Tarjeta6{ display: none; }	.plastica27Tarjeta7{ display: none; }
+.plastica28Tarjeta1{ display: none; }	.plastica28Tarjeta2{ display: none; }	.plastica28Tarjeta3{ display: none; }	.plastica28Tarjeta4{ display: none; }	.plastica28Tarjeta5{ display: none; }	.plastica28Tarjeta6{ display: none; }	.plastica28Tarjeta7{ display: none; }
+.plastica29Tarjeta1{ display: none; }	.plastica29Tarjeta2{ display: none; }	.plastica29Tarjeta3{ display: none; }	.plastica29Tarjeta4{ display: none; }	.plastica29Tarjeta5{ display: none; }	.plastica29Tarjeta6{ display: none; }	.plastica29Tarjeta7{ display: none; }
+.plastica30Tarjeta1{ display: none; }	.plastica30Tarjeta2{ display: none; }	.plastica30Tarjeta3{ display: none; }	.plastica30Tarjeta4{ display: none; }	.plastica30Tarjeta5{ display: none; }	.plastica30Tarjeta6{ display: none; }	.plastica30Tarjeta7{ display: none; }
+.plastica31Tarjeta1{ display: none; }	.plastica31Tarjeta2{ display: none; }	.plastica31Tarjeta3{ display: none; }	.plastica31Tarjeta4{ display: none; }	.plastica31Tarjeta5{ display: none; }	.plastica31Tarjeta6{ display: none; }	.plastica31Tarjeta7{ display: none; }
+.plastica32Tarjeta1{ display: none; }	.plastica32Tarjeta2{ display: none; }	.plastica32Tarjeta3{ display: none; }	.plastica32Tarjeta4{ display: none; }	.plastica32Tarjeta5{ display: none; }	.plastica32Tarjeta6{ display: none; }	.plastica32Tarjeta7{ display: none; }
+.plastica33Tarjeta1{ display: none; }	.plastica33Tarjeta2{ display: none; }	.plastica33Tarjeta3{ display: none; }	.plastica33Tarjeta4{ display: none; }	.plastica33Tarjeta5{ display: none; }	.plastica33Tarjeta6{ display: none; }	.plastica33Tarjeta7{ display: none; }
+.plastica34Tarjeta1{ display: none; }	.plastica34Tarjeta2{ display: none; }	.plastica34Tarjeta3{ display: none; }	.plastica34Tarjeta4{ display: none; }	.plastica34Tarjeta5{ display: none; }	.plastica34Tarjeta6{ display: none; }	.plastica34Tarjeta7{ display: none; }
+.plastica35Tarjeta1{ display: none; }	.plastica35Tarjeta2{ display: none; }	.plastica35Tarjeta3{ display: none; }	.plastica35Tarjeta4{ display: none; }	.plastica35Tarjeta5{ display: none; }	.plastica35Tarjeta6{ display: none; }	.plastica35Tarjeta7{ display: none; }
+.plastica36Tarjeta1{ display: none; }	.plastica36Tarjeta2{ display: none; }	.plastica36Tarjeta3{ display: none; }	.plastica36Tarjeta4{ display: none; }	.plastica36Tarjeta5{ display: none; }	.plastica36Tarjeta6{ display: none; }	.plastica36Tarjeta7{ display: none; }
+						
+						
+						
+.obstetrica1Tarjeta1{ display: none; }	.obstetrica1Tarjeta2{ display: none; }	.obstetrica1Tarjeta3{ display: none; }	.obstetrica1Tarjeta4{ display: none; }	.obstetrica1Tarjeta5{ display: none; }	.obstetrica1Tarjeta6{ display: none; }	.obstetrica1Tarjeta7{ display: none; }
+.obstetrica2Tarjeta1{ display: none; }	.obstetrica2Tarjeta2{ display: none; }	.obstetrica2Tarjeta3{ display: none; }	.obstetrica2Tarjeta4{ display: none; }	.obstetrica2Tarjeta5{ display: none; }	.obstetrica2Tarjeta6{ display: none; }	.obstetrica2Tarjeta7{ display: none; }
+.obstetrica3Tarjeta1{ display: none; }	.obstetrica3Tarjeta2{ display: none; }	.obstetrica3Tarjeta3{ display: none; }	.obstetrica3Tarjeta4{ display: none; }	.obstetrica3Tarjeta5{ display: none; }	.obstetrica3Tarjeta6{ display: none; }	.obstetrica3Tarjeta7{ display: none; }
+.obstetrica4Tarjeta1{ display: none; }	.obstetrica4Tarjeta2{ display: none; }	.obstetrica4Tarjeta3{ display: none; }	.obstetrica4Tarjeta4{ display: none; }	.obstetrica4Tarjeta5{ display: none; }	.obstetrica4Tarjeta6{ display: none; }	.obstetrica4Tarjeta7{ display: none; }
+.obstetrica5Tarjeta1{ display: none; }	.obstetrica5Tarjeta2{ display: none; }	.obstetrica5Tarjeta3{ display: none; }	.obstetrica5Tarjeta4{ display: none; }	.obstetrica5Tarjeta5{ display: none; }	.obstetrica5Tarjeta6{ display: none; }	.obstetrica5Tarjeta7{ display: none; }
+.obstetrica6Tarjeta1{ display: none; }	.obstetrica6Tarjeta2{ display: none; }	.obstetrica6Tarjeta3{ display: none; }	.obstetrica6Tarjeta4{ display: none; }	.obstetrica6Tarjeta5{ display: none; }	.obstetrica6Tarjeta6{ display: none; }	.obstetrica6Tarjeta7{ display: none; }
+.obstetrica7Tarjeta1{ display: none; }	.obstetrica7Tarjeta2{ display: none; }	.obstetrica7Tarjeta3{ display: none; }	.obstetrica7Tarjeta4{ display: none; }	.obstetrica7Tarjeta5{ display: none; }	.obstetrica7Tarjeta6{ display: none; }	.obstetrica7Tarjeta7{ display: none; }
+.obstetrica8Tarjeta1{ display: none; }	.obstetrica8Tarjeta2{ display: none; }	.obstetrica8Tarjeta3{ display: none; }	.obstetrica8Tarjeta4{ display: none; }	.obstetrica8Tarjeta5{ display: none; }	.obstetrica8Tarjeta6{ display: none; }	.obstetrica8Tarjeta7{ display: none; }
+.obstetrica9Tarjeta1{ display: none; }	.obstetrica9Tarjeta2{ display: none; }	.obstetrica9Tarjeta3{ display: none; }	.obstetrica9Tarjeta4{ display: none; }	.obstetrica9Tarjeta5{ display: none; }	.obstetrica9Tarjeta6{ display: none; }	.obstetrica9Tarjeta7{ display: none; }
+.obstetrica10Tarjeta1{ display: none; }	.obstetrica10Tarjeta2{ display: none; }	.obstetrica10Tarjeta3{ display: none; }	.obstetrica10Tarjeta4{ display: none; }	.obstetrica10Tarjeta5{ display: none; }	.obstetrica10Tarjeta6{ display: none; }	.obstetrica10Tarjeta7{ display: none; }
+.obstetrica11Tarjeta1{ display: none; }	.obstetrica11Tarjeta2{ display: none; }	.obstetrica11Tarjeta3{ display: none; }	.obstetrica11Tarjeta4{ display: none; }	.obstetrica11Tarjeta5{ display: none; }	.obstetrica11Tarjeta6{ display: none; }	.obstetrica11Tarjeta7{ display: none; }
+.obstetrica12Tarjeta1{ display: none; }	.obstetrica12Tarjeta2{ display: none; }	.obstetrica12Tarjeta3{ display: none; }	.obstetrica12Tarjeta4{ display: none; }	.obstetrica12Tarjeta5{ display: none; }	.obstetrica12Tarjeta6{ display: none; }	.obstetrica12Tarjeta7{ display: none; }
+.obstetrica13Tarjeta1{ display: none; }	.obstetrica13Tarjeta2{ display: none; }	.obstetrica13Tarjeta3{ display: none; }	.obstetrica13Tarjeta4{ display: none; }	.obstetrica13Tarjeta5{ display: none; }	.obstetrica13Tarjeta6{ display: none; }	.obstetrica13Tarjeta7{ display: none; }
+.obstetrica14Tarjeta1{ display: none; }	.obstetrica14Tarjeta2{ display: none; }	.obstetrica14Tarjeta3{ display: none; }	.obstetrica14Tarjeta4{ display: none; }	.obstetrica14Tarjeta5{ display: none; }	.obstetrica14Tarjeta6{ display: none; }	.obstetrica14Tarjeta7{ display: none; }
+.obstetrica15Tarjeta1{ display: none; }	.obstetrica15Tarjeta2{ display: none; }	.obstetrica15Tarjeta3{ display: none; }	.obstetrica15Tarjeta4{ display: none; }	.obstetrica15Tarjeta5{ display: none; }	.obstetrica15Tarjeta6{ display: none; }	.obstetrica15Tarjeta7{ display: none; }
+.obstetrica16Tarjeta1{ display: none; }	.obstetrica16Tarjeta2{ display: none; }	.obstetrica16Tarjeta3{ display: none; }	.obstetrica16Tarjeta4{ display: none; }	.obstetrica16Tarjeta5{ display: none; }	.obstetrica16Tarjeta6{ display: none; }	.obstetrica16Tarjeta7{ display: none; }
+.obstetrica17Tarjeta1{ display: none; }	.obstetrica17Tarjeta2{ display: none; }	.obstetrica17Tarjeta3{ display: none; }	.obstetrica17Tarjeta4{ display: none; }	.obstetrica17Tarjeta5{ display: none; }	.obstetrica17Tarjeta6{ display: none; }	.obstetrica17Tarjeta7{ display: none; }
+.obstetrica18Tarjeta1{ display: none; }	.obstetrica18Tarjeta2{ display: none; }	.obstetrica18Tarjeta3{ display: none; }	.obstetrica18Tarjeta4{ display: none; }	.obstetrica18Tarjeta5{ display: none; }	.obstetrica18Tarjeta6{ display: none; }	.obstetrica18Tarjeta7{ display: none; }
+						
+						
+.recto1Tarjeta1{ display: none; }	.recto1Tarjeta2{ display: none; }	.recto1Tarjeta3{ display: none; }	.recto1Tarjeta4{ display: none; }	.recto1Tarjeta5{ display: none; }	.recto1Tarjeta6{ display: none; }	.recto1Tarjeta7{ display: none; }
+.recto2Tarjeta1{ display: none; }	.recto2Tarjeta2{ display: none; }	.recto2Tarjeta3{ display: none; }	.recto2Tarjeta4{ display: none; }	.recto2Tarjeta5{ display: none; }	.recto2Tarjeta6{ display: none; }	.recto2Tarjeta7{ display: none; }
+.recto3Tarjeta1{ display: none; }	.recto3Tarjeta2{ display: none; }	.recto3Tarjeta3{ display: none; }	.recto3Tarjeta4{ display: none; }	.recto3Tarjeta5{ display: none; }	.recto3Tarjeta6{ display: none; }	.recto3Tarjeta7{ display: none; }
+.recto4Tarjeta1{ display: none; }	.recto4Tarjeta2{ display: none; }	.recto4Tarjeta3{ display: none; }	.recto4Tarjeta4{ display: none; }	.recto4Tarjeta5{ display: none; }	.recto4Tarjeta6{ display: none; }	.recto4Tarjeta7{ display: none; }
+.recto5Tarjeta1{ display: none; }	.recto5Tarjeta2{ display: none; }	.recto5Tarjeta3{ display: none; }	.recto5Tarjeta4{ display: none; }	.recto5Tarjeta5{ display: none; }	.recto5Tarjeta6{ display: none; }	.recto5Tarjeta7{ display: none; }
+.recto6Tarjeta1{ display: none; }	.recto6Tarjeta2{ display: none; }	.recto6Tarjeta3{ display: none; }	.recto6Tarjeta4{ display: none; }	.recto6Tarjeta5{ display: none; }	.recto6Tarjeta6{ display: none; }	.recto6Tarjeta7{ display: none; }
+.recto7Tarjeta1{ display: none; }	.recto7Tarjeta2{ display: none; }	.recto7Tarjeta3{ display: none; }	.recto7Tarjeta4{ display: none; }	.recto7Tarjeta5{ display: none; }	.recto7Tarjeta6{ display: none; }	.recto7Tarjeta7{ display: none; }
+.recto8Tarjeta1{ display: none; }	.recto8Tarjeta2{ display: none; }	.recto8Tarjeta3{ display: none; }	.recto8Tarjeta4{ display: none; }	.recto8Tarjeta5{ display: none; }	.recto8Tarjeta6{ display: none; }	.recto8Tarjeta7{ display: none; }
+.recto9Tarjeta1{ display: none; }	.recto9Tarjeta2{ display: none; }	.recto9Tarjeta3{ display: none; }	.recto9Tarjeta4{ display: none; }	.recto9Tarjeta5{ display: none; }	.recto9Tarjeta6{ display: none; }	.recto9Tarjeta7{ display: none; }
+.recto10Tarjeta1{ display: none; }	.recto10Tarjeta2{ display: none; }	.recto10Tarjeta3{ display: none; }	.recto10Tarjeta4{ display: none; }	.recto10Tarjeta5{ display: none; }	.recto10Tarjeta6{ display: none; }	.recto10Tarjeta7{ display: none; }
+.recto11Tarjeta1{ display: none; }	.recto11Tarjeta2{ display: none; }	.recto11Tarjeta3{ display: none; }	.recto11Tarjeta4{ display: none; }	.recto11Tarjeta5{ display: none; }	.recto11Tarjeta6{ display: none; }	.recto11Tarjeta7{ display: none; }
+.recto12Tarjeta1{ display: none; }	.recto12Tarjeta2{ display: none; }	.recto12Tarjeta3{ display: none; }	.recto12Tarjeta4{ display: none; }	.recto12Tarjeta5{ display: none; }	.recto12Tarjeta6{ display: none; }	.recto12Tarjeta7{ display: none; }
+.recto13Tarjeta1{ display: none; }	.recto13Tarjeta2{ display: none; }	.recto13Tarjeta3{ display: none; }	.recto13Tarjeta4{ display: none; }	.recto13Tarjeta5{ display: none; }	.recto13Tarjeta6{ display: none; }	.recto13Tarjeta7{ display: none; }
+.recto14Tarjeta1{ display: none; }	.recto14Tarjeta2{ display: none; }	.recto14Tarjeta3{ display: none; }	.recto14Tarjeta4{ display: none; }	.recto14Tarjeta5{ display: none; }	.recto14Tarjeta6{ display: none; }	.recto14Tarjeta7{ display: none; }
+.recto15Tarjeta1{ display: none; }	.recto15Tarjeta2{ display: none; }	.recto15Tarjeta3{ display: none; }	.recto15Tarjeta4{ display: none; }	.recto15Tarjeta5{ display: none; }	.recto15Tarjeta6{ display: none; }	.recto15Tarjeta7{ display: none; }
+.recto16Tarjeta1{ display: none; }	.recto16Tarjeta2{ display: none; }	.recto16Tarjeta3{ display: none; }	.recto16Tarjeta4{ display: none; }	.recto16Tarjeta5{ display: none; }	.recto16Tarjeta6{ display: none; }	.recto16Tarjeta7{ display: none; }
+.recto17Tarjeta1{ display: none; }	.recto17Tarjeta2{ display: none; }	.recto17Tarjeta3{ display: none; }	.recto17Tarjeta4{ display: none; }	.recto17Tarjeta5{ display: none; }	.recto17Tarjeta6{ display: none; }	.recto17Tarjeta7{ display: none; }
+.recto18Tarjeta1{ display: none; }	.recto18Tarjeta2{ display: none; }	.recto18Tarjeta3{ display: none; }	.recto18Tarjeta4{ display: none; }	.recto18Tarjeta5{ display: none; }	.recto18Tarjeta6{ display: none; }	.recto18Tarjeta7{ display: none; }
+						
+						
+.bariatrica1Tarjeta1{ display: none; }	.bariatrica1Tarjeta2{ display: none; }	.bariatrica1Tarjeta3{ display: none; }	.bariatrica1Tarjeta4{ display: none; }	.bariatrica1Tarjeta5{ display: none; }	.bariatrica1Tarjeta6{ display: none; }	.bariatrica1Tarjeta7{ display: none; }
+.bariatrica2Tarjeta1{ display: none; }	.bariatrica2Tarjeta2{ display: none; }	.bariatrica2Tarjeta3{ display: none; }	.bariatrica2Tarjeta4{ display: none; }	.bariatrica2Tarjeta5{ display: none; }	.bariatrica2Tarjeta6{ display: none; }	.bariatrica2Tarjeta7{ display: none; }
+.bariatrica3Tarjeta1{ display: none; }	.bariatrica3Tarjeta2{ display: none; }	.bariatrica3Tarjeta3{ display: none; }	.bariatrica3Tarjeta4{ display: none; }	.bariatrica3Tarjeta5{ display: none; }	.bariatrica3Tarjeta6{ display: none; }	.bariatrica3Tarjeta7{ display: none; }
+.bariatrica4Tarjeta1{ display: none; }	.bariatrica4Tarjeta2{ display: none; }	.bariatrica4Tarjeta3{ display: none; }	.bariatrica4Tarjeta4{ display: none; }	.bariatrica4Tarjeta5{ display: none; }	.bariatrica4Tarjeta6{ display: none; }	.bariatrica4Tarjeta7{ display: none; }
+.bariatrica5Tarjeta1{ display: none; }	.bariatrica5Tarjeta2{ display: none; }	.bariatrica5Tarjeta3{ display: none; }	.bariatrica5Tarjeta4{ display: none; }	.bariatrica5Tarjeta5{ display: none; }	.bariatrica5Tarjeta6{ display: none; }	.bariatrica5Tarjeta7{ display: none; }
+.bariatrica6Tarjeta1{ display: none; }	.bariatrica6Tarjeta2{ display: none; }	.bariatrica6Tarjeta3{ display: none; }	.bariatrica6Tarjeta4{ display: none; }	.bariatrica6Tarjeta5{ display: none; }	.bariatrica6Tarjeta6{ display: none; }	.bariatrica6Tarjeta7{ display: none; }
+						
+						
+.oncologica1Tarjeta1{ display: none; }	.oncologica1Tarjeta2{ display: none; }	.oncologica1Tarjeta3{ display: none; }	.oncologica1Tarjeta4{ display: none; }	.oncologica1Tarjeta5{ display: none; }	.oncologica1Tarjeta6{ display: none; }	.oncologica1Tarjeta7{ display: none; }
+.oncologica2Tarjeta1{ display: none; }	.oncologica2Tarjeta2{ display: none; }	.oncologica2Tarjeta3{ display: none; }	.oncologica2Tarjeta4{ display: none; }	.oncologica2Tarjeta5{ display: none; }	.oncologica2Tarjeta6{ display: none; }	.oncologica2Tarjeta7{ display: none; }
+.oncologica3Tarjeta1{ display: none; }	.oncologica3Tarjeta2{ display: none; }	.oncologica3Tarjeta3{ display: none; }	.oncologica3Tarjeta4{ display: none; }	.oncologica3Tarjeta5{ display: none; }	.oncologica3Tarjeta6{ display: none; }	.oncologica3Tarjeta7{ display: none; }
+.oncologica4Tarjeta1{ display: none; }	.oncologica4Tarjeta2{ display: none; }	.oncologica4Tarjeta3{ display: none; }	.oncologica4Tarjeta4{ display: none; }	.oncologica4Tarjeta5{ display: none; }	.oncologica4Tarjeta6{ display: none; }	.oncologica4Tarjeta7{ display: none; }
+.oncologica5Tarjeta1{ display: none; }	.oncologica5Tarjeta2{ display: none; }	.oncologica5Tarjeta3{ display: none; }	.oncologica5Tarjeta4{ display: none; }	.oncologica5Tarjeta5{ display: none; }	.oncologica5Tarjeta6{ display: none; }	.oncologica5Tarjeta7{ display: none; }
+.oncologica6Tarjeta1{ display: none; }	.oncologica6Tarjeta2{ display: none; }	.oncologica6Tarjeta3{ display: none; }	.oncologica6Tarjeta4{ display: none; }	.oncologica6Tarjeta5{ display: none; }	.oncologica6Tarjeta6{ display: none; }	.oncologica6Tarjeta7{ display: none; }
+.oncologica7Tarjeta1{ display: none; }	.oncologica7Tarjeta2{ display: none; }	.oncologica7Tarjeta3{ display: none; }	.oncologica7Tarjeta4{ display: none; }	.oncologica7Tarjeta5{ display: none; }	.oncologica7Tarjeta6{ display: none; }	.oncologica7Tarjeta7{ display: none; }
+.oncologica8Tarjeta1{ display: none; }	.oncologica8Tarjeta2{ display: none; }	.oncologica8Tarjeta3{ display: none; }	.oncologica8Tarjeta4{ display: none; }	.oncologica8Tarjeta5{ display: none; }	.oncologica8Tarjeta6{ display: none; }	.oncologica8Tarjeta7{ display: none; }
+.oncologica9Tarjeta1{ display: none; }	.oncologica9Tarjeta2{ display: none; }	.oncologica9Tarjeta3{ display: none; }	.oncologica9Tarjeta4{ display: none; }	.oncologica9Tarjeta5{ display: none; }	.oncologica9Tarjeta6{ display: none; }	.oncologica9Tarjeta7{ display: none; }
+.oncologica10Tarjeta1{ display: none; }	.oncologica10Tarjeta2{ display: none; }	.oncologica10Tarjeta3{ display: none; }	.oncologica10Tarjeta4{ display: none; }	.oncologica10Tarjeta5{ display: none; }	.oncologica10Tarjeta6{ display: none; }	.oncologica10Tarjeta7{ display: none; }
+.oncologica11Tarjeta1{ display: none; }	.oncologica11Tarjeta2{ display: none; }	.oncologica11Tarjeta3{ display: none; }	.oncologica11Tarjeta4{ display: none; }	.oncologica11Tarjeta5{ display: none; }	.oncologica11Tarjeta6{ display: none; }	.oncologica11Tarjeta7{ display: none; }
+.oncologica12Tarjeta1{ display: none; }	.oncologica12Tarjeta2{ display: none; }	.oncologica12Tarjeta3{ display: none; }	.oncologica12Tarjeta4{ display: none; }	.oncologica12Tarjeta5{ display: none; }	.oncologica12Tarjeta6{ display: none; }	.oncologica12Tarjeta7{ display: none; }
+.oncologica13Tarjeta1{ display: none; }	.oncologica13Tarjeta2{ display: none; }	.oncologica13Tarjeta3{ display: none; }	.oncologica13Tarjeta4{ display: none; }	.oncologica13Tarjeta5{ display: none; }	.oncologica13Tarjeta6{ display: none; }	.oncologica13Tarjeta7{ display: none; }
+.oncologica14Tarjeta1{ display: none; }	.oncologica14Tarjeta2{ display: none; }	.oncologica14Tarjeta3{ display: none; }	.oncologica14Tarjeta4{ display: none; }	.oncologica14Tarjeta5{ display: none; }	.oncologica14Tarjeta6{ display: none; }	.oncologica14Tarjeta7{ display: none; }
+.oncologica15Tarjeta1{ display: none; }	.oncologica15Tarjeta2{ display: none; }	.oncologica15Tarjeta3{ display: none; }	.oncologica15Tarjeta4{ display: none; }	.oncologica15Tarjeta5{ display: none; }	.oncologica15Tarjeta6{ display: none; }	.oncologica15Tarjeta7{ display: none; }
+.oncologica16Tarjeta1{ display: none; }	.oncologica16Tarjeta2{ display: none; }	.oncologica16Tarjeta3{ display: none; }	.oncologica16Tarjeta4{ display: none; }	.oncologica16Tarjeta5{ display: none; }	.oncologica16Tarjeta6{ display: none; }	.oncologica16Tarjeta7{ display: none; }
+.oncologica17Tarjeta1{ display: none; }	.oncologica17Tarjeta2{ display: none; }	.oncologica17Tarjeta3{ display: none; }	.oncologica17Tarjeta4{ display: none; }	.oncologica17Tarjeta5{ display: none; }	.oncologica17Tarjeta6{ display: none; }	.oncologica17Tarjeta7{ display: none; }
+.oncologica18Tarjeta1{ display: none; }	.oncologica18Tarjeta2{ display: none; }	.oncologica18Tarjeta3{ display: none; }	.oncologica18Tarjeta4{ display: none; }	.oncologica18Tarjeta5{ display: none; }	.oncologica18Tarjeta6{ display: none; }	.oncologica18Tarjeta7{ display: none; }
+.oncologica19Tarjeta1{ display: none; }	.oncologica19Tarjeta2{ display: none; }	.oncologica19Tarjeta3{ display: none; }	.oncologica19Tarjeta4{ display: none; }	.oncologica19Tarjeta5{ display: none; }	.oncologica19Tarjeta6{ display: none; }	.oncologica19Tarjeta7{ display: none; }
+.oncologica20Tarjeta1{ display: none; }	.oncologica20Tarjeta2{ display: none; }	.oncologica20Tarjeta3{ display: none; }	.oncologica20Tarjeta4{ display: none; }	.oncologica20Tarjeta5{ display: none; }	.oncologica20Tarjeta6{ display: none; }	.oncologica20Tarjeta7{ display: none; }
+.oncologica21Tarjeta1{ display: none; }	.oncologica21Tarjeta2{ display: none; }	.oncologica21Tarjeta3{ display: none; }	.oncologica21Tarjeta4{ display: none; }	.oncologica21Tarjeta5{ display: none; }	.oncologica21Tarjeta6{ display: none; }	.oncologica21Tarjeta7{ display: none; }
+.oncologica22Tarjeta1{ display: none; }	.oncologica22Tarjeta2{ display: none; }	.oncologica22Tarjeta3{ display: none; }	.oncologica22Tarjeta4{ display: none; }	.oncologica22Tarjeta5{ display: none; }	.oncologica22Tarjeta6{ display: none; }	.oncologica22Tarjeta7{ display: none; }
+.oncologica23Tarjeta1{ display: none; }	.oncologica23Tarjeta2{ display: none; }	.oncologica23Tarjeta3{ display: none; }	.oncologica23Tarjeta4{ display: none; }	.oncologica23Tarjeta5{ display: none; }	.oncologica23Tarjeta6{ display: none; }	.oncologica23Tarjeta7{ display: none; }
+.oncologica24Tarjeta1{ display: none; }	.oncologica24Tarjeta2{ display: none; }	.oncologica24Tarjeta3{ display: none; }	.oncologica24Tarjeta4{ display: none; }	.oncologica24Tarjeta5{ display: none; }	.oncologica24Tarjeta6{ display: none; }	.oncologica24Tarjeta7{ display: none; }
+.oncologica25Tarjeta1{ display: none; }	.oncologica25Tarjeta2{ display: none; }	.oncologica25Tarjeta3{ display: none; }	.oncologica25Tarjeta4{ display: none; }	.oncologica25Tarjeta5{ display: none; }	.oncologica25Tarjeta6{ display: none; }	.oncologica25Tarjeta7{ display: none; }
+.oncologica26Tarjeta1{ display: none; }	.oncologica26Tarjeta2{ display: none; }	.oncologica26Tarjeta3{ display: none; }	.oncologica26Tarjeta4{ display: none; }	.oncologica26Tarjeta5{ display: none; }	.oncologica26Tarjeta6{ display: none; }	.oncologica26Tarjeta7{ display: none; }
+.oncologica27Tarjeta1{ display: none; }	.oncologica27Tarjeta2{ display: none; }	.oncologica27Tarjeta3{ display: none; }	.oncologica27Tarjeta4{ display: none; }	.oncologica27Tarjeta5{ display: none; }	.oncologica27Tarjeta6{ display: none; }	.oncologica27Tarjeta7{ display: none; }
+.oncologica28Tarjeta1{ display: none; }	.oncologica28Tarjeta2{ display: none; }	.oncologica28Tarjeta3{ display: none; }	.oncologica28Tarjeta4{ display: none; }	.oncologica28Tarjeta5{ display: none; }	.oncologica28Tarjeta6{ display: none; }	.oncologica28Tarjeta7{ display: none; }
+.oncologica29Tarjeta1{ display: none; }	.oncologica29Tarjeta2{ display: none; }	.oncologica29Tarjeta3{ display: none; }	.oncologica29Tarjeta4{ display: none; }	.oncologica29Tarjeta5{ display: none; }	.oncologica29Tarjeta6{ display: none; }	.oncologica29Tarjeta7{ display: none; }
+.oncologica30Tarjeta1{ display: none; }	.oncologica30Tarjeta2{ display: none; }	.oncologica30Tarjeta3{ display: none; }	.oncologica30Tarjeta4{ display: none; }	.oncologica30Tarjeta5{ display: none; }	.oncologica30Tarjeta6{ display: none; }	.oncologica30Tarjeta7{ display: none; }
+.oncologica31Tarjeta1{ display: none; }	.oncologica31Tarjeta2{ display: none; }	.oncologica31Tarjeta3{ display: none; }	.oncologica31Tarjeta4{ display: none; }	.oncologica31Tarjeta5{ display: none; }	.oncologica31Tarjeta6{ display: none; }	.oncologica31Tarjeta7{ display: none; }
+.oncologica32Tarjeta1{ display: none; }	.oncologica32Tarjeta2{ display: none; }	.oncologica32Tarjeta3{ display: none; }	.oncologica32Tarjeta4{ display: none; }	.oncologica32Tarjeta5{ display: none; }	.oncologica32Tarjeta6{ display: none; }	.oncologica32Tarjeta7{ display: none; }
+.oncologica33Tarjeta1{ display: none; }	.oncologica33Tarjeta2{ display: none; }	.oncologica33Tarjeta3{ display: none; }	.oncologica33Tarjeta4{ display: none; }	.oncologica33Tarjeta5{ display: none; }	.oncologica33Tarjeta6{ display: none; }	.oncologica33Tarjeta7{ display: none; }
+.oncologica34Tarjeta1{ display: none; }	.oncologica34Tarjeta2{ display: none; }	.oncologica34Tarjeta3{ display: none; }	.oncologica34Tarjeta4{ display: none; }	.oncologica34Tarjeta5{ display: none; }	.oncologica34Tarjeta6{ display: none; }	.oncologica34Tarjeta7{ display: none; }
+.oncologica35Tarjeta1{ display: none; }	.oncologica35Tarjeta2{ display: none; }	.oncologica35Tarjeta3{ display: none; }	.oncologica35Tarjeta4{ display: none; }	.oncologica35Tarjeta5{ display: none; }	.oncologica35Tarjeta6{ display: none; }	.oncologica35Tarjeta7{ display: none; }
+.oncologica36Tarjeta1{ display: none; }	.oncologica36Tarjeta2{ display: none; }	.oncologica36Tarjeta3{ display: none; }	.oncologica36Tarjeta4{ display: none; }	.oncologica36Tarjeta5{ display: none; }	.oncologica36Tarjeta6{ display: none; }	.oncologica36Tarjeta7{ display: none; }
+.oncologica37Tarjeta1{ display: none; }	.oncologica37Tarjeta2{ display: none; }	.oncologica37Tarjeta3{ display: none; }	.oncologica37Tarjeta4{ display: none; }	.oncologica37Tarjeta5{ display: none; }	.oncologica37Tarjeta6{ display: none; }	.oncologica37Tarjeta7{ display: none; }
+.oncologica38Tarjeta1{ display: none; }	.oncologica38Tarjeta2{ display: none; }	.oncologica38Tarjeta3{ display: none; }	.oncologica38Tarjeta4{ display: none; }	.oncologica38Tarjeta5{ display: none; }	.oncologica38Tarjeta6{ display: none; }	.oncologica38Tarjeta7{ display: none; }
+.oncologica39Tarjeta1{ display: none; }	.oncologica39Tarjeta2{ display: none; }	.oncologica39Tarjeta3{ display: none; }	.oncologica39Tarjeta4{ display: none; }	.oncologica39Tarjeta5{ display: none; }	.oncologica39Tarjeta6{ display: none; }	.oncologica39Tarjeta7{ display: none; }
+.oncologica40Tarjeta1{ display: none; }	.oncologica40Tarjeta2{ display: none; }	.oncologica40Tarjeta3{ display: none; }	.oncologica40Tarjeta4{ display: none; }	.oncologica40Tarjeta5{ display: none; }	.oncologica40Tarjeta6{ display: none; }	.oncologica40Tarjeta7{ display: none; }
+.oncologica41Tarjeta1{ display: none; }	.oncologica41Tarjeta2{ display: none; }	.oncologica41Tarjeta3{ display: none; }	.oncologica41Tarjeta4{ display: none; }	.oncologica41Tarjeta5{ display: none; }	.oncologica41Tarjeta6{ display: none; }	.oncologica41Tarjeta7{ display: none; }
+.oncologica42Tarjeta1{ display: none; }	.oncologica42Tarjeta2{ display: none; }	.oncologica42Tarjeta3{ display: none; }	.oncologica42Tarjeta4{ display: none; }	.oncologica42Tarjeta5{ display: none; }	.oncologica42Tarjeta6{ display: none; }	.oncologica42Tarjeta7{ display: none; }
+.oncologica43Tarjeta1{ display: none; }	.oncologica43Tarjeta2{ display: none; }	.oncologica43Tarjeta3{ display: none; }	.oncologica43Tarjeta4{ display: none; }	.oncologica43Tarjeta5{ display: none; }	.oncologica43Tarjeta6{ display: none; }	.oncologica43Tarjeta7{ display: none; }
+.oncologica44Tarjeta1{ display: none; }	.oncologica44Tarjeta2{ display: none; }	.oncologica44Tarjeta3{ display: none; }	.oncologica44Tarjeta4{ display: none; }	.oncologica44Tarjeta5{ display: none; }	.oncologica44Tarjeta6{ display: none; }	.oncologica44Tarjeta7{ display: none; }
+.oncologica45Tarjeta1{ display: none; }	.oncologica45Tarjeta2{ display: none; }	.oncologica45Tarjeta3{ display: none; }	.oncologica45Tarjeta4{ display: none; }	.oncologica45Tarjeta5{ display: none; }	.oncologica45Tarjeta6{ display: none; }	.oncologica45Tarjeta7{ display: none; }
+.oncologica46Tarjeta1{ display: none; }	.oncologica46Tarjeta2{ display: none; }	.oncologica46Tarjeta3{ display: none; }	.oncologica46Tarjeta4{ display: none; }	.oncologica46Tarjeta5{ display: none; }	.oncologica46Tarjeta6{ display: none; }	.oncologica46Tarjeta7{ display: none; }
+.oncologica47Tarjeta1{ display: none; }	.oncologica47Tarjeta2{ display: none; }	.oncologica47Tarjeta3{ display: none; }	.oncologica47Tarjeta4{ display: none; }	.oncologica47Tarjeta5{ display: none; }	.oncologica47Tarjeta6{ display: none; }	.oncologica47Tarjeta7{ display: none; }
+.oncologica48Tarjeta1{ display: none; }	.oncologica48Tarjeta2{ display: none; }	.oncologica48Tarjeta3{ display: none; }	.oncologica48Tarjeta4{ display: none; }	.oncologica48Tarjeta5{ display: none; }	.oncologica48Tarjeta6{ display: none; }	.oncologica48Tarjeta7{ display: none; }
+.oncologica49Tarjeta1{ display: none; }	.oncologica49Tarjeta2{ display: none; }	.oncologica49Tarjeta3{ display: none; }	.oncologica49Tarjeta4{ display: none; }	.oncologica49Tarjeta5{ display: none; }	.oncologica49Tarjeta6{ display: none; }	.oncologica49Tarjeta7{ display: none; }
+.oncologica50Tarjeta1{ display: none; }	.oncologica50Tarjeta2{ display: none; }	.oncologica50Tarjeta3{ display: none; }	.oncologica50Tarjeta4{ display: none; }	.oncologica50Tarjeta5{ display: none; }	.oncologica50Tarjeta6{ display: none; }	.oncologica50Tarjeta7{ display: none; }
+						
+						
+						
+.urologica1Tarjeta1{ display: none; }	.urologica1Tarjeta2{ display: none; }	.urologica1Tarjeta3{ display: none; }	.urologica1Tarjeta4{ display: none; }	.urologica1Tarjeta5{ display: none; }	.urologica1Tarjeta6{ display: none; }	.urologica1Tarjeta7{ display: none; }
+.urologica2Tarjeta1{ display: none; }	.urologica2Tarjeta2{ display: none; }	.urologica2Tarjeta3{ display: none; }	.urologica2Tarjeta4{ display: none; }	.urologica2Tarjeta5{ display: none; }	.urologica2Tarjeta6{ display: none; }	.urologica2Tarjeta7{ display: none; }
+.urologica3Tarjeta1{ display: none; }	.urologica3Tarjeta2{ display: none; }	.urologica3Tarjeta3{ display: none; }	.urologica3Tarjeta4{ display: none; }	.urologica3Tarjeta5{ display: none; }	.urologica3Tarjeta6{ display: none; }	.urologica3Tarjeta7{ display: none; }
+.urologica4Tarjeta1{ display: none; }	.urologica4Tarjeta2{ display: none; }	.urologica4Tarjeta3{ display: none; }	.urologica4Tarjeta4{ display: none; }	.urologica4Tarjeta5{ display: none; }	.urologica4Tarjeta6{ display: none; }	.urologica4Tarjeta7{ display: none; }
+.urologica5Tarjeta1{ display: none; }	.urologica5Tarjeta2{ display: none; }	.urologica5Tarjeta3{ display: none; }	.urologica5Tarjeta4{ display: none; }	.urologica5Tarjeta5{ display: none; }	.urologica5Tarjeta6{ display: none; }	.urologica5Tarjeta7{ display: none; }
+.urologica6Tarjeta1{ display: none; }	.urologica6Tarjeta2{ display: none; }	.urologica6Tarjeta3{ display: none; }	.urologica6Tarjeta4{ display: none; }	.urologica6Tarjeta5{ display: none; }	.urologica6Tarjeta6{ display: none; }	.urologica6Tarjeta7{ display: none; }
+.urologica7Tarjeta1{ display: none; }	.urologica7Tarjeta2{ display: none; }	.urologica7Tarjeta3{ display: none; }	.urologica7Tarjeta4{ display: none; }	.urologica7Tarjeta5{ display: none; }	.urologica7Tarjeta6{ display: none; }	.urologica7Tarjeta7{ display: none; }
+.urologica8Tarjeta1{ display: none; }	.urologica8Tarjeta2{ display: none; }	.urologica8Tarjeta3{ display: none; }	.urologica8Tarjeta4{ display: none; }	.urologica8Tarjeta5{ display: none; }	.urologica8Tarjeta6{ display: none; }	.urologica8Tarjeta7{ display: none; }
+.urologica9Tarjeta1{ display: none; }	.urologica9Tarjeta2{ display: none; }	.urologica9Tarjeta3{ display: none; }	.urologica9Tarjeta4{ display: none; }	.urologica9Tarjeta5{ display: none; }	.urologica9Tarjeta6{ display: none; }	.urologica9Tarjeta7{ display: none; }
+.urologica10Tarjeta1{ display: none; }	.urologica10Tarjeta2{ display: none; }	.urologica10Tarjeta3{ display: none; }	.urologica10Tarjeta4{ display: none; }	.urologica10Tarjeta5{ display: none; }	.urologica10Tarjeta6{ display: none; }	.urologica10Tarjeta7{ display: none; }
+.urologica11Tarjeta1{ display: none; }	.urologica11Tarjeta2{ display: none; }	.urologica11Tarjeta3{ display: none; }	.urologica11Tarjeta4{ display: none; }	.urologica11Tarjeta5{ display: none; }	.urologica11Tarjeta6{ display: none; }	.urologica11Tarjeta7{ display: none; }
+.urologica12Tarjeta1{ display: none; }	.urologica12Tarjeta2{ display: none; }	.urologica12Tarjeta3{ display: none; }	.urologica12Tarjeta4{ display: none; }	.urologica12Tarjeta5{ display: none; }	.urologica12Tarjeta6{ display: none; }	.urologica12Tarjeta7{ display: none; }
+.urologica13Tarjeta1{ display: none; }	.urologica13Tarjeta2{ display: none; }	.urologica13Tarjeta3{ display: none; }	.urologica13Tarjeta4{ display: none; }	.urologica13Tarjeta5{ display: none; }	.urologica13Tarjeta6{ display: none; }	.urologica13Tarjeta7{ display: none; }
+.urologica14Tarjeta1{ display: none; }	.urologica14Tarjeta2{ display: none; }	.urologica14Tarjeta3{ display: none; }	.urologica14Tarjeta4{ display: none; }	.urologica14Tarjeta5{ display: none; }	.urologica14Tarjeta6{ display: none; }	.urologica14Tarjeta7{ display: none; }
+.urologica15Tarjeta1{ display: none; }	.urologica15Tarjeta2{ display: none; }	.urologica15Tarjeta3{ display: none; }	.urologica15Tarjeta4{ display: none; }	.urologica15Tarjeta5{ display: none; }	.urologica15Tarjeta6{ display: none; }	.urologica15Tarjeta7{ display: none; }
+.urologica16Tarjeta1{ display: none; }	.urologica16Tarjeta2{ display: none; }	.urologica16Tarjeta3{ display: none; }	.urologica16Tarjeta4{ display: none; }	.urologica16Tarjeta5{ display: none; }	.urologica16Tarjeta6{ display: none; }	.urologica16Tarjeta7{ display: none; }
+.urologica17Tarjeta1{ display: none; }	.urologica17Tarjeta2{ display: none; }	.urologica17Tarjeta3{ display: none; }	.urologica17Tarjeta4{ display: none; }	.urologica17Tarjeta5{ display: none; }	.urologica17Tarjeta6{ display: none; }	.urologica17Tarjeta7{ display: none; }
+.urologica18Tarjeta1{ display: none; }	.urologica18Tarjeta2{ display: none; }	.urologica18Tarjeta3{ display: none; }	.urologica18Tarjeta4{ display: none; }	.urologica18Tarjeta5{ display: none; }	.urologica18Tarjeta6{ display: none; }	.urologica18Tarjeta7{ display: none; }
+.urologica19Tarjeta1{ display: none; }	.urologica19Tarjeta2{ display: none; }	.urologica19Tarjeta3{ display: none; }	.urologica19Tarjeta4{ display: none; }	.urologica19Tarjeta5{ display: none; }	.urologica19Tarjeta6{ display: none; }	.urologica19Tarjeta7{ display: none; }
+.urologica20Tarjeta1{ display: none; }	.urologica20Tarjeta2{ display: none; }	.urologica20Tarjeta3{ display: none; }	.urologica20Tarjeta4{ display: none; }	.urologica20Tarjeta5{ display: none; }	.urologica20Tarjeta6{ display: none; }	.urologica20Tarjeta7{ display: none; }
+.urologica21Tarjeta1{ display: none; }	.urologica21Tarjeta2{ display: none; }	.urologica21Tarjeta3{ display: none; }	.urologica21Tarjeta4{ display: none; }	.urologica21Tarjeta5{ display: none; }	.urologica21Tarjeta6{ display: none; }	.urologica21Tarjeta7{ display: none; }
+.urologica22Tarjeta1{ display: none; }	.urologica22Tarjeta2{ display: none; }	.urologica22Tarjeta3{ display: none; }	.urologica22Tarjeta4{ display: none; }	.urologica22Tarjeta5{ display: none; }	.urologica22Tarjeta6{ display: none; }	.urologica22Tarjeta7{ display: none; }
+.urologica23Tarjeta1{ display: none; }	.urologica23Tarjeta2{ display: none; }	.urologica23Tarjeta3{ display: none; }	.urologica23Tarjeta4{ display: none; }	.urologica23Tarjeta5{ display: none; }	.urologica23Tarjeta6{ display: none; }	.urologica23Tarjeta7{ display: none; }
+.urologica24Tarjeta1{ display: none; }	.urologica24Tarjeta2{ display: none; }	.urologica24Tarjeta3{ display: none; }	.urologica24Tarjeta4{ display: none; }	.urologica24Tarjeta5{ display: none; }	.urologica24Tarjeta6{ display: none; }	.urologica24Tarjeta7{ display: none; }
+.urologica25Tarjeta1{ display: none; }	.urologica25Tarjeta2{ display: none; }	.urologica25Tarjeta3{ display: none; }	.urologica25Tarjeta4{ display: none; }	.urologica25Tarjeta5{ display: none; }	.urologica25Tarjeta6{ display: none; }	.urologica25Tarjeta7{ display: none; }
+.urologica26Tarjeta1{ display: none; }	.urologica26Tarjeta2{ display: none; }	.urologica26Tarjeta3{ display: none; }	.urologica26Tarjeta4{ display: none; }	.urologica26Tarjeta5{ display: none; }	.urologica26Tarjeta6{ display: none; }	.urologica26Tarjeta7{ display: none; }
+.urologica27Tarjeta1{ display: none; }	.urologica27Tarjeta2{ display: none; }	.urologica27Tarjeta3{ display: none; }	.urologica27Tarjeta4{ display: none; }	.urologica27Tarjeta5{ display: none; }	.urologica27Tarjeta6{ display: none; }	.urologica27Tarjeta7{ display: none; }
+.urologica28Tarjeta1{ display: none; }	.urologica28Tarjeta2{ display: none; }	.urologica28Tarjeta3{ display: none; }	.urologica28Tarjeta4{ display: none; }	.urologica28Tarjeta5{ display: none; }	.urologica28Tarjeta6{ display: none; }	.urologica28Tarjeta7{ display: none; }
+						
+						
+.cabeza1Tarjeta1{ display: none; }	.cabeza1Tarjeta2{ display: none; }	.cabeza1Tarjeta3{ display: none; }	.cabeza1Tarjeta4{ display: none; }	.cabeza1Tarjeta5{ display: none; }	.cabeza1Tarjeta6{ display: none; }	.cabeza1Tarjeta7{ display: none; }
+.cabeza2Tarjeta1{ display: none; }	.cabeza2Tarjeta2{ display: none; }	.cabeza2Tarjeta3{ display: none; }	.cabeza2Tarjeta4{ display: none; }	.cabeza2Tarjeta5{ display: none; }	.cabeza2Tarjeta6{ display: none; }	.cabeza2Tarjeta7{ display: none; }
+.cabeza3Tarjeta1{ display: none; }	.cabeza3Tarjeta2{ display: none; }	.cabeza3Tarjeta3{ display: none; }	.cabeza3Tarjeta4{ display: none; }	.cabeza3Tarjeta5{ display: none; }	.cabeza3Tarjeta6{ display: none; }	.cabeza3Tarjeta7{ display: none; }
+.cabeza4Tarjeta1{ display: none; }	.cabeza4Tarjeta2{ display: none; }	.cabeza4Tarjeta3{ display: none; }	.cabeza4Tarjeta4{ display: none; }	.cabeza4Tarjeta5{ display: none; }	.cabeza4Tarjeta6{ display: none; }	.cabeza4Tarjeta7{ display: none; }
+.cabeza5Tarjeta1{ display: none; }	.cabeza5Tarjeta2{ display: none; }	.cabeza5Tarjeta3{ display: none; }	.cabeza5Tarjeta4{ display: none; }	.cabeza5Tarjeta5{ display: none; }	.cabeza5Tarjeta6{ display: none; }	.cabeza5Tarjeta7{ display: none; }
+.cabeza6Tarjeta1{ display: none; }	.cabeza6Tarjeta2{ display: none; }	.cabeza6Tarjeta3{ display: none; }	.cabeza6Tarjeta4{ display: none; }	.cabeza6Tarjeta5{ display: none; }	.cabeza6Tarjeta6{ display: none; }	.cabeza6Tarjeta7{ display: none; }
+.cabeza7Tarjeta1{ display: none; }	.cabeza7Tarjeta2{ display: none; }	.cabeza7Tarjeta3{ display: none; }	.cabeza7Tarjeta4{ display: none; }	.cabeza7Tarjeta5{ display: none; }	.cabeza7Tarjeta6{ display: none; }	.cabeza7Tarjeta7{ display: none; }
+.cabeza8Tarjeta1{ display: none; }	.cabeza8Tarjeta2{ display: none; }	.cabeza8Tarjeta3{ display: none; }	.cabeza8Tarjeta4{ display: none; }	.cabeza8Tarjeta5{ display: none; }	.cabeza8Tarjeta6{ display: none; }	.cabeza8Tarjeta7{ display: none; }
+.cabeza9Tarjeta1{ display: none; }	.cabeza9Tarjeta2{ display: none; }	.cabeza9Tarjeta3{ display: none; }	.cabeza9Tarjeta4{ display: none; }	.cabeza9Tarjeta5{ display: none; }	.cabeza9Tarjeta6{ display: none; }	.cabeza9Tarjeta7{ display: none; }
+.cabeza10Tarjeta1{ display: none; }	.cabeza10Tarjeta2{ display: none; }	.cabeza10Tarjeta3{ display: none; }	.cabeza10Tarjeta4{ display: none; }	.cabeza10Tarjeta5{ display: none; }	.cabeza10Tarjeta6{ display: none; }	.cabeza10Tarjeta7{ display: none; }
+.cabeza11Tarjeta1{ display: none; }	.cabeza11Tarjeta2{ display: none; }	.cabeza11Tarjeta3{ display: none; }	.cabeza11Tarjeta4{ display: none; }	.cabeza11Tarjeta5{ display: none; }	.cabeza11Tarjeta6{ display: none; }	.cabeza11Tarjeta7{ display: none; }
+.cabeza12Tarjeta1{ display: none; }	.cabeza12Tarjeta2{ display: none; }	.cabeza12Tarjeta3{ display: none; }	.cabeza12Tarjeta4{ display: none; }	.cabeza12Tarjeta5{ display: none; }	.cabeza12Tarjeta6{ display: none; }	.cabeza12Tarjeta7{ display: none; }
+.cabeza13Tarjeta1{ display: none; }	.cabeza13Tarjeta2{ display: none; }	.cabeza13Tarjeta3{ display: none; }	.cabeza13Tarjeta4{ display: none; }	.cabeza13Tarjeta5{ display: none; }	.cabeza13Tarjeta6{ display: none; }	.cabeza13Tarjeta7{ display: none; }
+.cabeza14Tarjeta1{ display: none; }	.cabeza14Tarjeta2{ display: none; }	.cabeza14Tarjeta3{ display: none; }	.cabeza14Tarjeta4{ display: none; }	.cabeza14Tarjeta5{ display: none; }	.cabeza14Tarjeta6{ display: none; }	.cabeza14Tarjeta7{ display: none; }
+.cabeza15Tarjeta1{ display: none; }	.cabeza15Tarjeta2{ display: none; }	.cabeza15Tarjeta3{ display: none; }	.cabeza15Tarjeta4{ display: none; }	.cabeza15Tarjeta5{ display: none; }	.cabeza15Tarjeta6{ display: none; }	.cabeza15Tarjeta7{ display: none; }
+.cabeza16Tarjeta1{ display: none; }	.cabeza16Tarjeta2{ display: none; }	.cabeza16Tarjeta3{ display: none; }	.cabeza16Tarjeta4{ display: none; }	.cabeza16Tarjeta5{ display: none; }	.cabeza16Tarjeta6{ display: none; }	.cabeza16Tarjeta7{ display: none; }
+.cabeza17Tarjeta1{ display: none; }	.cabeza17Tarjeta2{ display: none; }	.cabeza17Tarjeta3{ display: none; }	.cabeza17Tarjeta4{ display: none; }	.cabeza17Tarjeta5{ display: none; }	.cabeza17Tarjeta6{ display: none; }	.cabeza17Tarjeta7{ display: none; }
+.cabeza18Tarjeta1{ display: none; }	.cabeza18Tarjeta2{ display: none; }	.cabeza18Tarjeta3{ display: none; }	.cabeza18Tarjeta4{ display: none; }	.cabeza18Tarjeta5{ display: none; }	.cabeza18Tarjeta6{ display: none; }	.cabeza18Tarjeta7{ display: none; }
+.cabeza19Tarjeta1{ display: none; }	.cabeza19Tarjeta2{ display: none; }	.cabeza19Tarjeta3{ display: none; }	.cabeza19Tarjeta4{ display: none; }	.cabeza19Tarjeta5{ display: none; }	.cabeza19Tarjeta6{ display: none; }	.cabeza19Tarjeta7{ display: none; }
+.cabeza20Tarjeta1{ display: none; }	.cabeza20Tarjeta2{ display: none; }	.cabeza20Tarjeta3{ display: none; }	.cabeza20Tarjeta4{ display: none; }	.cabeza20Tarjeta5{ display: none; }	.cabeza20Tarjeta6{ display: none; }	.cabeza20Tarjeta7{ display: none; }
+.cabeza21Tarjeta1{ display: none; }	.cabeza21Tarjeta2{ display: none; }	.cabeza21Tarjeta3{ display: none; }	.cabeza21Tarjeta4{ display: none; }	.cabeza21Tarjeta5{ display: none; }	.cabeza21Tarjeta6{ display: none; }	.cabeza21Tarjeta7{ display: none; }
+.cabeza22Tarjeta1{ display: none; }	.cabeza22Tarjeta2{ display: none; }	.cabeza22Tarjeta3{ display: none; }	.cabeza22Tarjeta4{ display: none; }	.cabeza22Tarjeta5{ display: none; }	.cabeza22Tarjeta6{ display: none; }	.cabeza22Tarjeta7{ display: none; }
+.cabeza23Tarjeta1{ display: none; }	.cabeza23Tarjeta2{ display: none; }	.cabeza23Tarjeta3{ display: none; }	.cabeza23Tarjeta4{ display: none; }	.cabeza23Tarjeta5{ display: none; }	.cabeza23Tarjeta6{ display: none; }	.cabeza23Tarjeta7{ display: none; }
+.cabeza24Tarjeta1{ display: none; }	.cabeza24Tarjeta2{ display: none; }	.cabeza24Tarjeta3{ display: none; }	.cabeza24Tarjeta4{ display: none; }	.cabeza24Tarjeta5{ display: none; }	.cabeza24Tarjeta6{ display: none; }	.cabeza24Tarjeta7{ display: none; }
+.cabeza25Tarjeta1{ display: none; }	.cabeza25Tarjeta2{ display: none; }	.cabeza25Tarjeta3{ display: none; }	.cabeza25Tarjeta4{ display: none; }	.cabeza25Tarjeta5{ display: none; }	.cabeza25Tarjeta6{ display: none; }	.cabeza25Tarjeta7{ display: none; }
+.cabeza26Tarjeta1{ display: none; }	.cabeza26Tarjeta2{ display: none; }	.cabeza26Tarjeta3{ display: none; }	.cabeza26Tarjeta4{ display: none; }	.cabeza26Tarjeta5{ display: none; }	.cabeza26Tarjeta6{ display: none; }	.cabeza26Tarjeta7{ display: none; }
+.cabeza27Tarjeta1{ display: none; }	.cabeza27Tarjeta2{ display: none; }	.cabeza27Tarjeta3{ display: none; }	.cabeza27Tarjeta4{ display: none; }	.cabeza27Tarjeta5{ display: none; }	.cabeza27Tarjeta6{ display: none; }	.cabeza27Tarjeta7{ display: none; }
+.cabeza28Tarjeta1{ display: none; }	.cabeza28Tarjeta2{ display: none; }	.cabeza28Tarjeta3{ display: none; }	.cabeza28Tarjeta4{ display: none; }	.cabeza28Tarjeta5{ display: none; }	.cabeza28Tarjeta6{ display: none; }	.cabeza28Tarjeta7{ display: none; }
+.cabeza29Tarjeta1{ display: none; }	.cabeza29Tarjeta2{ display: none; }	.cabeza29Tarjeta3{ display: none; }	.cabeza29Tarjeta4{ display: none; }	.cabeza29Tarjeta5{ display: none; }	.cabeza29Tarjeta6{ display: none; }	.cabeza29Tarjeta7{ display: none; }
+.cabeza30Tarjeta1{ display: none; }	.cabeza30Tarjeta2{ display: none; }	.cabeza30Tarjeta3{ display: none; }	.cabeza30Tarjeta4{ display: none; }	.cabeza30Tarjeta5{ display: none; }	.cabeza30Tarjeta6{ display: none; }	.cabeza30Tarjeta7{ display: none; }
+.cabeza31Tarjeta1{ display: none; }	.cabeza31Tarjeta2{ display: none; }	.cabeza31Tarjeta3{ display: none; }	.cabeza31Tarjeta4{ display: none; }	.cabeza31Tarjeta5{ display: none; }	.cabeza31Tarjeta6{ display: none; }	.cabeza31Tarjeta7{ display: none; }
+.cabeza32Tarjeta1{ display: none; }	.cabeza32Tarjeta2{ display: none; }	.cabeza32Tarjeta3{ display: none; }	.cabeza32Tarjeta4{ display: none; }	.cabeza32Tarjeta5{ display: none; }	.cabeza32Tarjeta6{ display: none; }	.cabeza32Tarjeta7{ display: none; }
+.cabeza33Tarjeta1{ display: none; }	.cabeza33Tarjeta2{ display: none; }	.cabeza33Tarjeta3{ display: none; }	.cabeza33Tarjeta4{ display: none; }	.cabeza33Tarjeta5{ display: none; }	.cabeza33Tarjeta6{ display: none; }	.cabeza33Tarjeta7{ display: none; }
+						
+						
+.paliativos1Tarjeta1{ display: none; }	.paliativos1Tarjeta2{ display: none; }	.paliativos1Tarjeta3{ display: none; }	.paliativos1Tarjeta4{ display: none; }	.paliativos1Tarjeta5{ display: none; }	.paliativos1Tarjeta6{ display: none; }	.paliativos1Tarjeta7{ display: none; }
+.paliativos2Tarjeta1{ display: none; }	.paliativos2Tarjeta2{ display: none; }	.paliativos2Tarjeta3{ display: none; }	.paliativos2Tarjeta4{ display: none; }	.paliativos2Tarjeta5{ display: none; }	.paliativos2Tarjeta6{ display: none; }	.paliativos2Tarjeta7{ display: none; }
+.paliativos3Tarjeta1{ display: none; }	.paliativos3Tarjeta2{ display: none; }	.paliativos3Tarjeta3{ display: none; }	.paliativos3Tarjeta4{ display: none; }	.paliativos3Tarjeta5{ display: none; }	.paliativos3Tarjeta6{ display: none; }	.paliativos3Tarjeta7{ display: none; }
+.paliativos4Tarjeta1{ display: none; }	.paliativos4Tarjeta2{ display: none; }	.paliativos4Tarjeta3{ display: none; }	.paliativos4Tarjeta4{ display: none; }	.paliativos4Tarjeta5{ display: none; }	.paliativos4Tarjeta6{ display: none; }	.paliativos4Tarjeta7{ display: none; }
+.paliativos5Tarjeta1{ display: none; }	.paliativos5Tarjeta2{ display: none; }	.paliativos5Tarjeta3{ display: none; }	.paliativos5Tarjeta4{ display: none; }	.paliativos5Tarjeta5{ display: none; }	.paliativos5Tarjeta6{ display: none; }	.paliativos5Tarjeta7{ display: none; }
+.paliativos6Tarjeta1{ display: none; }	.paliativos6Tarjeta2{ display: none; }	.paliativos6Tarjeta3{ display: none; }	.paliativos6Tarjeta4{ display: none; }	.paliativos6Tarjeta5{ display: none; }	.paliativos6Tarjeta6{ display: none; }	.paliativos6Tarjeta7{ display: none; }
+.paliativos7Tarjeta1{ display: none; }	.paliativos7Tarjeta2{ display: none; }	.paliativos7Tarjeta3{ display: none; }	.paliativos7Tarjeta4{ display: none; }	.paliativos7Tarjeta5{ display: none; }	.paliativos7Tarjeta6{ display: none; }	.paliativos7Tarjeta7{ display: none; }
+.paliativos8Tarjeta1{ display: none; }	.paliativos8Tarjeta2{ display: none; }	.paliativos8Tarjeta3{ display: none; }	.paliativos8Tarjeta4{ display: none; }	.paliativos8Tarjeta5{ display: none; }	.paliativos8Tarjeta6{ display: none; }	.paliativos8Tarjeta7{ display: none; }
+.paliativos9Tarjeta1{ display: none; }	.paliativos9Tarjeta2{ display: none; }	.paliativos9Tarjeta3{ display: none; }	.paliativos9Tarjeta4{ display: none; }	.paliativos9Tarjeta5{ display: none; }	.paliativos9Tarjeta6{ display: none; }	.paliativos9Tarjeta7{ display: none; }
+.paliativos10Tarjeta1{ display: none; }	.paliativos10Tarjeta2{ display: none; }	.paliativos10Tarjeta3{ display: none; }	.paliativos10Tarjeta4{ display: none; }	.paliativos10Tarjeta5{ display: none; }	.paliativos10Tarjeta6{ display: none; }	.paliativos10Tarjeta7{ display: none; }
+.paliativos11Tarjeta1{ display: none; }	.paliativos11Tarjeta2{ display: none; }	.paliativos11Tarjeta3{ display: none; }	.paliativos11Tarjeta4{ display: none; }	.paliativos11Tarjeta5{ display: none; }	.paliativos11Tarjeta6{ display: none; }	.paliativos11Tarjeta7{ display: none; }
+.paliativos12Tarjeta1{ display: none; }	.paliativos12Tarjeta2{ display: none; }	.paliativos12Tarjeta3{ display: none; }	.paliativos12Tarjeta4{ display: none; }	.paliativos12Tarjeta5{ display: none; }	.paliativos12Tarjeta6{ display: none; }	.paliativos12Tarjeta7{ display: none; }
+.paliativos13Tarjeta1{ display: none; }	.paliativos13Tarjeta2{ display: none; }	.paliativos13Tarjeta3{ display: none; }	.paliativos13Tarjeta4{ display: none; }	.paliativos13Tarjeta5{ display: none; }	.paliativos13Tarjeta6{ display: none; }	.paliativos13Tarjeta7{ display: none; }
+.paliativos14Tarjeta1{ display: none; }	.paliativos14Tarjeta2{ display: none; }	.paliativos14Tarjeta3{ display: none; }	.paliativos14Tarjeta4{ display: none; }	.paliativos14Tarjeta5{ display: none; }	.paliativos14Tarjeta6{ display: none; }	.paliativos14Tarjeta7{ display: none; }
+.paliativos15Tarjeta1{ display: none; }	.paliativos15Tarjeta2{ display: none; }	.paliativos15Tarjeta3{ display: none; }	.paliativos15Tarjeta4{ display: none; }	.paliativos15Tarjeta5{ display: none; }	.paliativos15Tarjeta6{ display: none; }	.paliativos15Tarjeta7{ display: none; }
+.paliativos16Tarjeta1{ display: none; }	.paliativos16Tarjeta2{ display: none; }	.paliativos16Tarjeta3{ display: none; }	.paliativos16Tarjeta4{ display: none; }	.paliativos16Tarjeta5{ display: none; }	.paliativos16Tarjeta6{ display: none; }	.paliativos16Tarjeta7{ display: none; }
+.paliativos17Tarjeta1{ display: none; }	.paliativos17Tarjeta2{ display: none; }	.paliativos17Tarjeta3{ display: none; }	.paliativos17Tarjeta4{ display: none; }	.paliativos17Tarjeta5{ display: none; }	.paliativos17Tarjeta6{ display: none; }	.paliativos17Tarjeta7{ display: none; }
+						
+						
+.vascular1Tarjeta1{ display: none; }	.vascular1Tarjeta2{ display: none; }	.vascular1Tarjeta3{ display: none; }	.vascular1Tarjeta4{ display: none; }	.vascular1Tarjeta5{ display: none; }	.vascular1Tarjeta6{ display: none; }	.vascular1Tarjeta7{ display: none; }
+.vascular2Tarjeta1{ display: none; }	.vascular2Tarjeta2{ display: none; }	.vascular2Tarjeta3{ display: none; }	.vascular2Tarjeta4{ display: none; }	.vascular2Tarjeta5{ display: none; }	.vascular2Tarjeta6{ display: none; }	.vascular2Tarjeta7{ display: none; }
+.vascular3Tarjeta1{ display: none; }	.vascular3Tarjeta2{ display: none; }	.vascular3Tarjeta3{ display: none; }	.vascular3Tarjeta4{ display: none; }	.vascular3Tarjeta5{ display: none; }	.vascular3Tarjeta6{ display: none; }	.vascular3Tarjeta7{ display: none; }
+.vascular4Tarjeta1{ display: none; }	.vascular4Tarjeta2{ display: none; }	.vascular4Tarjeta3{ display: none; }	.vascular4Tarjeta4{ display: none; }	.vascular4Tarjeta5{ display: none; }	.vascular4Tarjeta6{ display: none; }	.vascular4Tarjeta7{ display: none; }
+.vascular5Tarjeta1{ display: none; }	.vascular5Tarjeta2{ display: none; }	.vascular5Tarjeta3{ display: none; }	.vascular5Tarjeta4{ display: none; }	.vascular5Tarjeta5{ display: none; }	.vascular5Tarjeta6{ display: none; }	.vascular5Tarjeta7{ display: none; }
+.vascular6Tarjeta1{ display: none; }	.vascular6Tarjeta2{ display: none; }	.vascular6Tarjeta3{ display: none; }	.vascular6Tarjeta4{ display: none; }	.vascular6Tarjeta5{ display: none; }	.vascular6Tarjeta6{ display: none; }	.vascular6Tarjeta7{ display: none; }
+.vascular7Tarjeta1{ display: none; }	.vascular7Tarjeta2{ display: none; }	.vascular7Tarjeta3{ display: none; }	.vascular7Tarjeta4{ display: none; }	.vascular7Tarjeta5{ display: none; }	.vascular7Tarjeta6{ display: none; }	.vascular7Tarjeta7{ display: none; }
+.vascular8Tarjeta1{ display: none; }	.vascular8Tarjeta2{ display: none; }	.vascular8Tarjeta3{ display: none; }	.vascular8Tarjeta4{ display: none; }	.vascular8Tarjeta5{ display: none; }	.vascular8Tarjeta6{ display: none; }	.vascular8Tarjeta7{ display: none; }
+.vascular9Tarjeta1{ display: none; }	.vascular9Tarjeta2{ display: none; }	.vascular9Tarjeta3{ display: none; }	.vascular9Tarjeta4{ display: none; }	.vascular9Tarjeta5{ display: none; }	.vascular9Tarjeta6{ display: none; }	.vascular9Tarjeta7{ display: none; }
+.vascular10Tarjeta1{ display: none; }	.vascular10Tarjeta2{ display: none; }	.vascular10Tarjeta3{ display: none; }	.vascular10Tarjeta4{ display: none; }	.vascular10Tarjeta5{ display: none; }	.vascular10Tarjeta6{ display: none; }	.vascular10Tarjeta7{ display: none; }
+.vascular11Tarjeta1{ display: none; }	.vascular11Tarjeta2{ display: none; }	.vascular11Tarjeta3{ display: none; }	.vascular11Tarjeta4{ display: none; }	.vascular11Tarjeta5{ display: none; }	.vascular11Tarjeta6{ display: none; }	.vascular11Tarjeta7{ display: none; }
+.vascular12Tarjeta1{ display: none; }	.vascular12Tarjeta2{ display: none; }	.vascular12Tarjeta3{ display: none; }	.vascular12Tarjeta4{ display: none; }	.vascular12Tarjeta5{ display: none; }	.vascular12Tarjeta6{ display: none; }	.vascular12Tarjeta7{ display: none; }
+.vascular13Tarjeta1{ display: none; }	.vascular13Tarjeta2{ display: none; }	.vascular13Tarjeta3{ display: none; }	.vascular13Tarjeta4{ display: none; }	.vascular13Tarjeta5{ display: none; }	.vascular13Tarjeta6{ display: none; }	.vascular13Tarjeta7{ display: none; }
+.vascular14Tarjeta1{ display: none; }	.vascular14Tarjeta2{ display: none; }	.vascular14Tarjeta3{ display: none; }	.vascular14Tarjeta4{ display: none; }	.vascular14Tarjeta5{ display: none; }	.vascular14Tarjeta6{ display: none; }	.vascular14Tarjeta7{ display: none; }
+.vascular15Tarjeta1{ display: none; }	.vascular15Tarjeta2{ display: none; }	.vascular15Tarjeta3{ display: none; }	.vascular15Tarjeta4{ display: none; }	.vascular15Tarjeta5{ display: none; }	.vascular15Tarjeta6{ display: none; }	.vascular15Tarjeta7{ display: none; }
+.vascular16Tarjeta1{ display: none; }	.vascular16Tarjeta2{ display: none; }	.vascular16Tarjeta3{ display: none; }	.vascular16Tarjeta4{ display: none; }	.vascular16Tarjeta5{ display: none; }	.vascular16Tarjeta6{ display: none; }	.vascular16Tarjeta7{ display: none; }
+.vascular17Tarjeta1{ display: none; }	.vascular17Tarjeta2{ display: none; }	.vascular17Tarjeta3{ display: none; }	.vascular17Tarjeta4{ display: none; }	.vascular17Tarjeta5{ display: none; }	.vascular17Tarjeta6{ display: none; }	.vascular17Tarjeta7{ display: none; }
+.vascular18Tarjeta1{ display: none; }	.vascular18Tarjeta2{ display: none; }	.vascular18Tarjeta3{ display: none; }	.vascular18Tarjeta4{ display: none; }	.vascular18Tarjeta5{ display: none; }	.vascular18Tarjeta6{ display: none; }	.vascular18Tarjeta7{ display: none; }
+.vascular19Tarjeta1{ display: none; }	.vascular19Tarjeta2{ display: none; }	.vascular19Tarjeta3{ display: none; }	.vascular19Tarjeta4{ display: none; }	.vascular19Tarjeta5{ display: none; }	.vascular19Tarjeta6{ display: none; }	.vascular19Tarjeta7{ display: none; }
+.vascular20Tarjeta1{ display: none; }	.vascular20Tarjeta2{ display: none; }	.vascular20Tarjeta3{ display: none; }	.vascular20Tarjeta4{ display: none; }	.vascular20Tarjeta5{ display: none; }	.vascular20Tarjeta6{ display: none; }	.vascular20Tarjeta7{ display: none; }
+.vascular21Tarjeta1{ display: none; }	.vascular21Tarjeta2{ display: none; }	.vascular21Tarjeta3{ display: none; }	.vascular21Tarjeta4{ display: none; }	.vascular21Tarjeta5{ display: none; }	.vascular21Tarjeta6{ display: none; }	.vascular21Tarjeta7{ display: none; }
+.vascular22Tarjeta1{ display: none; }	.vascular22Tarjeta2{ display: none; }	.vascular22Tarjeta3{ display: none; }	.vascular22Tarjeta4{ display: none; }	.vascular22Tarjeta5{ display: none; }	.vascular22Tarjeta6{ display: none; }	.vascular22Tarjeta7{ display: none; }
+.vascular23Tarjeta1{ display: none; }	.vascular23Tarjeta2{ display: none; }	.vascular23Tarjeta3{ display: none; }	.vascular23Tarjeta4{ display: none; }	.vascular23Tarjeta5{ display: none; }	.vascular23Tarjeta6{ display: none; }	.vascular23Tarjeta7{ display: none; }
+.vascular24Tarjeta1{ display: none; }	.vascular24Tarjeta2{ display: none; }	.vascular24Tarjeta3{ display: none; }	.vascular24Tarjeta4{ display: none; }	.vascular24Tarjeta5{ display: none; }	.vascular24Tarjeta6{ display: none; }	.vascular24Tarjeta7{ display: none; }
+.vascular25Tarjeta1{ display: none; }	.vascular25Tarjeta2{ display: none; }	.vascular25Tarjeta3{ display: none; }	.vascular25Tarjeta4{ display: none; }	.vascular25Tarjeta5{ display: none; }	.vascular25Tarjeta6{ display: none; }	.vascular25Tarjeta7{ display: none; }
+.vascular26Tarjeta1{ display: none; }	.vascular26Tarjeta2{ display: none; }	.vascular26Tarjeta3{ display: none; }	.vascular26Tarjeta4{ display: none; }	.vascular26Tarjeta5{ display: none; }	.vascular26Tarjeta6{ display: none; }	.vascular26Tarjeta7{ display: none; }
+.vascular27Tarjeta1{ display: none; }	.vascular27Tarjeta2{ display: none; }	.vascular27Tarjeta3{ display: none; }	.vascular27Tarjeta4{ display: none; }	.vascular27Tarjeta5{ display: none; }	.vascular27Tarjeta6{ display: none; }	.vascular27Tarjeta7{ display: none; }
+.vascular28Tarjeta1{ display: none; }	.vascular28Tarjeta2{ display: none; }	.vascular28Tarjeta3{ display: none; }	.vascular28Tarjeta4{ display: none; }	.vascular28Tarjeta5{ display: none; }	.vascular28Tarjeta6{ display: none; }	.vascular28Tarjeta7{ display: none; }
+.vascular29Tarjeta1{ display: none; }	.vascular29Tarjeta2{ display: none; }	.vascular29Tarjeta3{ display: none; }	.vascular29Tarjeta4{ display: none; }	.vascular29Tarjeta5{ display: none; }	.vascular29Tarjeta6{ display: none; }	.vascular29Tarjeta7{ display: none; }
+.vascular30Tarjeta1{ display: none; }	.vascular30Tarjeta2{ display: none; }	.vascular30Tarjeta3{ display: none; }	.vascular30Tarjeta4{ display: none; }	.vascular30Tarjeta5{ display: none; }	.vascular30Tarjeta6{ display: none; }	.vascular30Tarjeta7{ display: none; }
+.vascular31Tarjeta1{ display: none; }	.vascular31Tarjeta2{ display: none; }	.vascular31Tarjeta3{ display: none; }	.vascular31Tarjeta4{ display: none; }	.vascular31Tarjeta5{ display: none; }	.vascular31Tarjeta6{ display: none; }	.vascular31Tarjeta7{ display: none; }
+						
+						
+						
+.general1Tarjeta1{ display: none; }	.general1Tarjeta2{ display: none; }	.general1Tarjeta3{ display: none; }	.general1Tarjeta4{ display: none; }	.general1Tarjeta5{ display: none; }	.general1Tarjeta6{ display: none; }	.general1Tarjeta7{ display: none; }
+.general2Tarjeta1{ display: none; }	.general2Tarjeta2{ display: none; }	.general2Tarjeta3{ display: none; }	.general2Tarjeta4{ display: none; }	.general2Tarjeta5{ display: none; }	.general2Tarjeta6{ display: none; }	.general2Tarjeta7{ display: none; }
+.general3Tarjeta1{ display: none; }	.general3Tarjeta2{ display: none; }	.general3Tarjeta3{ display: none; }	.general3Tarjeta4{ display: none; }	.general3Tarjeta5{ display: none; }	.general3Tarjeta6{ display: none; }	.general3Tarjeta7{ display: none; }
+.general4Tarjeta1{ display: none; }	.general4Tarjeta2{ display: none; }	.general4Tarjeta3{ display: none; }	.general4Tarjeta4{ display: none; }	.general4Tarjeta5{ display: none; }	.general4Tarjeta6{ display: none; }	.general4Tarjeta7{ display: none; }
+.general5Tarjeta1{ display: none; }	.general5Tarjeta2{ display: none; }	.general5Tarjeta3{ display: none; }	.general5Tarjeta4{ display: none; }	.general5Tarjeta5{ display: none; }	.general5Tarjeta6{ display: none; }	.general5Tarjeta7{ display: none; }
+.general6Tarjeta1{ display: none; }	.general6Tarjeta2{ display: none; }	.general6Tarjeta3{ display: none; }	.general6Tarjeta4{ display: none; }	.general6Tarjeta5{ display: none; }	.general6Tarjeta6{ display: none; }	.general6Tarjeta7{ display: none; }
+.general7Tarjeta1{ display: none; }	.general7Tarjeta2{ display: none; }	.general7Tarjeta3{ display: none; }	.general7Tarjeta4{ display: none; }	.general7Tarjeta5{ display: none; }	.general7Tarjeta6{ display: none; }	.general7Tarjeta7{ display: none; }
+.general8Tarjeta1{ display: none; }	.general8Tarjeta2{ display: none; }	.general8Tarjeta3{ display: none; }	.general8Tarjeta4{ display: none; }	.general8Tarjeta5{ display: none; }	.general8Tarjeta6{ display: none; }	.general8Tarjeta7{ display: none; }
+.general9Tarjeta1{ display: none; }	.general9Tarjeta2{ display: none; }	.general9Tarjeta3{ display: none; }	.general9Tarjeta4{ display: none; }	.general9Tarjeta5{ display: none; }	.general9Tarjeta6{ display: none; }	.general9Tarjeta7{ display: none; }
+.general10Tarjeta1{ display: none; }	.general10Tarjeta2{ display: none; }	.general10Tarjeta3{ display: none; }	.general10Tarjeta4{ display: none; }	.general10Tarjeta5{ display: none; }	.general10Tarjeta6{ display: none; }	.general10Tarjeta7{ display: none; }
+.general11Tarjeta1{ display: none; }	.general11Tarjeta2{ display: none; }	.general11Tarjeta3{ display: none; }	.general11Tarjeta4{ display: none; }	.general11Tarjeta5{ display: none; }	.general11Tarjeta6{ display: none; }	.general11Tarjeta7{ display: none; }
+.general12Tarjeta1{ display: none; }	.general12Tarjeta2{ display: none; }	.general12Tarjeta3{ display: none; }	.general12Tarjeta4{ display: none; }	.general12Tarjeta5{ display: none; }	.general12Tarjeta6{ display: none; }	.general12Tarjeta7{ display: none; }
+.general13Tarjeta1{ display: none; }	.general13Tarjeta2{ display: none; }	.general13Tarjeta3{ display: none; }	.general13Tarjeta4{ display: none; }	.general13Tarjeta5{ display: none; }	.general13Tarjeta6{ display: none; }	.general13Tarjeta7{ display: none; }
+.general14Tarjeta1{ display: none; }	.general14Tarjeta2{ display: none; }	.general14Tarjeta3{ display: none; }	.general14Tarjeta4{ display: none; }	.general14Tarjeta5{ display: none; }	.general14Tarjeta6{ display: none; }	.general14Tarjeta7{ display: none; }
+.general15Tarjeta1{ display: none; }	.general15Tarjeta2{ display: none; }	.general15Tarjeta3{ display: none; }	.general15Tarjeta4{ display: none; }	.general15Tarjeta5{ display: none; }	.general15Tarjeta6{ display: none; }	.general15Tarjeta7{ display: none; }
+.general16Tarjeta1{ display: none; }	.general16Tarjeta2{ display: none; }	.general16Tarjeta3{ display: none; }	.general16Tarjeta4{ display: none; }	.general16Tarjeta5{ display: none; }	.general16Tarjeta6{ display: none; }	.general16Tarjeta7{ display: none; }
+.general17Tarjeta1{ display: none; }	.general17Tarjeta2{ display: none; }	.general17Tarjeta3{ display: none; }	.general17Tarjeta4{ display: none; }	.general17Tarjeta5{ display: none; }	.general17Tarjeta6{ display: none; }	.general17Tarjeta7{ display: none; }
+.general18Tarjeta1{ display: none; }	.general18Tarjeta2{ display: none; }	.general18Tarjeta3{ display: none; }	.general18Tarjeta4{ display: none; }	.general18Tarjeta5{ display: none; }	.general18Tarjeta6{ display: none; }	.general18Tarjeta7{ display: none; }
+.general19Tarjeta1{ display: none; }	.general19Tarjeta2{ display: none; }	.general19Tarjeta3{ display: none; }	.general19Tarjeta4{ display: none; }	.general19Tarjeta5{ display: none; }	.general19Tarjeta6{ display: none; }	.general19Tarjeta7{ display: none; }
+.general20Tarjeta1{ display: none; }	.general20Tarjeta2{ display: none; }	.general20Tarjeta3{ display: none; }	.general20Tarjeta4{ display: none; }	.general20Tarjeta5{ display: none; }	.general20Tarjeta6{ display: none; }	.general20Tarjeta7{ display: none; }
+.general21Tarjeta1{ display: none; }	.general21Tarjeta2{ display: none; }	.general21Tarjeta3{ display: none; }	.general21Tarjeta4{ display: none; }	.general21Tarjeta5{ display: none; }	.general21Tarjeta6{ display: none; }	.general21Tarjeta7{ display: none; }

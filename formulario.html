@@ -1,0 +1,165 @@
+<?php
+ include 'process.php';
+?>
+<html>
+    <head>
+         <meta http-equiv="X-UA-Compatible" name="viewport" content="initial-scale = 1.0"/>
+        <title>Cirugy</title>
+        
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/estilosIndex.css" rel="stylesheet">
+        <link href="css/estilosMembresia.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-faded navMenu">
+          <a class="navbar-brand" href="index.html"><img src="assets/logo_principal.png" width="200rem"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="mainNavBar">
+            <ul class="navbar-nav ml-auto mr-1">
+                
+                <li class="nav-item navIcon">
+                    <a class="nav-link" href="#"><img src="assets/social/youtube.png" width="25"></a>
+                </li>
+                <li class="nav-item navIcon2">
+                    <a class="nav-link" href="#"><img src="assets/social/facebook.png" width="25"></a>
+                </li>
+                <li class="nav-item navIcon3">
+                    <a class="nav-link" href="#"><img src="assets/social/instagram.png" width="25"></a>
+                </li>
+                <li class="nav-item navIcon4">
+                    <a class="nav-link" href="#"><img src="assets/social/tweeter.png" width="25"></a>
+                </li>
+                
+                <ul class="navbar-nav ml-auto mr-1 subNav">
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Bienvenido</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#quienesSomos">Quienes somos</a>
+                  </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="cotizador_enlinea.html">Cotizador en Linea</a>
+                  </li> 
+                  <li class="nav-item">
+                    <div class="dropdown">
+                      <button class="btn dropdown-toggle nav-link" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Tu membres&iacute;a
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Conoce m&aacute;s</a>
+                          <a class="dropdown-item" href="https://quirurgy.com.5678.com.mx/sample_pay/index.php">Paga tu membres&iacute;a</a>
+                      </div>
+                    </div>  
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>    
+
+                  <li class="nav-item active">
+                    <a class="nav-link" href="formulario.html">Contacto<span class="sr-only">(current)</span></a>
+                  </li>     
+                </ul>
+            </ul>
+          </div>
+        </nav>
+        
+        <img src="assets/formulario/formulario_dise%C3%B1o_fondo.png" class="imgContactoFondo">
+        <div class="container-fluid contenedorPrincipal">
+            
+            <div class="row tituloPrincipal p-5">
+                
+                <div class="col-5">
+                    <div class="row">
+                        
+                        <div class="col-12 contenedorRegistro m-3">
+                            <p class="tituloContacto">Cont&aacute;ctenos</p>
+                            <p class="cuerpoContacto">Tlaxcala 151 piso 2, Hipodromo la Condesa, Ciudad de M&eacute;xico, C.P. 06100</p>
+                            <p class="cuerpoContacto">dr_carlosalvarez@quirurgie.com</p>
+                            <p class="cuerpoContacto">55 54 67 00 77</p>
+                        </div>
+                        
+                        <div class="col-12">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1827.9960441095475!2d-99.16959029988507!3d19.407188928221274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff6aba280fa7%3A0x1d2dd237de3ab103!2sTlaxcala%20151%2C%20Hip%C3%B3dromo%2C%20Cuauht%C3%A9moc%2C%2006100%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1sen!2smx!4v1604297646250!5m2!1sen!2smx" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="col-4 offset-2 contenedorRegistro p-3">
+                    <p class="tituloMembresia">Contacto de Membres&iacute;a</p>
+                    <p class="subTituloMembresia">Llenar los campos correctamente para poder comunicarnos con usted lo m&aacute;s pronto posbile.</p>
+                    
+                    <div class="row text-center">
+                        <div class="col-10 offset-1 py-2"><input class="inputMembresia" id="nombreMembresia" type="text" name="nombre" maxlength="100" placeholder="Nombre"></div>
+                        
+                        <div class="col-10 offset-1 py-2"><input class="inputMembresia" id="apellidoMembresia" type="text" name="apellido" maxlength="100" placeholder="Apellido"></div>
+                        
+                        <div class="col-10 offset-1 py-2"><input class="inputMembresia" id="edadMembresia" type="number" name="edad" maxlength="3" placeholder="00"></div>
+                        
+                        <div class="col-10 offset-1 py-2"><select class="inputMembresia">
+                                <option id="cirugiaMembresia" value="cirugia">Cirug&iacute;a</option>
+                                <option id="registrarMembresia" value="membresia">Membres&iacute;a</option>
+                        </select></div>
+                           
+                            <datalist id="ciudades">
+                                
+                            </datalist>
+                        <div class="col-10 offset-1 py-2"><input class="inputMembresia" id="ciudadMembresia" list="ciudades" name="ciudades" type="text" placeholder="Ciudad"></div>
+                        
+                        <div class="col-10 offset-1 py-2"><input class="inputMembresia" id="correoMembresia" type="email" name="correo" maxlength="100" placeholder="Correo"></div>
+                        
+                        <div class="col-10 offset-1 py-2"><input class="inputMembresia" id="telefonoMembresia" type="text" name="telefono" maxlength="100" placeholder="Telefono"></div>
+                        
+                        <div class="col-10 offset-1 py-3">
+                            <Button class="btn botonMembresia w-50">Enviar</Button>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+            
+        </div>
+        
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+             https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+        <!-- Add Firebase products that you want to use -->
+        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
+
+        <script>
+          // Your web app's Firebase configuration
+           var firebaseConfig = {
+            apiKey: "AIzaSyC_D0BHnm7G38iRr511mCu8ayQQSQChU1U",
+            authDomain: "membresia-quirurgie.firebaseapp.com",
+            databaseURL: "https://membresia-quirurgie.firebaseio.com",
+            projectId: "membresia-quirurgie",
+            storageBucket: "membresia-quirurgie.appspot.com",
+            messagingSenderId: "298690845595",
+            appId: "1:298690845595:web:56b8f6ec680dffb09ddf3e",
+            measurementId: "G-VZ5N8BSYFN"
+          };
+                  // Initialize Firebase
+          firebase.initializeApp(firebaseConfig);
+          firebase.analytics();
+          const auth = firebase.auth();
+          const db = firebase.database();
+        </script>
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        
+        <script src="js/scriptMembresias.js"></script>
+    </body>
+</html>

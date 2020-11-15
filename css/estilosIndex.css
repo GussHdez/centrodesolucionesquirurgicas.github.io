@@ -1,0 +1,218 @@
+.navMenu{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: white; 
+}
+
+.subNav{
+    position: fixed;
+    right: 6rem;
+}
+
+.navIcon{
+    top: 1rem;
+    position: fixed;
+    right: 13rem;
+}
+
+.navIcon2{
+    top: 1rem;
+    position: fixed;
+    right: 11rem;
+}
+
+.navIcon3{
+    top: 1rem;
+    position: fixed;
+    right: 9rem;
+}
+
+.navIcon4{
+    top: 1rem;
+    position: fixed;
+    right: 7rem;
+}
+
+.mainContent{
+    top: 1rem;
+    margin-top: 6rem;
+}
+
+.carouselImg{
+    height: 48rem;
+}
+
+.captionsHeaderCarousel{
+    position: absolute;
+    top: 5rem;
+    left: 10rem;
+}
+
+#cardCarousel{
+    margin-top: -7rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.cardBody{
+    padding: 0.5rem;
+}
+
+.card1stSection{
+    background-color: #004777;
+    border: 0px;
+    border-radius: 4px;
+    color: white;
+    font-size: 1.1rem;
+    line-height: 1.1;
+    min-height: 16rem;
+}
+
+.btnCard1stSection{
+    margin-top: 2rem;
+    border: 1px solid white;
+    color: white;
+    border-radius: 0px;
+}
+
+.card1stSection:hover{
+    background-color: #2F97C1;
+}
+
+.section2{
+    margin-top: 5rem;
+    padding-left: 10rem;
+}
+.col-4{
+    padding-left: 5rem;
+}    
+
+.btn2ndSection{
+    background-color: #2F97C1;
+    color: white;
+    border-radius: 0px;
+}
+
+.section3{
+    margin-top: 8rem;
+    padding-left: 5rem;
+    background-color: #004777;
+    height: 18rem;
+}
+
+.img3rdSection{
+    width: 12rem;
+    margin-top: -4rem;
+}
+
+.section4{
+    padding-left: 16.5rem;
+    margin-top: -14rem;
+}
+
+.cardSection4{
+    width: 17rem;
+    text-align: center;
+    border-radius: 0px;
+    border: none;
+}
+
+.mainCardSection4{
+    height: 19rem;
+}
+
+.cardImgSection3{
+    width: 11rem;
+    margin-top: -7rem;
+}
+
+.section5{
+    background-color: #D1DEDE;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    height: 18rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.bodySection5{
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.imgSection5{
+    height: 12rem;
+    margin-top: 3.5rem;
+    margin-left: 3rem;
+}
+
+.captionsLowCarousel{
+    position: absolute;
+    top: 8rem;
+    right: 5rem;
+}
+
+.btnSection5{
+    background-color: #004777;
+    color: white;
+    border-radius: 0px;
+}
+.carouselImg2{
+    height: 40rem;
+}
+.piePagina{
+    padding-top: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    width: 100%;
+}
+
+.imgFooterCol{
+    text-align: center;
+}
+
+.imgFooter{
+    width: 12rem;
+}
+
+.carousel-control-next,
+.carousel-control-prev{
+    width: 5%;
+}
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
