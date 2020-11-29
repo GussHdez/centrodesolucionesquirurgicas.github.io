@@ -1,0 +1,116 @@
+<html>
+    <head>
+         <meta http-equiv="X-UA-Compatible" name="viewport" content="initial-scale = 1.0"/>
+        <title>CSQ</title>
+        
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/estilosEncuestas.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        
+        <img src="assets/formulario/formulario_dise%C3%B1o_fondo.png" class="imgEncuestaFondo">
+        
+        <div class="container-fluid">
+            <div class="row p-5 contenedorPrincipal">
+                
+                <div class="col-12 text-center">
+                    <h3>Centro de Soluciones Quirurgicas - Encuesta</h3>
+                </div>
+                
+                <div class="col-8 offset-2 my-4 contenedorSecundario">
+
+                    <div class="col-10 m-5">
+                        <span>¿Cuál es tu edad?</span><br>
+                        <select class="edadEncuesta">
+                            <option value="15-20">15-20</option>
+                            <option value="21-25">21-25</option>
+                            <option value="26-30">26-30</option>
+                            <option value="31-35">31-35</option>
+                            <option value="36-40">36-40</option>
+                            <option value="mas de 40">mas de 40</option>
+                        </select>
+                    </div>
+
+                    <div class="col-10 m-5">
+                        <span>¿Cu&aacute;nto inviertes en salud al año?</span><br>
+                        <input id="pregunta2respuesta2" type="number">
+                    </div>
+
+                    <div class="col-10 m-5">
+                        <span>¿Haz requerido invertir en una cirugía?</span><br>
+                        <select class="invertirCirugia">
+                            <option value="5000-15000">$5,000 - $15,000</option>
+                            <option value="15100-35000">$15,100 - $35,000</option>
+                            <option value="mas de 35000">mas de $35,000</option>
+                        </select>
+                    </div>
+
+                    <div class="col-10 m-5">
+                        <span>¿Tienes alg&uacute;n seguro de gastos m&eacute;dicos mayores?</span><br>
+                        <input id="si" name="pregunta5radio" type="radio" value="si">
+                        <label for="si">S&iacute;</label>
+                        <input id="no" name="pregunta5radio" type="radio" value="no">
+                        <label for="no">No</label>
+                        
+                        <br>
+                        <div class="anexoP5">
+                            <span>¿Cu&aacute;l?</span><br>
+                            <input id="anexoPregunta5" type="text">
+                        </div>
+                    </div>
+                    
+                    <div class="col-10 m-5">
+                        <span>¿Necesitas una cirgu&iacute;a o conoces a alguien que la necesite?</span><br>
+                        <input id="si6" name="pregunta6radio" type="radio" value="si">
+                        <label for="si">S&iacute;</label>
+                        <input id="no6" name="pregunta6radio" type="radio" value="no">
+                        <label for="no">No</label>
+                        
+                        <div class="anexoP6">
+                            <span>¿Cu&aacute;l?</span><br>
+                            <input id="anexoPregunta6" type="text">
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+        
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        
+        
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+             https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+        <!-- Add Firebase products that you want to use -->
+        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
+
+        <script>
+          // Your web app's Firebase configuration
+           var firebaseConfig = {
+            apiKey: "AIzaSyC_D0BHnm7G38iRr511mCu8ayQQSQChU1U",
+            authDomain: "membresia-quirurgie.firebaseapp.com",
+            databaseURL: "https://membresia-quirurgie.firebaseio.com",
+            projectId: "membresia-quirurgie",
+            storageBucket: "membresia-quirurgie.appspot.com",
+            messagingSenderId: "298690845595",
+            appId: "1:298690845595:web:56b8f6ec680dffb09ddf3e",
+            measurementId: "G-VZ5N8BSYFN"
+          };
+                  // Initialize Firebase
+          firebase.initializeApp(firebaseConfig);
+          firebase.analytics();
+          const auth = firebase.auth();
+          const db = firebase.database();
+        </script>
+    </body>
+    
+</html>
