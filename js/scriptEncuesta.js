@@ -66,8 +66,12 @@ $('.btnEnviar').on('click', function() {
     console.log(ciudadPregunta7);
     console.log(tarjetaPregunta7);
     
-    function writeUserData(userId) {
+    writeUserData();
+});
+
+function writeUserData() {
         var id = uniqId();
+        console.log(id);
         db.ref('encuestas/' + id).set({
          p1: edad,
          p2: inversion,
@@ -83,5 +87,3 @@ $('.btnEnviar').on('click', function() {
         
         alert('Gracias por tomarse el tiempo para contestar este breve cuestionario!');
     }
-    
-});
