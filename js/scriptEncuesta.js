@@ -49,9 +49,14 @@ $('.btnNo').on('click', function() {
     console.log(inversion);
     console.log(seguro);
     console.log(r6);
+    
+    writeUserData();
 });
 
 $('.btnSi').on('click', function() {
+    inversion = $('#pregunta2respuesta2').val();
+    seguro = $('input[name="pregunta5radio"]:checked').val();
+    r6 += " , mail:" + $('#anexoCorreoPregunta6').val() + " , whatsapp:" + $('#anexoWhatsPregunta6').val();
     $('.formularioAnexoPregunta7').css('display','block');
 })
 
@@ -65,6 +70,9 @@ $('.btnEnviar').on('click', function() {
     console.log(mailPregunta7);
     console.log(ciudadPregunta7);
     console.log(tarjetaPregunta7);
+    console.log(inversion);
+    console.log(seguro);
+    console.log(r6);
     
     writeUserData();
 });
