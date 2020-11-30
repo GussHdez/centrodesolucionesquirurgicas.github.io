@@ -15,8 +15,9 @@ body{
     height: 100%;
     -webkit-box-shadow: 0px 0px 3px 1px rgba(77,76,77,1);
     -moz-box-shadow: 0px 0px 3px 1px rgba(77,76,77,1);
-    box-shadow: 0px 0px 3px 1px rgba(77,76,77,1);
-    background: rgba(225, 225, 225, 0.5);
+    box-shadow: 0px 0px 3px 1px rgba(77,76,77,0.3);
+    background: rgba(225, 225, 225, 0.3);
+    border-radius: 8px;
 }
 
 .imgEncuestaFondo{
@@ -24,9 +25,66 @@ body{
     height: 100%;
     z-index: 0;
     position: absolute;
+    background-image: url(fondo_web.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.anexoP5{
+    display: none;
+}
+
+.anexoP6{
+    display: none;
+}
+
+.formularioAnexoPregunta7{
+    display: none;
+}
+
+.inputStyles{
+    border-radius: 8px;
+    border: none;
+    padding: 0.3rem;
+}
+
+.textAnexo7{
+    width: 75%;
+    border-radius: 8px;
+    border: none;
+    padding: 0.3rem;
+}
+
+.btnNo{
+    background-color: aqua;
+    padding: 1rem;
+}
+
+.btnSi{
+    background-color: lightcyan;
+    padding: 1rem;
+}
+
+.btnEnviar{
+    background-color: dodgerblue;
+    padding: 1rem;
 }
 
 ::-webkit-scrollbar {
     width: 0px;  /* Remove scrollbar space */
     background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+@media screen and (max-width: 600px) {
+    .imgEncuestaFondo{
+        background-image: url(Fondo_encuesta.png);
+    }
+    
+    .contenedorSecundario{
+        margin-left: 0%;
+    }
+    
+    .textAnexo7{
+        width: 90%;
+    }
 }
