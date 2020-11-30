@@ -1,6 +1,7 @@
 <html>
     <head>
-         <meta http-equiv="X-UA-Compatible" name="viewport" content="initial-scale = 1.0"/>
+        <meta http-equiv="X-UA-Compatible" name="viewport" content="initial-scale = 1.0"/>
+        <meta charset="UTF-8">
         <title>CSQ</title>
         
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
@@ -9,40 +10,34 @@
     
     <body>
         
-        <img src="assets/formulario/formulario_dise%C3%B1o_fondo.png" class="imgEncuestaFondo">
-        
-        <div class="container-fluid">
+        <div class="container-fluid imgEncuestaFondo">
             <div class="row p-5 contenedorPrincipal">
                 
-                <div class="col-12 text-center">
-                    <h3>Centro de Soluciones Quirurgicas - Encuesta</h3>
-                </div>
-                
-                <div class="col-8 offset-2 my-4 contenedorSecundario">
+                <div class="col-md-8 col-xs-10 offset-2 my-1 contenedorSecundario">
 
                     <div class="col-10 m-5">
-                        <span>¿Cuál es tu edad?</span><br>
-                        <select class="edadEncuesta">
+                        <span>¿Cu&aacute;l es tu edad?</span><br>
+                        <select class="edadEncuesta inputStyles" required>
                             <option value="15-20">15-20</option>
                             <option value="21-25">21-25</option>
                             <option value="26-30">26-30</option>
                             <option value="31-35">31-35</option>
                             <option value="36-40">36-40</option>
-                            <option value="mas de 40">mas de 40</option>
+                            <option value="mas de 40">m&aacute;s de 40</option>
                         </select>
                     </div>
 
                     <div class="col-10 m-5">
                         <span>¿Cu&aacute;nto inviertes en salud al año?</span><br>
-                        <input id="pregunta2respuesta2" type="number">
+                        <input id="pregunta2respuesta2" class="inputStyles" type="number" required>
                     </div>
 
                     <div class="col-10 m-5">
-                        <span>¿Haz requerido invertir en una cirugía?</span><br>
-                        <select class="invertirCirugia">
+                        <span>¿Cu&aacute;nto haz requerido invertir en una cirugía?</span><br>
+                        <select class="invertirCirugia inputStyles" required>
                             <option value="5000-15000">$5,000 - $15,000</option>
                             <option value="15100-35000">$15,100 - $35,000</option>
-                            <option value="mas de 35000">mas de $35,000</option>
+                            <option value="mas de 35000">m&aacute;s de $35,000</option>
                         </select>
                     </div>
 
@@ -56,7 +51,7 @@
                         <br>
                         <div class="anexoP5">
                             <span>¿Cu&aacute;l?</span><br>
-                            <input id="anexoPregunta5" type="text">
+                            <input id="anexoPregunta5" class="inputStyles" type="text" required>
                         </div>
                     </div>
                     
@@ -68,10 +63,109 @@
                         <label for="no">No</label>
                         
                         <div class="anexoP6">
-                            <span>¿Cu&aacute;l?</span><br>
-                            <input id="anexoPregunta6" type="text">
+                            <br>
+                            <span>D&eacute;janos contactarte</span><br>
+                            <div class="row">
+                                <div class="col-3 text-right">
+                                    <span>E-mail: </span>
+                                </div>
+                                
+                                <div class="col-6">
+                                    <input id="anexoCorreoPregunta6" class="inputStyles" type="text" required>
+                                </div>
+                            </div>
+                            
+                            <div class="row my-2">
+                                <div class="col-3 text-right">
+                                    <span>Whats App: </span>
+                                </div>
+                                
+                                <div class="col-6">
+                                    <input id="anexoWhatsPregunta6" class="inputStyles" type="tel" required>
+                                </div>
+                            </div> 
+                            
                         </div>
                     </div>
+                    
+                    <div class="col-10 m-5">
+                        <span>Te gustar&iacute;a tener acceso a una membres&iacute;a de servicios m&eacute;dicos y recibir informaci&oacute;n de la misma?</span>
+                        <div class="row p-4 text-center">
+                            <div class="col-6">
+                                <button class="btn btnNo">No, Gracias.</button>
+                            </div>
+                            
+                            <div class="col-6">
+                                <button class="btn btnSi">Si, Claro.</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-10 m-5 formularioAnexoPregunta7">
+                        <div class="row my-3">
+                            <div class="col-5 text-right">
+                                <span>Nombre:</span>
+                            </div>
+                        
+                            <div class="col-7">
+                                <input type="text" class="textAnexo7" id="anexoNombrePregunta7" required>
+                            </div>
+                            
+                        </div>
+                            
+                        <div class="row my-3">    
+                            <div class="col-5 text-right">
+                                <span>E-mail / Whatsapp:</span>
+                            </div>
+                        
+                            <div class="col-7">
+                                <input type="text" class="textAnexo7" id="anexoMailPregunta7" required>
+                            </div>
+                        
+                        </div>
+                        
+                        <div class="row my-3">       
+                            <div class="col-5 text-right">
+                                <span>Ingresos:</span>
+                            </div>
+                        
+                            <div class="col-7">
+                                <select class="textAnexo7 anexoIngresosPregunta7" required>
+                                    <option value="0-5000">menos de $5,000</option>
+                                    <option value="5100-10000">$5,100 - $10,000</option>
+                                    <option value="10100-20000">$10,100 - $20,000</option>
+                                    <option value="20100-30000">$20,100 - $30,000</option>
+                                    <option value="mas de 30000">m&aacute;s de $30,000</option>
+                                </select>
+                            </div>
+                        </div>    
+                            
+                        <div class="row my-3">
+                            <div class="col-5 text-right">
+                                <span>¿En qu&eacute; ciudad radicas?</span>
+                            </div>
+                            
+                            <div class="col-7">
+                                <input type="text" class="textAnexo7" id="anexoCiudadPregunta7" required>
+                            </div>
+                        </div>    
+                            
+                        <div class="row my-3">
+                            <div class="col-5 text-right">
+                                <span>¿Maneja alguna tarjeta de cr&eacute;dito?</span>
+                            </div>
+                            
+                            <div class="col-7">
+                                <input type="text" class="textAnexo7" id="anexoTarjetaPregunta7" required>
+                            </div>
+                        </div>
+                        
+                        <div class="col-10 m-5 text-center">
+                            <button class="btn btnEnviar">Enviar</button>
+                        </div>
+                        
+                    </div>
+                    
                 </div>
                
             </div>
@@ -111,6 +205,8 @@
           const auth = firebase.auth();
           const db = firebase.database();
         </script>
+        
+        <script src="js/scriptEncuesta.js"></script>
     </body>
     
 </html>
