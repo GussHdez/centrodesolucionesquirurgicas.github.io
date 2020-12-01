@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head> 
+        <meta http-equiv="X-UA-Compatible" name="viewport" content="initial-scale = 1.0"/>
 		<meta charset="utf-8"/>
 		<title>Cotizador</title>
 	<meta name="description" content="Cirugias Especializadas"/>
@@ -16,7 +17,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-light bg-faded navMenu">
           <a class="navbar-brand" href="index.html"><img src="assets/logo_principal.png" width="200rem"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavBar" aria-controls="mainNavBar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
@@ -71,14 +72,13 @@
           </div>
         </nav>
         
-        <img src="assets/fondo_cotizador.png" class="imgCotizadorFondo">
-            <div class="container" style="padding-top: 8rem; margin-bottom: 4rem;">
+            <div class="container imgCotizadorFondo" style="padding-top: 8rem; margin-bottom: 4rem;">
                 <div class="row">
                     <div class="col-12 text-center">
                         <h2 class="tituloPrincipal">Cotiza tu cirug&iacute;a</h2>
                     </div>
                     
-                    <div class="col-6">
+                    <div class="col-md-6 col xs-12">
                         <p class="tituloPrincipal">Escoge una categor&iacute;a</p>
                         
                         <select id="categoria">
@@ -96,7 +96,7 @@
                         </select>
                     </div> 
                     
-                    <div class="col-6" id="cirugias">
+                    <div class="col-md-6 col-xs-12" id="cirugias">
                         <p class="tituloPrincipal">Escoge una cirug&iacute;a</p>
                         
                         <select id="SubPlastica">
