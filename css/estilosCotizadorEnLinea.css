@@ -22,13 +22,17 @@ body{
 }
 
 .imgCotizadorFondo{
-    width: 100%;
-    height: auto;
+    min-width: 100%;
+    height: 100%;
+    z-index: 0;
     position: absolute;
+    background-image: url(fondo_cotizador.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .piePagina{
-    position: relative !important;
+    position: absolute !important;
     bottom: 0 !important;
     z-index: 1 !important;
     width: 100% !important;
@@ -50,6 +54,37 @@ body{
 
 .tarjetasPagoCard{
     padding: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+    .imgCotizadorFondo{
+        background-image: url(Fondo_encuesta.png);
+    }
+    
+    .piePagina{
+        display: none;
+    }
+    
+    .subNav{
+        background-color: white;
+        padding: 1rem;
+    }
+    
+    .navIcon{
+        right: 15rem !important;
+    }
+
+    .navIcon2{
+        right: 13rem !important;
+    }
+
+    .navIcon3{
+        right: 11rem !important;
+    }
+
+    .navIcon4{
+        right: 9rem !important;
+    }
 }
 
 

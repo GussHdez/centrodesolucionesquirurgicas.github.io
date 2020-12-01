@@ -216,3 +216,22 @@
 .carousel-inner .carousel-item-left{ 
   transform: translateX(0);
 }
+
+@media screen and (max-width: 600) {
+    
+    .navIcon{
+        right: 15rem !important;
+    }
+
+    .navIcon2{
+        right: 13rem !important;
+    }
+
+    .navIcon3{
+        right: 11rem !important;
+    }
+
+    .navIcon4{
+        right: 9rem !important;
+    }
+}
