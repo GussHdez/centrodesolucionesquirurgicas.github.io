@@ -294,4 +294,12 @@
         height: 35rem;
      }
     
+    .captionsLowCarousel {
+        top: 3rem;
+        right: -2rem;
+    }
+    
+    footer{
+        display: none;
+    }
 }
