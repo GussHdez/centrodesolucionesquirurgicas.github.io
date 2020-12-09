@@ -243,4 +243,8 @@
     .mainContent{
         width: 44rem;
     }
+    
+    .carouselImg {
+        height: 30rem;
+    }
 }
