@@ -258,16 +258,40 @@
         width: 17rem;
     }
     
+    .section4 {
+        padding-left: 10.5rem;
+    }
+    
+    .mainCardSection4 {
+        height: 25rem;
+    }
+    
+    .cardSection4 {
+        width: 25rem;
+    }
+    
+    .cardSection4 .card-body p {
+        font-size: 20px;
+    }
+    
     .iconSection5{
         height: 35px;
     }
     
     .section5 {
-        height: 46rem;
+        height: 50rem;
+    }
+    
+    .bodySection5 p {
+        font-size: 20px;
     }
     
     .imgSection5 {
         margin-left: 8rem;
     }
+    
+    .carouselImg2{
+        height: 35rem;
+     }
     
 }
