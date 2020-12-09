@@ -235,4 +235,12 @@
     .navIcon4{
         right: 9rem !important;
     }
+    
+    .navMenu{
+        width: 81%;
+    }
+    
+    .mainContent{
+        width: 44rem;
+    }
 }
