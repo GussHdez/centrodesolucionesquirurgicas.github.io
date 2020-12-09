@@ -152,6 +152,10 @@
     margin-left: 3rem;
 }
 
+.iconSection5{
+    height: 60px;
+}
+
 .captionsLowCarousel{
     position: absolute;
     top: 8rem;
@@ -253,4 +257,9 @@
     .captionCarousel{
         width: 17rem;
     }
+    
+    .iconSection5{
+        height: 35px;
+    }
+    
 }
