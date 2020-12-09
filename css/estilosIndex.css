@@ -85,6 +85,7 @@
 }
 
 .section2{
+    display: none;
     margin-top: 5rem;
     padding-left: 10rem;
 }
