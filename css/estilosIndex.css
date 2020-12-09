@@ -294,9 +294,24 @@
         height: 35rem;
      }
     
+    #lowCarousel {
+        width: 100%;
+    }
+    
     .captionsLowCarousel {
         top: 3rem;
-        right: -2rem;
+        right: 2rem;
+        width: 92%;
+    }
+    
+    .captionsLowCarousel p {
+        font-size: 24px;
+        padding-right: 4rem;
+    }
+    
+    .btnSection5 {
+        font-size: 24px;
+        padding: 1rem;
     }
     
     footer{
