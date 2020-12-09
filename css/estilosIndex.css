@@ -43,7 +43,7 @@
 }
 
 .carouselImg{
-    height: 48rem;
+    height: 40rem;
 }
 
 .captionsHeaderCarousel{
@@ -53,17 +53,18 @@
 }
 
 #cardCarousel{
-    margin-top: -7rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-top: -10rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
 }
 
 .cardBody{
-    padding: 0.5rem;
+    padding: 2rem;
+    height: 30rem;
 }
 
 .card1stSection{
-    background-color: #004777;
+    background-color: #7A93DC;
     border: 0px;
     border-radius: 4px;
     color: white;
