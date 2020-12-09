@@ -247,4 +247,13 @@
     .carouselImg {
         height: 30rem;
     }
+    
+    .captionsHeaderCarousel {
+        top: 2rem;
+        left: 5rem;
+    }
+    
+    .captionCarousel{
+        width: 17rem;
+    }
 }
