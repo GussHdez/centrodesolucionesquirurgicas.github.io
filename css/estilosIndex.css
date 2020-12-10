@@ -61,6 +61,12 @@
 .cardBody{
     padding: 2rem;
     height: 30rem;
+    text-align: center;
+}
+
+.imgCard1stSection1{
+    position: relative;
+    z-index: 1;
 }
 
 .card1stSection{
@@ -71,6 +77,8 @@
     font-size: 1.1rem;
     line-height: 1.1;
     min-height: 16rem;
+    text-align: center;
+    margin-top: -30%;
 }
 
 .btnCard1stSection{
