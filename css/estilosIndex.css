@@ -70,7 +70,6 @@
 }
 
 .card1stSection{
-    background-color: #7A93DC;
     border: 0px;
     border-radius: 4px;
     color: white;
@@ -86,11 +85,13 @@
     border: 1px solid white;
     color: white;
     border-radius: 0px;
+    z-index: 3;
 }
-
+/*
 .card1stSection:hover{
     background-color: #2F97C1;
 }
+*/
 
 .section2{
     display: none;
