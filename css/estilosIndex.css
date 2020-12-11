@@ -49,7 +49,7 @@
 
 .captionsHeaderCarousel{
     position: absolute;
-    top: 5rem;
+    top:-5rem;
     left: 10rem;
 }
 
