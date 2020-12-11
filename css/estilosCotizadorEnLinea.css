@@ -39,6 +39,14 @@ body{
     background-color: white !important;
 }
 
+#categoria{
+    max-width: 100%;
+}
+
+#cirugias select {
+    max-width: 100%;
+}
+
 .plastica{
     display: none;
 }
