@@ -68,6 +68,7 @@
 .imgCard1stSection1{
     position: relative;
     z-index: 1;
+    max-width: 100%;
 }
 
 .card1stSection{
@@ -82,11 +83,16 @@
 }
 
 .btnCard1stSection{
-    margin-top: 2rem;
+    margin-top: 1rem;
     color: white;
     border-radius: 0px;
     z-index: 3;
 }
+
+.btnCard1stSection img {
+    max-width: 100%;
+}
+
 /*
 .card1stSection:hover{
     background-color: #2F97C1;
