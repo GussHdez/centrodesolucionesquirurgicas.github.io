@@ -2,10 +2,11 @@
     padding-top: 8rem;
 }
 
-.imgContactoFondo{
+.imgContactoFondo {
     width: 100%;
     height: auto;
     position: absolute;
+    margin-top: 5%;
 }
 
 .contenedorRegistro{
