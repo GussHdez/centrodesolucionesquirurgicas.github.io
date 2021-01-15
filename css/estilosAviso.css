@@ -1,0 +1,18 @@
+.contenedorPrincipal{
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.headerAviso{
+    font-weight: bold;
+    text-align: justify;
+}
+
+.parrafoAviso{
+    text-align: justify;
+}
+
+li::marker {
+    font-weight: bold;
+}
