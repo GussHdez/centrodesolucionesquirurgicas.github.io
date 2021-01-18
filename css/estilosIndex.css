@@ -297,6 +297,10 @@ a{
         width: 17rem;
     }
     
+    #cardCarousel{
+        margin-top: 0rem;
+    }
+    
     .btnCard1stSection {
         margin-top: 5rem;
     }
