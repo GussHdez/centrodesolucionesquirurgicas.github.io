@@ -192,7 +192,7 @@ a{
 }
 
 .footerLandscape{
-    display: block;
+    display: flex;
 }
     
 .footerPortrait{
@@ -362,7 +362,7 @@ a{
     }
     
     .footerPortrait{
-        display: block;
+        display: flex;
     }
     
     .footerPortrait .col-12 a{
