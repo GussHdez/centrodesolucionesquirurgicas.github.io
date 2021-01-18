@@ -190,6 +190,15 @@ a{
 .carouselImg2{
     height: 40rem;
 }
+
+.footerLandscape{
+    display: block;
+}
+    
+.footerPortrait{
+    display: none;
+}
+    
 .piePagina{
     padding-top: 2rem;
     padding-left: 2rem;
