@@ -15,7 +15,7 @@
                 
                 <div class="col-md-8 col-xs-10 offset-2 my-1 contenedorSecundario">
 
-                    <div class="col-10 my-5">
+                    <div class="col-10 my-5 p1">
                         <span>¿Cu&aacute;l es tu edad?</span><br>
                         <select class="edadEncuesta inputStyles" required>
                             <option value="option">Escoja una opci&oacute;n</option>
@@ -28,12 +28,17 @@
                         </select>
                     </div>
 
-                    <div class="col-10 my-5">
+                    <div class="col-10 my-5 p2">
                         <span>¿Cu&aacute;nto inviertes en salud al año?</span><br>
-                        <input id="pregunta2respuesta2" class="inputStyles" type="number" required>
+                        <select class="pregunta2respuesta2 invertirAnual inputStyles" required>
+                            <option value="option">Escoja una opci&oacute;n</option>
+                            <option value="5000-15000">$5,000 - $15,000</option>
+                            <option value="15100-35000">$15,100 - $35,000</option>
+                            <option value="mas de 35000">m&aacute;s de $35,000</option>
+                        </select>
                     </div>
 
-                    <div class="col-10 my-5">
+                    <div class="col-10 my-5 p3">
                         <span>¿Cu&aacute;nto haz requerido invertir en una cirugía?</span><br>
                         <select class="invertirCirugia inputStyles" required>
                             <option value="option">Escoja una opci&oacute;n</option>
@@ -43,7 +48,7 @@
                         </select>
                     </div>
 
-                    <div class="col-10 my-5">
+                    <div class="col-10 my-5 p4">
                         <span>¿Tienes alg&uacute;n seguro de gastos m&eacute;dicos mayores?</span><br>
                         <input id="si" name="pregunta5radio" type="radio" value="si">
                         <label for="si">S&iacute;</label>
@@ -57,7 +62,7 @@
                         </div>
                     </div>
                     
-                    <div class="col-10 my-5">
+                    <div class="col-10 my-5 p5">
                         <span>¿Necesitas una cirgu&iacute;a o conoces a alguien que la necesite?</span><br>
                         <input id="si6" name="pregunta6radio" type="radio" value="si">
                         <label for="si">S&iacute;</label>
@@ -90,7 +95,7 @@
                         </div>
                     </div>
                     
-                    <div class="col-10 my-5">
+                    <div class="col-10 my-5 p6">
                         <span>Te gustar&iacute;a tener acceso a una membres&iacute;a de servicios m&eacute;dicos y recibir informaci&oacute;n de la misma?</span>
                         <div class="row p-4 text-center">
                             <div class="col-6">
@@ -104,7 +109,7 @@
                     </div>
                     
                     <div class="col-10 my-5 formularioAnexoPregunta7">
-                        <div class="row my-3">
+                        <div class="row my-3 p7">
                             <div class="col-md-5 col-xs-12">
                                 <span>Nombre:</span>
                             </div>
@@ -115,18 +120,29 @@
                             
                         </div>
                             
-                        <div class="row my-3">    
+                        <div class="row my-3 p8">    
                             <div class="col-md-5 col-xs-12">
-                                <span>E-mail / Whatsapp:</span>
+                                <span>E-mail:</span>
                             </div>
                         
                             <div class="col-md-7 col-xs-12">
-                                <input type="text" class="textAnexo7" id="anexoMailPregunta7" required>
+                                <input type="text" class="textAnexo7" id="anexoMailPregunta8" required>
                             </div>
                         
                         </div>
                         
-                        <div class="row my-3">       
+                        <div class="row my-3 p9">    
+                            <div class="col-md-5 col-xs-12">
+                                <span>Whatsapp:</span>
+                            </div>
+                        
+                            <div class="col-md-7 col-xs-12">
+                                <input type="text" class="textAnexo7" id="anexoWhatsPregunta9" required>
+                            </div>
+                        
+                        </div>
+                        
+                        <div class="row my-3 p10">       
                             <div class="col-md-5 col-xs-12">
                                 <span>Ingresos:</span>
                             </div>
@@ -143,7 +159,7 @@
                             </div>
                         </div>    
                             
-                        <div class="row my-3">
+                        <div class="row my-3 p11">
                             <div class="col-md-5 col-xs-12">
                                 <span>¿En qu&eacute; ciudad radicas?</span>
                             </div>
@@ -153,17 +169,18 @@
                             </div>
                         </div>    
                             
-                        <div class="row my-3">
+                        <div class="row my-3 p12">
                             <div class="col-md-5 col-xs-12">
                                 <span>¿Maneja alguna tarjeta de cr&eacute;dito?</span>
-                            </div>
-                            
-                            <div class="col-md-7 col-xs-12">
-                                <input type="text" class="textAnexo7" id="anexoTarjetaPregunta7" required>
+                                <input id="si12" name="pregunta12radio" type="radio" value="si">
+                                <label for="si12">S&iacute;</label>
+                                <input id="no12" name="pregunta12radio" type="radio" value="no">
+                                <label for="no12">No</label>
+
                             </div>
                         </div>
                         
-                        <div class="col-10 my-5 text-center">
+                        <div class="col-10 my-5 text-center p13">
                             <button class="btn btnEnviar">Enviar</button>
                         </div>
                         
