@@ -23,7 +23,7 @@ body{
 
 .imgCotizadorFondo{
     min-width: 100%;
-    height: auto;
+    min-height: 100%
     z-index: 0;
     position: absolute;
     background-image: url(fondo_cotizador.png);
@@ -32,7 +32,7 @@ body{
 }
 
 .piePagina{
-    position: absolute !important;
+    position: fixed;
     bottom: 0 !important;
     z-index: 1 !important;
     width: 100% !important;
