@@ -101,328 +101,327 @@
                     <div class="pipedriveWebForms" data-pd-webforms="https://webforms.pipedrive.com/f/1rpEStb2lkCPS22DtNieE7pMhERX8fmhqGECE4Ijn94BLDyHSfOg8snazZyQYZbJ9"><script src="https://webforms.pipedrive.com/f/loader"></script></div>
                 </div>
 
-                <div class="col-12 py-4 text-center seccionPaso2">
-                    <div class="col-md-6 col xs-12">
-                        <p class="tituloPrincipal">Elija una categor&iacute;a</p>
+                <div class="col-12 p-4 text-center seccionPaso2">
+                    <div class="row w-100">
+                        <div class="col-md-6 col xs-12 pt-5">
+                            
+                            <select id="categoria">
+                                <option value="">Selecciona la especialidad</option>
+                                <option value="Plastica">CIRUG&Iacute;A PL&Aacute;STICA</option>
+                                <option value="Obstetrica">CIRUG&Iacute;A GINECOL&Oacute;GICA &amp; OBSTETRICA</option>
+                                <option value="Recto">CIRUG&Iacute;A DE COLON &amp; RECTO</option> 
+                                <option value="Bariatrica">CIRUG&Iacute;A BARI&Aacute;TRICA</option>
+                                <option value="Oncologica">CIRUG&Iacute;A ONCOL&Oacute;GICA</option>
+                                <option value="Urologica">CIRUG&Iacute;A UROL&Oacute;GICA</option>
+                                <option value="Cabeza">CIRUG&Iacute;A DE CABEZA Y CUELLO</option>
+                                <option value="Paliativos">CL&Iacute;NICA DE DOLOR Y CUIDADOS PALIATIVOS</option>
+                                <option value="Vascular">CIRUG&Iacute;A VASCULAR</option>
+                                <option value="General">CIRUG&Iacute;A GENERAL</option>
+                            </select>
+                        </div> 
                         
-                        <select id="categoria">
-                            <option value="">Seleccione una opci&oacute;n</option>
-                            <option value="Plastica">CIRUG&Iacute;A PL&Aacute;STICA</option>
-                            <option value="Obstetrica">CIRUG&Iacute;A GINECOL&Oacute;GICA &amp; OBSTETRICA</option>
-                            <option value="Recto">CIRUG&Iacute;A DE COLON &amp; RECTO</option> 
-                            <option value="Bariatrica">CIRUG&Iacute;A BARI&Aacute;TRICA</option>
-                            <option value="Oncologica">CIRUG&Iacute;A ONCOL&Oacute;GICA</option>
-                            <option value="Urologica">CIRUG&Iacute;A UROL&Oacute;GICA</option>
-                            <option value="Cabeza">CIRUG&Iacute;A DE CABEZA Y CUELLO</option>
-                            <option value="Paliativos">CL&Iacute;NICA DE DOLOR Y CUIDADOS PALIATIVOS</option>
-                            <option value="Vascular">CIRUG&Iacute;A VASCULAR</option>
-                            <option value="General">CIRUG&Iacute;A GENERAL</option>
-                        </select>
-                    </div> 
-                    
-                    <div class="col-md-6 col-xs-12" id="cirugias">
-                        <p class="tituloPrincipal">Elija una cirug&iacute;a</p>
-                        
-                        <select id="SubPlastica">
-                            <option value="">Seleccione una opci&oacute;n</option>
-                            <option value="plastica1">AUMENTO CON IMPLANTES</option>
-                            <option value="plastica2">RINOPLAST&Iacute;A</option>
-                            <option value="plastica3">ABDOMINOPLASTÍA + LIPOSUCCIÓN + IMPLANTES DE MAMA</option>
-                            <option value="plastica4">BICHECTOM&Iacute;A</option>
-                            <option value="plastica5">BOTOX CARA  Y CUELLO</option>
-                            <option value="plastica6">TATUAJES, CICATRICES, LUNARES menor de 1cm (Local)</option>
-                            <option value="plastica7">TATUAJES, CICATRICES, LUNARES de entre 1cm a 4cm (Local)</option>
-                            <option value="plastica8">TATUAJES, CICATRICES, LUNARES de entre 4cm a 8cm (Local)</option>
-                            <option value="plastica9">TATUAJES, CICATRICES, LUNARES mayor de 8cm (Local + Sedaci&oacute;n)</option>
-                            <option value="plastica10">S&Iacute;NDROME DEL T&Uacute;NEL DEL CARPO</option>
-                            <option value="plastica11">ENFERMEDAD DE QUERVAIN</option>
-                            <option value="plastica12">TENOSINOVITIS</option>
-                            <option value="plastica13">QUISTES SINOVIALES</option>
-                            <option value="plastica14">TUMORES BENIGNOS MENORES DE 2 CMS</option>
-                            <option value="plastica15">MASTOPEXIA</option>
-                            <option value="plastica16">MASTOPEXIA + IMPLANTE</option>
-                            <option value="plastica17">MAMA DE REDUCCI&Oacute;N</option>
-                            <option value="plastica18">GINECOMASTIA</option>
-                            <option value="plastica19">RITIDECTOMÍA (TERCIO MEDIO)</option>
-                            <option value="plastica20">RITIDECTOMÍA (TERCIO SUPERIOR Y MEDIO)</option>
-                            <option value="plastica21">RITIDECTOMÍA (TERCIO SUPERIOR, MEDIA E INFERIOR)</option>
-                            <option value="plastica22">BLEFAROPLAST&Iacute;A SUPERIOR</option>
-                            <option value="plastica23">BLEFAROPLAST&Iacute;A SUPERIOR E INFERIOR</option>
-                            <option value="plastica24">BLEFAROPLAST&Iacute;A SUPERIOR + PEXIA DE CEJA</option>
-                            <option value="plastica25">OTOPLAST&Iacute;A</option>
-                            <option value="plastica26">LIPOSUCCI&Oacute;N Y /O LIPOINYECCI&Oacute;N</option>
-                            <option value="plastica27">BRAQUIPLAST&Iacute;A</option>
-                            <option value="plastica28">AUMENTO GLUTEO CON IMPLANTES</option>
-                            <option value="plastica29">ABDOMINOPLAST&Iacute;A + LIPOSUCCI&Oacute;N</option>
-                            <option value="plastica30">LIPOSUCCI&Oacute;N + IMPLANTES DE MAMA</option>
-                            <option value="plastica31">PEELING</option>
-                            <option value="plastica32">PLASMA RICO EN PLAQUETAS</option>
-                            <option value="plastica33">ÁCIDO HIALUR&Oacute;NICO</option>
-                            <option value="plastica34">IMPLANTE DE MENT&Oacute;N</option>
-                            <option value="plastica35">IMPLANTE DE P&Oacute;MULOS</option>
-                            <option value="plastica36">LIPOSUCCI&Oacute;N DE PAPADA</option>
-                        </select>
-                        
-                        <select id="SubObstetrica">
-                            <option value="">Seleccione una opci&oacute;n</option>
-                            <option value="obstetrica1">PARTO</option>
-                            <option value="obstetrica2">CEAREA</option>
-                            <option value="obstetrica3">HISTERECTOMIA ABIERTA </option>
-                            <option value="obstetrica4">SALPINGOOFORECTOIA BILATERAL </option>
-                            <option value="obstetrica5">OCLUSIÓN TUBO OVARICA</option>
-                            <option value="obstetrica6">CESAREA + OCLUSION TUBO OVARICA</option>
-                            <option value="obstetrica7">PARTO + OCLUSION TUBO OVARICCA</option>
-                            <option value="obstetrica8">SALPINGOOFORECTOMIA BILATERAL</option>
-                            <option value="obstetrica9">DREANAJE DE ABSCESO</option>
-                            <option value="obstetrica10">SALPINGOOFORECTOMIA + ETO </option>
-                            <option value="obstetrica11">HISTERECTOMIA + SOB</option>
-                            <option value="obstetrica12">HISTEROSCOPIA</option>
-                            <option value="obstetrica13">LAPAROSCOPIA DIAGNOSTICA</option>
-                            <option value="obstetrica14">HISTERECTOMIA LAPAROSCOPICA</option>
-                            <option value="obstetrica15">HISTEROSALPINGOGRAFIA</option>
-                            <option value="obstetrica16">COITO PROGRAMADO </option>
-                            <option value="obstetrica17">OOFORECTOMIA UNILATERAL O BILATERAL</option>
-                            <option value="obstetrica18">INSEMINFACION ARTIFICIAL</option>
-                        </select>
-                        
-                        <select id="SubRecto">
-                            <option value="">Seleccione una opci&oacute;n</option>
-                            <option value="recto1">HEMORROIDECTOMIA CONVENCIONAL</option>
-                            <option value="recto2">HEMORROIDECTOMIA LASER</option>
-                            <option value="recto3">FISURECTOMIA</option>
-                            <option value="recto4">HEMORROIDOPEXIA SIN DOLOR</option>
-                            <option value="recto5">FISTULOTOMIA + COLOCACION DE SETON</option>
-                            <option value="recto6">DRENAJE DE ABSCESO + CRIPTECTOMIA</option>
-                            <option value="recto7">FISTULOTOMIA SIMPLE</option>
-                            <option value="recto8">RESECCION DE COLGAJO PERIANAL</option>
-                            <option value="recto9">ESFINTEROTOMIA LATERAL INTERNA</option>
-                            <option value="recto10">ESFINTEROPLASTIA</option>
-                            <option value="recto11">AVANCE DE COLGAJO ENDOANAL</option>
-                            <option value="recto12">RESECION DE ENFERMEDAD PILODINAL</option>
-                            <option value="recto13">SIGMOIDECTOMIA ABIERTA</option>
-                            <option value="recto14">SIGMOIDECTOMIA LAPAROSCPICA</option>
-                            <option value="recto15">COLOSTOMIA</option>
-                            <option value="recto16">RESECCION  TIPO LINDBERG</option>
-                            <option value="recto17">COLECTOMIA TOTAL ABIERTA</option>
-                            <option value="recto18">COLECTOMIA TOTAL LAPAROSCOPICA</option>
-                        </select>
-                        
-                        <select id="SubBariatrica">
-                            <option value="">Seleccione una opci&oacute;n</option>
-                            <option value="bariatrica1">MANGA GASTRICA</option>
-                            <option value="bariatrica2">BYPAS GASTRICO </option>
-                            <option value="bariatrica3">COLOCACION BALON GASTRICO (SIN BALON)</option>
-                            <option value="bariatrica4">AJUSTE BALON GASTRICO (SIN BALON)</option>
-                            <option value="bariatrica5">RETIRO BALON GASTRICO (SIN BALON)</option>
-                            <option value="bariatrica6">ENDOSCOPIA DIAGNOSTICA</option>
-                        </select>
-                        
-                        <select id="SubOncologica">
-                            <option value="">Seleccione una opci&oacute;n</option>
-                            <option value="oncologica1">MASTECTOMIA SIMPLE</option>
-                            <option value="oncologica2">MASTECTOMIA SIMPLE + GANGLIO CENTIELA</option>
-                            <option value="oncologica3">MASTECTOMIA RADICAL MODIFICADA</option>
-                            <option value="oncologica4">CIRUGIA ETAPIFICADORA ENDOMETRIO</option>
-                            <option value="oncologica5">CIRUGIA ETAPFICADORA OVARIO</option>
-                            <option value="oncologica6">HISTERECTOMIA RADICAL</option>
-                            <option value="oncologica7">CIRUGIA CONSERVADORA</option>
-                            <option value="oncologica8">GANGLIO CENTINELA</option>
-                            <option value="oncologica9">MASTECTOMIA + RECONSTRUCCION</option>
-                            <option value="oncologica10">LAPE + TOMA DE BIOPSA</option>
-                            <option value="oncologica11">GASTRECTOMIA TOTA + D2</option>
-                            <option value="oncologica12">GASTRECTOMIA SUBTOTAL</option>
-                            <option value="oncologica13">GASTECTOMIA PALITAVIA</option>
-                            <option value="oncologica14">GASTROYEYUNOANASTOMOSIS</option>
-                            <option value="oncologica15">ESOFGECTOMIA TRANSHIATAL</option>
-                            <option value="oncologica16">ESOFAGECTOMIA 2 CAMPOS / 3 CAMPOS</option>
-                            <option value="oncologica17">BIOPSIA PULMON</option>
-                            <option value="oncologica18">VATS</option>
-                            <option value="oncologica19">TORSCOPIA + BIOPSIA</option>
-                            <option value="oncologica20">WHIPPLE ABIERTO</option>
-                            <option value="oncologica21">PANCREATECTOMIA DISTAL</option>
-                            <option value="oncologica22">HEMICOLECTOMIA DERECHA /IZQUIERDA</option>
-                            <option value="oncologica23">COLOSTOMIA</option>
-                            <option value="oncologica24">RESECCION ANTERIOR BAJA</option>
-                            <option value="oncologica25">RESEACCION ABDOMINOPERINEAL</option>
-                            <option value="oncologica26">RESECCION INTERESFINTERICA</option>
-                            <option value="oncologica27">EXCENTERACIÓN ANTERIOR Ó POSTERIOR</option>
-                            <option value="oncologica28">EXCENTERACION TOTAL</option>
-                            <option value="oncologica29">CONDUCTO ILEAL</option>
-                            <option value="oncologica30">RESECCION MULTIORGANICA</option>
-                            <option value="oncologica31">LAPE INTERVALO / CITORREDUCCION</option>
-                            <option value="oncologica32">METASTASTASECTOMIA HEPATICA</option>
-                            <option value="oncologica33">RESECCION HEPATICA</option>
-                            <option value="oncologica34">RESECCION AMPLIA</option>
-                            <option value="oncologica35">RESECCION TUMOR RETROPERITONEAL</option>
-                            <option value="oncologica36">NEFRECTOMIA RADICAL</option>
-                            <option value="oncologica37">DESARTICULACION  PELVICA</option>
-                            <option value="oncologica38">DESARTICULACION ARTICULACION TORAXICA</option>
-                            <option value="oncologica39">RESECCION AMPLIA + DISECCION INGUINAL</option>
-                            <option value="oncologica40">DISECCION INGUINAL UNILATERAL O BILATERAL</option>
-                            <option value="oncologica41">DISECCION PARA AORTICA</option>
-                            <option value="oncologica42">DISECCION AXILAR</option>
-                            <option value="oncologica43">LOBECTOMIA</option>
-                            <option value="oncologica44">NEUMONECTOMIA</option>
-                            <option value="oncologica45">COLECISTECTOMIA RADICAL</option>
-                            <option value="oncologica46">PERFUSION AISALADA DE EXTREMIDAD</option>
-                            <option value="oncologica47">TIROIDECTOMIA TOTAL</option>
-                            <option value="oncologica48">TIROIDECTOMIA TOTAL + DC</option>
-                            <option value="oncologica49">TIROIDECTOMIA TOTAL + DC + DL</option>
-                            <option value="oncologica50">DISECCION LATERAL DE CUELLO</option>
-                        </select>
-                        
-                        <select id="SubUrologica">
-                            <option value="">Seleccione una opci&oacute;n</option>
-                            <option value="urologica1">RESECCION TRANS URETRAL PROSTATICA (RTUP)</option>
-                            <option value="urologica2">VASECTOMIA</option>
-                            <option value="urologica3">CISTOSCOPIA (SIN MATERIAL NI PATOLOGIA)</option>
-                            <option value="urologica4">RESECCION TRANSURETRAL VESICAL (RTUV)</option>
-                            <option value="urologica5">COLOCACION SONDA FOLEY INTRAHOSPITALARIA</option>
-                            <option value="urologica6">LITOTRIPSIA RIGIDA (SIN MATERIAL)</option>
-                            <option value="urologica7">NEFROLITOTRIPSIA FLEXIBLE (SIN MATERIAL)</option>
-                            <option value="urologica8">URETROTOMIA INTERNA OPTICA</option>
-                            <option value="urologica9">PROSTATECTOMIA RADICAL</option>
-                            <option value="urologica10">NEFRECTOMIA RADICAL SIMPLE ABIERTA</option>
-                            <option value="urologica11">NEFRECTOMIA RADICAL SIMPLE LAPAROSCOPICA</option>
-                            <option value="urologica12">LESION URETERAL / REIMPLANTE VESICAL </option>
-                            <option value="urologica13">DESTECHAMIENTO DE QUISTE RENAL LAPAROSCOPICO</option>
-                            <option value="urologica14">PIELOLITOTOMIA O URETEROLITOTOMIA LAPAROSCOPICA</option>
-                            <option value="urologica15">PIELOLITOTOMIA O URETEROLITOTOMIA ABIERTA</option>
-                            <option value="urologica16">VARICOCELECTOMIA</option>
-                            <option value="urologica17">HIDROCELECTOMIA</option>
-                            <option value="urologica18">ORQUIECTOMIA SIMPLE</option>
-                            <option value="urologica19">ORQUIERCTOMIA RADICAL</option>
-                            <option value="urologica20">RESECCION QUISTE DE EPIDIDIMO</option>
-                            <option value="urologica21">EPIDIDIMETOMIA</option>
-                            <option value="urologica22">VASOVASO ANASTOMOSIS</option>
-                            <option value="urologica23">PROTESIS PENEANA MALEABLE</option>
-                            <option value="urologica24">PROCEDIMIENTO BURSCH (CISTOURETROSUSPENSION)</option>
-                            <option value="urologica25">COLOCACION DE MALLA CABESTRILLO ANTI-INCONTINENCIA</option>
-                            <option value="urologica26">CIRCUNSICION</option>
-                            <option value="urologica27">DILATACION URETRAL</option>
-                            <option value="urologica28">BIOPSIA TRANSRECTAL PROSTATA</option>
-                        </select>
-                        
-                        <select id="SubCabeza">
-                            <option value="">Seleccione una opci&oacute;n</option>
-                            <option value="cabeza1">ABODAJE CERVICAL DE ESOFAGO, ESOFAGOTOMIA Y CIERRE PRIMARIO</option>
-                            <option value="cabeza2">ABORDAJE CERVICAL PARA CX DE COLUMNA CERVICAL</option>
-                            <option value="cabeza3">ABSCESO PROFUNDO DE CUELLO SIN EXTENSION MEDIASTINAL</option>
-                            <option value="cabeza4">ANASTOMOSIS CERVICAL DE ASCENSO GASTRICO</option>
-                            <option value="cabeza5">ANASTOMOSIS CERVICAL DE ASCENSO GASTRICO CON ENGRAPADORA</option>
-                            <option value="cabeza6">ANASTOMOSIS CERVICAL DE TRASPOSICION COLONICA</option>
-                            <option value="cabeza7">ANASTOMOSIS CERVICAL DE TRASPOSICION COLONICA CON ENGRAPADORA</option>
-                            <option value="cabeza8">BIOPSIA EXCISIONAL DE ADENOPATIAS</option>
-                            <option value="cabeza9">DIVERTICULECTOMIA Y MIOTOMIA DE CRICOFARINGEO</option>
-                            <option value="cabeza10">ESOFAGOSTOMA</option>
-                            <option value="cabeza11">ESTENOSIS DE ASCENSO GASTRICO O TRANSPOSICION COLONICA</option>
-                            <option value="cabeza12">FARINGOTOMIA TIPO ALONSO PARA EXTRACCION DE CUERPO EXTRAÑO</option>
-                            <option value="cabeza13">FISTULECTOMIA ESOFAGICA SIN ANASTOMOSIS CIERRE PRIMARIO</option>
-                            <option value="cabeza14">FISTULECTOMIA ESOFAGICA Y ANASTOMOSIS CERVICAL ESOFAGICA</option>
-                            <option value="cabeza15">HEMITIROIDECTOMIA </option>
-                            <option value="cabeza16">HERMITIROIDECTOMIA CON ABORDAJE AXILAR LAPAROSCOPICO</option>
-                            <option value="cabeza17">LIPOMAS DE CUELLO </option>
-                            <option value="cabeza18">LIPOMAS DE ESPACIO PARAFARINGEO</option>
-                            <option value="cabeza19">NEURINOMAS DE PLEXO CERVICAL</option>
-                            <option value="cabeza20">PARATIROIDECTOMIA SELECTIVA </option>
-                            <option value="cabeza21">PARATIROIDECTOMIA SELECTIVA  AXILAR LAPAROSCOPICO</option>
-                            <option value="cabeza22">PARATIROIDECTOMIA SUBTOTAL</option>
-                            <option value="cabeza23">PARATIROIDECTOMIA TOTAL</option>
-                            <option value="cabeza24">PAROTIDECTOMIA SUPERFICIAL CON PRESERVACION DE FACIAL</option>
-                            <option value="cabeza25">PROCEDIMIENTO DE SISTRUNK</option>
-                            <option value="cabeza26">QUISTE SEBACEO</option>
-                            <option value="cabeza27">QUISTES BRANQUIALES</option>
-                            <option value="cabeza28">SCHWANNOMAS</option>
-                            <option value="cabeza29">SUBMAXILECTOMIA</option>
-                            <option value="cabeza30">TIROIDECTOMIA TOTAL</option>
-                            <option value="cabeza31">TIROIDECTOMIA TOTAL CON ABORDAJE AXILAR LAPAROSCOPICO BILATERAL</option>
-                            <option value="cabeza32">TRAQUEOSTOMIA</option>
-                            <option value="cabeza33">TRAQUEOSTOMIA POR PUNCION</option>
-                        </select>
-                        
-                        <select id="SubPaliativos">
-                            <option value="">Seleccione una opci&oacute;n</option>
-                            <option value="paliativos1">colocacion de cateter peridural tunelizado por infusor y tres dias de refil de medicamento</option>
-                            <option value="paliativos2">infiltracion de cualquier articulacion con viscosuplementacion</option>
-                            <option value="paliativos3">consulta clinica del dolor</option>
-                            <option value="paliativos4">emision receta controlados</option>
-                            <option value="paliativos5">consultas domicilio DF de 7 am a 9 pm mas procedimientos</option>
-                            <option value="paliativos6">consulta area metropolitana 7 am a 9 pm mas procedimientos</option>
-                            <option value="paliativos7">consulta domicilio nocturna de 10 pm a 6 am mas procedimientos</option>
-                            <option value="paliativos8">consulta domicilio en estados circunvecinos mas procedimientos</option>
-                            <option value="paliativos9">consulta domicilio domingos DF</option>
-                            <option value="paliativos10">consulta domicilio area metropolitana </option>
-                            <option value="paliativos11">consulta domicilio nocturna </option>
-                            <option value="paliativos12">Abordaje integral del dolor y sedacion paliativa, tramite de certicficado.</option>
-                            <option value="paliativos13">emision de certificado de defuncion</option>
-                            <option value="paliativos14">emision certificado defuncion a pacientes de clinica del dolor</option>
-                            <option value="paliativos15">deposito de esteroides en region lumbar(hernias en area de faceta) con bomba de infusion por dos dias</option>
-                            <option value="paliativos16">resurtido de esteroides en bomba de infusion por dia adicional</option>
-                            <option value="paliativos17">bloqueo facetario con fluroscopia </option>
-                        </select>
-                        
-                        <select id="SubVascular">
-                            <option value="">Seleccione una opci&oacute;n</option>
-                            <option value="vascular1">SAFENO-ABLACIÓN LASER UNILATERAL</option>
-                            <option value="vascular2">SAFENO-ABLACIÓN LÁSER BILATERAL</option>
-                            <option value="vascular3">SAFENOEXCERESIS + RESECCIÓN DE PAQUETES VARICOSOS BILATERAL</option>
-                            <option value="vascular4">SAFENOEXCERESIS + RESECCIÓN DE PAQUETES VARICOSOS UNILATERAL</option>
-                            <option value="vascular5">ESCLEROTERAPIA TELANGIECTASIAS Y VARICES( SESIÓN)</option>
-                            <option value="vascular6">TRATAMIENTO LASER PARA TELANGIECTASIAS ( SESIÓN) </option>
-                            <option value="vascular7">ESCLEROTERAPIA GUIADA POR USG ( SESIÓN)</option>
-                            <option value="vascular8">CURACION ÚLCERA VENOSA</option>
-                            <option value="vascular9">TROMBOLISIS ENDOVENOSA GUIADA POR CATETER PARA TRATAMIENTO DE TVP</option>
-                            <option value="vascular10">COLOCACION FILTRO DE VENA CAVA</option>
-                            <option value="vascular11">ANGIOPLASTIA VENOSA </option>
-                            <option value="vascular12">COLOCACION STENT VENOSO</option>
-                            <option value="vascular13">FLEBOGRAFIA</option>
-                            <option value="vascular14">COLOCACION CATÉTER TEMPORAL PARA HEMODIALISIS GUIADO POR USG</option>
-                            <option value="vascular15">COLCOACION CATÉTER TUNELIZADO PARA HEMODIALISIS GUIADO POR USG</option>
-                            <option value="vascular16">FISTULA ARTERIOVENOSA PARA HEMODIALISIS</option>
-                            <option value="vascular17">SIMPATECTOMIA TORACOSCOPICA Y LAPAROSCOPICA</option>
-                            <option value="vascular18">ARTERIOGRAFÍA AORTA ABDOMINAL Y MIEMBROS PÉLVICOS.</option>
-                            <option value="vascular19">ANGIOPLASTIA ARTERIAL PERIFERICA ( ILIACA, FEMORAL, POPLÍTEA, TIBIALES) </option>
-                            <option value="vascular20">COLOCACION DE STENT ARTERIAL PERIFERICO ( ILIACA, FEMORAL, POPLÍTEA, TIBIALES)</option>
-                            <option value="vascular21">COLOCACION ENDOPROTESIS AORTA ABDOMINAL ( ANEURISMA DE AORTA ABDOMINAL) </option>
-                            <option value="vascular22">COLOCACION ENDOPROTESIS AORTA TORACICA ( ANEURISMA Y DISECCIÓN AORTA)</option>
-                            <option value="vascular23">DERIVACIÓN AORTO-BIFEMORAL-BI ILIACA</option>
-                            <option value="vascular24">DERIVACIÓN FEMORO-POPLÍTEA CON INJERTO </option>
-                            <option value="vascular25">AMPUTACIÓN DEDO</option>
-                            <option value="vascular26">AMPUTACIÓN MAYOR ( SUPRA-INFRACONDILEA) </option>
-                            <option value="vascular27">ASEO QUIRURGICO PARA PIE DIABETICO</option>
-                            <option value="vascular28">TROMBECTOMIA ARTERIAL Y EXPLORACION VASCULAR.</option>
-                            <option value="vascular29">ENDARTERECTOMIA CAROTIDEA</option>
-                            <option value="vascular30">ANGIOPLASTIA CAROTIDEA</option>
-                            <option value="vascular31">CIRUGIA DE TUMOR DE CUERPO CAROTIDEO</option>
+                        <div class="col-md-6 col-xs-12 pt-5" id="cirugias">
+                            
+                            <select id="SubPlastica">
+                                <option value="">Selecciona la cirug&iacute;a</option>
+                                <option value="plastica1">AUMENTO CON IMPLANTES</option>
+                                <option value="plastica2">RINOPLAST&Iacute;A</option>
+                                <option value="plastica3">ABDOMINOPLASTÍA + LIPOSUCCIÓN + IMPLANTES DE MAMA</option>
+                                <option value="plastica4">BICHECTOM&Iacute;A</option>
+                                <option value="plastica5">BOTOX CARA  Y CUELLO</option>
+                                <option value="plastica6">TATUAJES, CICATRICES, LUNARES menor de 1cm (Local)</option>
+                                <option value="plastica7">TATUAJES, CICATRICES, LUNARES de entre 1cm a 4cm (Local)</option>
+                                <option value="plastica8">TATUAJES, CICATRICES, LUNARES de entre 4cm a 8cm (Local)</option>
+                                <option value="plastica9">TATUAJES, CICATRICES, LUNARES mayor de 8cm (Local + Sedaci&oacute;n)</option>
+                                <option value="plastica10">S&Iacute;NDROME DEL T&Uacute;NEL DEL CARPO</option>
+                                <option value="plastica11">ENFERMEDAD DE QUERVAIN</option>
+                                <option value="plastica12">TENOSINOVITIS</option>
+                                <option value="plastica13">QUISTES SINOVIALES</option>
+                                <option value="plastica14">TUMORES BENIGNOS MENORES DE 2 CMS</option>
+                                <option value="plastica15">MASTOPEXIA</option>
+                                <option value="plastica16">MASTOPEXIA + IMPLANTE</option>
+                                <option value="plastica17">MAMA DE REDUCCI&Oacute;N</option>
+                                <option value="plastica18">GINECOMASTIA</option>
+                                <option value="plastica19">RITIDECTOMÍA (TERCIO MEDIO)</option>
+                                <option value="plastica20">RITIDECTOMÍA (TERCIO SUPERIOR Y MEDIO)</option>
+                                <option value="plastica21">RITIDECTOMÍA (TERCIO SUPERIOR, MEDIA E INFERIOR)</option>
+                                <option value="plastica22">BLEFAROPLAST&Iacute;A SUPERIOR</option>
+                                <option value="plastica23">BLEFAROPLAST&Iacute;A SUPERIOR E INFERIOR</option>
+                                <option value="plastica24">BLEFAROPLAST&Iacute;A SUPERIOR + PEXIA DE CEJA</option>
+                                <option value="plastica25">OTOPLAST&Iacute;A</option>
+                                <option value="plastica26">LIPOSUCCI&Oacute;N Y /O LIPOINYECCI&Oacute;N</option>
+                                <option value="plastica27">BRAQUIPLAST&Iacute;A</option>
+                                <option value="plastica28">AUMENTO GLUTEO CON IMPLANTES</option>
+                                <option value="plastica29">ABDOMINOPLAST&Iacute;A + LIPOSUCCI&Oacute;N</option>
+                                <option value="plastica30">LIPOSUCCI&Oacute;N + IMPLANTES DE MAMA</option>
+                                <option value="plastica31">PEELING</option>
+                                <option value="plastica32">PLASMA RICO EN PLAQUETAS</option>
+                                <option value="plastica33">ÁCIDO HIALUR&Oacute;NICO</option>
+                                <option value="plastica34">IMPLANTE DE MENT&Oacute;N</option>
+                                <option value="plastica35">IMPLANTE DE P&Oacute;MULOS</option>
+                                <option value="plastica36">LIPOSUCCI&Oacute;N DE PAPADA</option>
+                            </select>
+                            
+                            <select id="SubObstetrica">
+                                <option value="">Selecciona la cirug&iacute;a</option>
+                                <option value="obstetrica1">PARTO</option>
+                                <option value="obstetrica2">CEAREA</option>
+                                <option value="obstetrica3">HISTERECTOMIA ABIERTA </option>
+                                <option value="obstetrica4">SALPINGOOFORECTOIA BILATERAL </option>
+                                <option value="obstetrica5">OCLUSIÓN TUBO OVARICA</option>
+                                <option value="obstetrica6">CESAREA + OCLUSION TUBO OVARICA</option>
+                                <option value="obstetrica7">PARTO + OCLUSION TUBO OVARICCA</option>
+                                <option value="obstetrica8">SALPINGOOFORECTOMIA BILATERAL</option>
+                                <option value="obstetrica9">DREANAJE DE ABSCESO</option>
+                                <option value="obstetrica10">SALPINGOOFORECTOMIA + ETO </option>
+                                <option value="obstetrica11">HISTERECTOMIA + SOB</option>
+                                <option value="obstetrica12">HISTEROSCOPIA</option>
+                                <option value="obstetrica13">LAPAROSCOPIA DIAGNOSTICA</option>
+                                <option value="obstetrica14">HISTERECTOMIA LAPAROSCOPICA</option>
+                                <option value="obstetrica15">HISTEROSALPINGOGRAFIA</option>
+                                <option value="obstetrica16">COITO PROGRAMADO </option>
+                                <option value="obstetrica17">OOFORECTOMIA UNILATERAL O BILATERAL</option>
+                                <option value="obstetrica18">INSEMINFACION ARTIFICIAL</option>
+                            </select>
+                            
+                            <select id="SubRecto">
+                                <option value="">Selecciona la cirug&iacute;a</option>
+                                <option value="recto1">HEMORROIDECTOMIA CONVENCIONAL</option>
+                                <option value="recto2">HEMORROIDECTOMIA LASER</option>
+                                <option value="recto3">FISURECTOMIA</option>
+                                <option value="recto4">HEMORROIDOPEXIA SIN DOLOR</option>
+                                <option value="recto5">FISTULOTOMIA + COLOCACION DE SETON</option>
+                                <option value="recto6">DRENAJE DE ABSCESO + CRIPTECTOMIA</option>
+                                <option value="recto7">FISTULOTOMIA SIMPLE</option>
+                                <option value="recto8">RESECCION DE COLGAJO PERIANAL</option>
+                                <option value="recto9">ESFINTEROTOMIA LATERAL INTERNA</option>
+                                <option value="recto10">ESFINTEROPLASTIA</option>
+                                <option value="recto11">AVANCE DE COLGAJO ENDOANAL</option>
+                                <option value="recto12">RESECION DE ENFERMEDAD PILODINAL</option>
+                                <option value="recto13">SIGMOIDECTOMIA ABIERTA</option>
+                                <option value="recto14">SIGMOIDECTOMIA LAPAROSCPICA</option>
+                                <option value="recto15">COLOSTOMIA</option>
+                                <option value="recto16">RESECCION  TIPO LINDBERG</option>
+                                <option value="recto17">COLECTOMIA TOTAL ABIERTA</option>
+                                <option value="recto18">COLECTOMIA TOTAL LAPAROSCOPICA</option>
+                            </select>
+                            
+                            <select id="SubBariatrica">
+                                <option value="">Selecciona la cirug&iacute;a</option>
+                                <option value="bariatrica1">MANGA GASTRICA</option>
+                                <option value="bariatrica2">BYPAS GASTRICO </option>
+                                <option value="bariatrica3">COLOCACION BALON GASTRICO (SIN BALON)</option>
+                                <option value="bariatrica4">AJUSTE BALON GASTRICO (SIN BALON)</option>
+                                <option value="bariatrica5">RETIRO BALON GASTRICO (SIN BALON)</option>
+                                <option value="bariatrica6">ENDOSCOPIA DIAGNOSTICA</option>
+                            </select>
+                            
+                            <select id="SubOncologica">
+                                <option value="">Selecciona la cirug&iacute;a</option>
+                                <option value="oncologica1">MASTECTOMIA SIMPLE</option>
+                                <option value="oncologica2">MASTECTOMIA SIMPLE + GANGLIO CENTIELA</option>
+                                <option value="oncologica3">MASTECTOMIA RADICAL MODIFICADA</option>
+                                <option value="oncologica4">CIRUGIA ETAPIFICADORA ENDOMETRIO</option>
+                                <option value="oncologica5">CIRUGIA ETAPFICADORA OVARIO</option>
+                                <option value="oncologica6">HISTERECTOMIA RADICAL</option>
+                                <option value="oncologica7">CIRUGIA CONSERVADORA</option>
+                                <option value="oncologica8">GANGLIO CENTINELA</option>
+                                <option value="oncologica9">MASTECTOMIA + RECONSTRUCCION</option>
+                                <option value="oncologica10">LAPE + TOMA DE BIOPSA</option>
+                                <option value="oncologica11">GASTRECTOMIA TOTA + D2</option>
+                                <option value="oncologica12">GASTRECTOMIA SUBTOTAL</option>
+                                <option value="oncologica13">GASTECTOMIA PALITAVIA</option>
+                                <option value="oncologica14">GASTROYEYUNOANASTOMOSIS</option>
+                                <option value="oncologica15">ESOFGECTOMIA TRANSHIATAL</option>
+                                <option value="oncologica16">ESOFAGECTOMIA 2 CAMPOS / 3 CAMPOS</option>
+                                <option value="oncologica17">BIOPSIA PULMON</option>
+                                <option value="oncologica18">VATS</option>
+                                <option value="oncologica19">TORSCOPIA + BIOPSIA</option>
+                                <option value="oncologica20">WHIPPLE ABIERTO</option>
+                                <option value="oncologica21">PANCREATECTOMIA DISTAL</option>
+                                <option value="oncologica22">HEMICOLECTOMIA DERECHA /IZQUIERDA</option>
+                                <option value="oncologica23">COLOSTOMIA</option>
+                                <option value="oncologica24">RESECCION ANTERIOR BAJA</option>
+                                <option value="oncologica25">RESEACCION ABDOMINOPERINEAL</option>
+                                <option value="oncologica26">RESECCION INTERESFINTERICA</option>
+                                <option value="oncologica27">EXCENTERACIÓN ANTERIOR Ó POSTERIOR</option>
+                                <option value="oncologica28">EXCENTERACION TOTAL</option>
+                                <option value="oncologica29">CONDUCTO ILEAL</option>
+                                <option value="oncologica30">RESECCION MULTIORGANICA</option>
+                                <option value="oncologica31">LAPE INTERVALO / CITORREDUCCION</option>
+                                <option value="oncologica32">METASTASTASECTOMIA HEPATICA</option>
+                                <option value="oncologica33">RESECCION HEPATICA</option>
+                                <option value="oncologica34">RESECCION AMPLIA</option>
+                                <option value="oncologica35">RESECCION TUMOR RETROPERITONEAL</option>
+                                <option value="oncologica36">NEFRECTOMIA RADICAL</option>
+                                <option value="oncologica37">DESARTICULACION  PELVICA</option>
+                                <option value="oncologica38">DESARTICULACION ARTICULACION TORAXICA</option>
+                                <option value="oncologica39">RESECCION AMPLIA + DISECCION INGUINAL</option>
+                                <option value="oncologica40">DISECCION INGUINAL UNILATERAL O BILATERAL</option>
+                                <option value="oncologica41">DISECCION PARA AORTICA</option>
+                                <option value="oncologica42">DISECCION AXILAR</option>
+                                <option value="oncologica43">LOBECTOMIA</option>
+                                <option value="oncologica44">NEUMONECTOMIA</option>
+                                <option value="oncologica45">COLECISTECTOMIA RADICAL</option>
+                                <option value="oncologica46">PERFUSION AISALADA DE EXTREMIDAD</option>
+                                <option value="oncologica47">TIROIDECTOMIA TOTAL</option>
+                                <option value="oncologica48">TIROIDECTOMIA TOTAL + DC</option>
+                                <option value="oncologica49">TIROIDECTOMIA TOTAL + DC + DL</option>
+                                <option value="oncologica50">DISECCION LATERAL DE CUELLO</option>
+                            </select>
+                            
+                            <select id="SubUrologica">
+                                <option value="">Selecciona la cirug&iacute;a</option>
+                                <option value="urologica1">RESECCION TRANS URETRAL PROSTATICA (RTUP)</option>
+                                <option value="urologica2">VASECTOMIA</option>
+                                <option value="urologica3">CISTOSCOPIA (SIN MATERIAL NI PATOLOGIA)</option>
+                                <option value="urologica4">RESECCION TRANSURETRAL VESICAL (RTUV)</option>
+                                <option value="urologica5">COLOCACION SONDA FOLEY INTRAHOSPITALARIA</option>
+                                <option value="urologica6">LITOTRIPSIA RIGIDA (SIN MATERIAL)</option>
+                                <option value="urologica7">NEFROLITOTRIPSIA FLEXIBLE (SIN MATERIAL)</option>
+                                <option value="urologica8">URETROTOMIA INTERNA OPTICA</option>
+                                <option value="urologica9">PROSTATECTOMIA RADICAL</option>
+                                <option value="urologica10">NEFRECTOMIA RADICAL SIMPLE ABIERTA</option>
+                                <option value="urologica11">NEFRECTOMIA RADICAL SIMPLE LAPAROSCOPICA</option>
+                                <option value="urologica12">LESION URETERAL / REIMPLANTE VESICAL </option>
+                                <option value="urologica13">DESTECHAMIENTO DE QUISTE RENAL LAPAROSCOPICO</option>
+                                <option value="urologica14">PIELOLITOTOMIA O URETEROLITOTOMIA LAPAROSCOPICA</option>
+                                <option value="urologica15">PIELOLITOTOMIA O URETEROLITOTOMIA ABIERTA</option>
+                                <option value="urologica16">VARICOCELECTOMIA</option>
+                                <option value="urologica17">HIDROCELECTOMIA</option>
+                                <option value="urologica18">ORQUIECTOMIA SIMPLE</option>
+                                <option value="urologica19">ORQUIERCTOMIA RADICAL</option>
+                                <option value="urologica20">RESECCION QUISTE DE EPIDIDIMO</option>
+                                <option value="urologica21">EPIDIDIMETOMIA</option>
+                                <option value="urologica22">VASOVASO ANASTOMOSIS</option>
+                                <option value="urologica23">PROTESIS PENEANA MALEABLE</option>
+                                <option value="urologica24">PROCEDIMIENTO BURSCH (CISTOURETROSUSPENSION)</option>
+                                <option value="urologica25">COLOCACION DE MALLA CABESTRILLO ANTI-INCONTINENCIA</option>
+                                <option value="urologica26">CIRCUNSICION</option>
+                                <option value="urologica27">DILATACION URETRAL</option>
+                                <option value="urologica28">BIOPSIA TRANSRECTAL PROSTATA</option>
+                            </select>
+                            
+                            <select id="SubCabeza">
+                                <option value="">Selecciona la cirug&iacute;a</option>
+                                <option value="cabeza1">ABODAJE CERVICAL DE ESOFAGO, ESOFAGOTOMIA Y CIERRE PRIMARIO</option>
+                                <option value="cabeza2">ABORDAJE CERVICAL PARA CX DE COLUMNA CERVICAL</option>
+                                <option value="cabeza3">ABSCESO PROFUNDO DE CUELLO SIN EXTENSION MEDIASTINAL</option>
+                                <option value="cabeza4">ANASTOMOSIS CERVICAL DE ASCENSO GASTRICO</option>
+                                <option value="cabeza5">ANASTOMOSIS CERVICAL DE ASCENSO GASTRICO CON ENGRAPADORA</option>
+                                <option value="cabeza6">ANASTOMOSIS CERVICAL DE TRASPOSICION COLONICA</option>
+                                <option value="cabeza7">ANASTOMOSIS CERVICAL DE TRASPOSICION COLONICA CON ENGRAPADORA</option>
+                                <option value="cabeza8">BIOPSIA EXCISIONAL DE ADENOPATIAS</option>
+                                <option value="cabeza9">DIVERTICULECTOMIA Y MIOTOMIA DE CRICOFARINGEO</option>
+                                <option value="cabeza10">ESOFAGOSTOMA</option>
+                                <option value="cabeza11">ESTENOSIS DE ASCENSO GASTRICO O TRANSPOSICION COLONICA</option>
+                                <option value="cabeza12">FARINGOTOMIA TIPO ALONSO PARA EXTRACCION DE CUERPO EXTRAÑO</option>
+                                <option value="cabeza13">FISTULECTOMIA ESOFAGICA SIN ANASTOMOSIS CIERRE PRIMARIO</option>
+                                <option value="cabeza14">FISTULECTOMIA ESOFAGICA Y ANASTOMOSIS CERVICAL ESOFAGICA</option>
+                                <option value="cabeza15">HEMITIROIDECTOMIA </option>
+                                <option value="cabeza16">HERMITIROIDECTOMIA CON ABORDAJE AXILAR LAPAROSCOPICO</option>
+                                <option value="cabeza17">LIPOMAS DE CUELLO </option>
+                                <option value="cabeza18">LIPOMAS DE ESPACIO PARAFARINGEO</option>
+                                <option value="cabeza19">NEURINOMAS DE PLEXO CERVICAL</option>
+                                <option value="cabeza20">PARATIROIDECTOMIA SELECTIVA </option>
+                                <option value="cabeza21">PARATIROIDECTOMIA SELECTIVA  AXILAR LAPAROSCOPICO</option>
+                                <option value="cabeza22">PARATIROIDECTOMIA SUBTOTAL</option>
+                                <option value="cabeza23">PARATIROIDECTOMIA TOTAL</option>
+                                <option value="cabeza24">PAROTIDECTOMIA SUPERFICIAL CON PRESERVACION DE FACIAL</option>
+                                <option value="cabeza25">PROCEDIMIENTO DE SISTRUNK</option>
+                                <option value="cabeza26">QUISTE SEBACEO</option>
+                                <option value="cabeza27">QUISTES BRANQUIALES</option>
+                                <option value="cabeza28">SCHWANNOMAS</option>
+                                <option value="cabeza29">SUBMAXILECTOMIA</option>
+                                <option value="cabeza30">TIROIDECTOMIA TOTAL</option>
+                                <option value="cabeza31">TIROIDECTOMIA TOTAL CON ABORDAJE AXILAR LAPAROSCOPICO BILATERAL</option>
+                                <option value="cabeza32">TRAQUEOSTOMIA</option>
+                                <option value="cabeza33">TRAQUEOSTOMIA POR PUNCION</option>
+                            </select>
+                            
+                            <select id="SubPaliativos">
+                                <option value="">Selecciona la cirug&iacute;a</option>
+                                <option value="paliativos1">colocacion de cateter peridural tunelizado por infusor y tres dias de refil de medicamento</option>
+                                <option value="paliativos2">infiltracion de cualquier articulacion con viscosuplementacion</option>
+                                <option value="paliativos3">consulta clinica del dolor</option>
+                                <option value="paliativos4">emision receta controlados</option>
+                                <option value="paliativos5">consultas domicilio DF de 7 am a 9 pm mas procedimientos</option>
+                                <option value="paliativos6">consulta area metropolitana 7 am a 9 pm mas procedimientos</option>
+                                <option value="paliativos7">consulta domicilio nocturna de 10 pm a 6 am mas procedimientos</option>
+                                <option value="paliativos8">consulta domicilio en estados circunvecinos mas procedimientos</option>
+                                <option value="paliativos9">consulta domicilio domingos DF</option>
+                                <option value="paliativos10">consulta domicilio area metropolitana </option>
+                                <option value="paliativos11">consulta domicilio nocturna </option>
+                                <option value="paliativos12">Abordaje integral del dolor y sedacion paliativa, tramite de certicficado.</option>
+                                <option value="paliativos13">emision de certificado de defuncion</option>
+                                <option value="paliativos14">emision certificado defuncion a pacientes de clinica del dolor</option>
+                                <option value="paliativos15">deposito de esteroides en region lumbar(hernias en area de faceta) con bomba de infusion por dos dias</option>
+                                <option value="paliativos16">resurtido de esteroides en bomba de infusion por dia adicional</option>
+                                <option value="paliativos17">bloqueo facetario con fluroscopia </option>
+                            </select>
+                            
+                            <select id="SubVascular">
+                                <option value="">Selecciona la cirug&iacute;a</option>
+                                <option value="vascular1">SAFENO-ABLACIÓN LASER UNILATERAL</option>
+                                <option value="vascular2">SAFENO-ABLACIÓN LÁSER BILATERAL</option>
+                                <option value="vascular3">SAFENOEXCERESIS + RESECCIÓN DE PAQUETES VARICOSOS BILATERAL</option>
+                                <option value="vascular4">SAFENOEXCERESIS + RESECCIÓN DE PAQUETES VARICOSOS UNILATERAL</option>
+                                <option value="vascular5">ESCLEROTERAPIA TELANGIECTASIAS Y VARICES( SESIÓN)</option>
+                                <option value="vascular6">TRATAMIENTO LASER PARA TELANGIECTASIAS ( SESIÓN) </option>
+                                <option value="vascular7">ESCLEROTERAPIA GUIADA POR USG ( SESIÓN)</option>
+                                <option value="vascular8">CURACION ÚLCERA VENOSA</option>
+                                <option value="vascular9">TROMBOLISIS ENDOVENOSA GUIADA POR CATETER PARA TRATAMIENTO DE TVP</option>
+                                <option value="vascular10">COLOCACION FILTRO DE VENA CAVA</option>
+                                <option value="vascular11">ANGIOPLASTIA VENOSA </option>
+                                <option value="vascular12">COLOCACION STENT VENOSO</option>
+                                <option value="vascular13">FLEBOGRAFIA</option>
+                                <option value="vascular14">COLOCACION CATÉTER TEMPORAL PARA HEMODIALISIS GUIADO POR USG</option>
+                                <option value="vascular15">COLCOACION CATÉTER TUNELIZADO PARA HEMODIALISIS GUIADO POR USG</option>
+                                <option value="vascular16">FISTULA ARTERIOVENOSA PARA HEMODIALISIS</option>
+                                <option value="vascular17">SIMPATECTOMIA TORACOSCOPICA Y LAPAROSCOPICA</option>
+                                <option value="vascular18">ARTERIOGRAFÍA AORTA ABDOMINAL Y MIEMBROS PÉLVICOS.</option>
+                                <option value="vascular19">ANGIOPLASTIA ARTERIAL PERIFERICA ( ILIACA, FEMORAL, POPLÍTEA, TIBIALES) </option>
+                                <option value="vascular20">COLOCACION DE STENT ARTERIAL PERIFERICO ( ILIACA, FEMORAL, POPLÍTEA, TIBIALES)</option>
+                                <option value="vascular21">COLOCACION ENDOPROTESIS AORTA ABDOMINAL ( ANEURISMA DE AORTA ABDOMINAL) </option>
+                                <option value="vascular22">COLOCACION ENDOPROTESIS AORTA TORACICA ( ANEURISMA Y DISECCIÓN AORTA)</option>
+                                <option value="vascular23">DERIVACIÓN AORTO-BIFEMORAL-BI ILIACA</option>
+                                <option value="vascular24">DERIVACIÓN FEMORO-POPLÍTEA CON INJERTO </option>
+                                <option value="vascular25">AMPUTACIÓN DEDO</option>
+                                <option value="vascular26">AMPUTACIÓN MAYOR ( SUPRA-INFRACONDILEA) </option>
+                                <option value="vascular27">ASEO QUIRURGICO PARA PIE DIABETICO</option>
+                                <option value="vascular28">TROMBECTOMIA ARTERIAL Y EXPLORACION VASCULAR.</option>
+                                <option value="vascular29">ENDARTERECTOMIA CAROTIDEA</option>
+                                <option value="vascular30">ANGIOPLASTIA CAROTIDEA</option>
+                                <option value="vascular31">CIRUGIA DE TUMOR DE CUERPO CAROTIDEO</option>
 
-                        </select>
-                        
-                        <select id="SubGeneral">
-                            <option value="">Seleccione una opci&oacute;n</option>
-                            <option value="general1">COLECISTECTOMIA LAPAROSCOPICA</option>
-                            <option value="general2">HERNIOPLASTIA UMBILICAL LAPAROSCOPICA</option>
-                            <option value="general3">HERNIOPLASTIA UMBILICAL ABIERTA</option>
-                            <option value="general4">HERNIOPLASTIA INGUINAL LAPAROSCOPICA </option>
-                            <option value="general5">HERNIOPLASTIA DE PARED ABDOMINAL MENOR A 4CMS</option>
-                            <option value="general6">APENDICECTOMIA LAPAROSCOPICA</option>
-                            <option value="general7">APENDICECTOMIA ABIERTA</option>
-                            <option value="general8">SIGMOIDECTOMIA+ COLORECTOANASTOMOSIS</option>
-                            <option value="general9">SIGMOIDECTOMIA+  ESTOMA</option>
-                            <option value="general10">HEMICOLECTOMIA DERECHA CON ANASTOMOSIS PRIMARIA</option>
-                            <option value="general11">HEMICOLECTOMIA IZQUERDA + ANASTOMOSIS PRIMARIA</option>
-                            <option value="general12">HEMICOLECTOMIA DERECHA CON ESTOMA</option>
-                            <option value="general13">HEMICOLECTOMIA IZQUERDA CON ESTOMA</option>
-                            <option value="general14">FUNDUPLICATURA</option>
-                            <option value="general15">CARDIOMITOMIA DE HELLER + FUNDUPLICATURA</option>
-                            <option value="general16">ESPLENECTOMIA ABIERTA</option>
-                            <option value="general17">ESPELENECTOMIA LAPAROSCOPICA</option>
-                            <option value="general18">LAPAROTOMIA EXPLORATORIA POR TRAUMA</option>
-                            <option value="general19">LAPAROTOMIA EXPLORATORIA ABDOMEN AGUDO</option>
-                            <option value="general20">LAPAROTOMIA EXPLORATORIA DIAGNÓSICA</option>
-                            <option value="general21">COLECISTECTOMIA ABIERTA </option>
-                        </select>
-                        
-                    </div>
+                            </select>
+                            
+                            <select id="SubGeneral">
+                                <option value="">Selecciona la cirug&iacute;a</option>
+                                <option value="general1">COLECISTECTOMIA LAPAROSCOPICA</option>
+                                <option value="general2">HERNIOPLASTIA UMBILICAL LAPAROSCOPICA</option>
+                                <option value="general3">HERNIOPLASTIA UMBILICAL ABIERTA</option>
+                                <option value="general4">HERNIOPLASTIA INGUINAL LAPAROSCOPICA </option>
+                                <option value="general5">HERNIOPLASTIA DE PARED ABDOMINAL MENOR A 4CMS</option>
+                                <option value="general6">APENDICECTOMIA LAPAROSCOPICA</option>
+                                <option value="general7">APENDICECTOMIA ABIERTA</option>
+                                <option value="general8">SIGMOIDECTOMIA+ COLORECTOANASTOMOSIS</option>
+                                <option value="general9">SIGMOIDECTOMIA+  ESTOMA</option>
+                                <option value="general10">HEMICOLECTOMIA DERECHA CON ANASTOMOSIS PRIMARIA</option>
+                                <option value="general11">HEMICOLECTOMIA IZQUERDA + ANASTOMOSIS PRIMARIA</option>
+                                <option value="general12">HEMICOLECTOMIA DERECHA CON ESTOMA</option>
+                                <option value="general13">HEMICOLECTOMIA IZQUERDA CON ESTOMA</option>
+                                <option value="general14">FUNDUPLICATURA</option>
+                                <option value="general15">CARDIOMITOMIA DE HELLER + FUNDUPLICATURA</option>
+                                <option value="general16">ESPLENECTOMIA ABIERTA</option>
+                                <option value="general17">ESPELENECTOMIA LAPAROSCOPICA</option>
+                                <option value="general18">LAPAROTOMIA EXPLORATORIA POR TRAUMA</option>
+                                <option value="general19">LAPAROTOMIA EXPLORATORIA ABDOMEN AGUDO</option>
+                                <option value="general20">LAPAROTOMIA EXPLORATORIA DIAGNÓSICA</option>
+                                <option value="general21">COLECISTECTOMIA ABIERTA </option>
+                            </select>
+                            
+                        </div>
                     
                    <div class="col-12 plastica1Prices my-5"><div class="row"><div class="col-12 col-md-6 text-center" style="padding: 3rem;"><div class="card"><div class="card-body"><h4 class="card-title">Costo General</h4><p class="card-text">$55,169.66</p></div></div></div><div class="col-12 col-md-6 text-center CostoMembresiaCard"><div class="card"><div class="card-body"><h4 class="card-title">Costo Quirurgie</h4><p class="card-text">$54,268.80</p><select id="pagotarjeta1Plastica1"><option value="">Pago con tarjeta</option><option value="Plastica1tarjeta1">D&eacute;bito</option><option value="Plastica1tarjeta2">Cr&eacute;dito a 6 meses</option><option value="Plastica1tarjeta3">Cr&eacute;dito a 9 meses</option><option value="Plastica1tarjeta4">Cr&eacute;dito a 12 meses</option><option value="Plastica1tarjeta5">6 Meses sin Inter&eacute;ses</option><option value="Plastica1tarjeta6">9 Meses sin Inter&eacute;ses</option><option value="Plastica1tarjeta7">12 Meses sin Inter&eacute;ses</option></select></div></div></div><div class="col-6 offset-3 text-center plastica1Tarjeta1 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">D&eacute;bito</h4><p class="card-text">$55,169.66</p></div></div></div><div class="col-6 offset-3 text-center plastica1Tarjeta2 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">Cr&eacute;dito a 6 meses</h4><p class="card-text">$55,343.32</p></div></div></div><div class="col-6 offset-3 text-center plastica1Tarjeta3 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">Cr&eacute;dito a 9 meses</h4><p class="card-text">$55,419.30</p></div></div></div><div class="col-6 offset-3 text-center plastica1Tarjeta4 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">Cr&eacute;dito a 12 meses</h4><p class="card-text">$55,468.14</p></div></div></div><div class="col-6 offset-3 text-center plastica1Tarjeta5 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">6 Meses sin Inter&eacute;ses</h4><p class="card-text">$55,299.91</p></div></div></div><div class="col-6 offset-3 text-center plastica1Tarjeta6 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">9 Meses sin Inter&eacute;ses</h4><p class="card-text">$55,381.31</p></div></div></div><div class="col-6 offset-3 text-center plastica1Tarjeta7 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">12 Meses sin Inter&eacute;ses</h4><p class="card-text">$55,413.87</p></div></div></div></div></div>
 <div class="col-12 plastica2Prices my-5"><div class="row"><div class="col-12 col-md-6 text-center" style="padding: 3rem;"><div class="card"><div class="card-body"><h4 class="card-title">Costo General</h4><p class="card-text">$37,379.16</p></div></div></div><div class="col-12 col-md-6 text-center CostoMembresiaCard"><div class="card"><div class="card-body"><h4 class="card-title">Costo Quirurgie</h4><p class="card-text">$36,768.80</p><select id="pagotarjeta2Plastica2"><option value="">Pago con tarjeta</option><option value="Plastica2tarjeta1">D&eacute;bito</option><option value="Plastica2tarjeta2">Cr&eacute;dito a 6 meses</option><option value="Plastica2tarjeta3">Cr&eacute;dito a 9 meses</option><option value="Plastica2tarjeta4">Cr&eacute;dito a 12 meses</option><option value="Plastica2tarjeta5">6 Meses sin Inter&eacute;ses</option><option value="Plastica2tarjeta6">9 Meses sin Inter&eacute;ses</option><option value="Plastica2tarjeta7">12 Meses sin Inter&eacute;ses</option></select></div></div></div><div class="col-6 offset-3 text-center plastica2Tarjeta1 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">D&eacute;bito</h4><p class="card-text">$37,379.16</p></div></div></div><div class="col-6 offset-3 text-center plastica2Tarjeta2 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">Cr&eacute;dito a 6 meses</h4><p class="card-text">$37,518.88</p></div></div></div><div class="col-6 offset-3 text-center plastica2Tarjeta3 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">Cr&eacute;dito a 9 meses</h4><p class="card-text">$37,614.48</p></div></div></div><div class="col-6 offset-3 text-center plastica2Tarjeta4 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">Cr&eacute;dito a 12 meses</h4><p class="card-text">$37,643.90</p></div></div></div><div class="col-6 offset-3 text-center plastica2Tarjeta5 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">6 Meses sin Inter&eacute;ses</h4><p class="card-text">$37,658.60</p></div></div></div><div class="col-6 offset-3 text-center plastica2Tarjeta6 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">9 Meses sin Inter&eacute;ses</h4><p class="card-text">$37,522.56</p></div></div></div><div class="col-6 offset-3 text-center plastica2Tarjeta7 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">12 Meses sin Inter&eacute;ses</h4><p class="card-text">$37,544.62</p></div></div></div></div></div>
@@ -704,12 +703,16 @@
 <div class="col-12 general20Prices my-5"><div class="row"><div class="col-12 col-md-6 text-center" style="padding: 3rem;"><div class="card"><div class="card-body"><h4 class="card-title">Costo General</h4><p class="card-text">$17,363.53</p></div></div></div><div class="col-12 col-md-6 text-center CostoMembresiaCard"><div class="card"><div class="card-body"><h4 class="card-title">Costo Quirurgie</h4><p class="card-text">$17,080.00</p><select id="pagotarjeta20General20"><option value="">Pago con tarjeta</option><option value="General20tarjeta1">D&eacute;bito</option><option value="General20tarjeta2">Cr&eacute;dito a 6 meses</option><option value="General20tarjeta3">Cr&eacute;dito a 9 meses</option><option value="General20tarjeta4">Cr&eacute;dito a 12 meses</option><option value="General20tarjeta5">6 Meses sin Inter&eacute;ses</option><option value="General20tarjeta6">9 Meses sin Inter&eacute;ses</option><option value="General20tarjeta7">12 Meses sin Inter&eacute;ses</option></select></div></div></div><div class="col-6 offset-3 text-center general20Tarjeta1 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">D&eacute;bito</h4><p class="card-text">$17,363.53</p></div></div></div><div class="col-6 offset-3 text-center general20Tarjeta2 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">Cr&eacute;dito a 6 meses</h4><p class="card-text">$17,428.43</p></div></div></div><div class="col-6 offset-3 text-center general20Tarjeta3 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">Cr&eacute;dito a 9 meses</h4><p class="card-text">$17,472.84</p></div></div></div><div class="col-6 offset-3 text-center general20Tarjeta4 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">Cr&eacute;dito a 12 meses</h4><p class="card-text">$17,486.50</p></div></div></div><div class="col-6 offset-3 text-center general20Tarjeta5 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">6 Meses sin Inter&eacute;ses</h4><p class="card-text">$17,493.34</p></div></div></div><div class="col-6 offset-3 text-center general20Tarjeta6 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">9 Meses sin Inter&eacute;ses</h4><p class="card-text">$17,430.14</p></div></div></div><div class="col-6 offset-3 text-center general20Tarjeta7 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">12 Meses sin Inter&eacute;ses</h4><p class="card-text">$17,440.39</p></div></div></div></div></div>
 <div class="col-12 general21Prices my-5"><div class="row"><div class="col-12 col-md-6 text-center" style="padding: 3rem;"><div class="card"><div class="card-body"><h4 class="card-title">Costo General</h4><p class="card-text">$26,819.03</p></div></div></div><div class="col-12 col-md-6 text-center CostoMembresiaCard"><div class="card"><div class="card-body"><h4 class="card-title">Costo Quirurgie</h4><p class="card-text">$26,381.10</p><select id="pagotarjeta21General21"><option value="">Pago con tarjeta</option><option value="General21tarjeta1">D&eacute;bito</option><option value="General21tarjeta2">Cr&eacute;dito a 6 meses</option><option value="General21tarjeta3">Cr&eacute;dito a 9 meses</option><option value="General21tarjeta4">Cr&eacute;dito a 12 meses</option><option value="General21tarjeta5">6 Meses sin Inter&eacute;ses</option><option value="General21tarjeta6">9 Meses sin Inter&eacute;ses</option><option value="General21tarjeta7">12 Meses sin Inter&eacute;ses</option></select></div></div></div><div class="col-6 offset-3 text-center general21Tarjeta1 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">D&eacute;bito</h4><p class="card-text">$26,819.03</p></div></div></div><div class="col-6 offset-3 text-center general21Tarjeta2 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">Cr&eacute;dito a 6 meses</h4><p class="card-text">$26,919.27</p></div></div></div><div class="col-6 offset-3 text-center general21Tarjeta3 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">Cr&eacute;dito a 9 meses</h4><p class="card-text">$26,987.87</p></div></div></div><div class="col-6 offset-3 text-center general21Tarjeta4 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">Cr&eacute;dito a 12 meses</h4><p class="card-text">$27,008.97</p></div></div></div><div class="col-6 offset-3 text-center general21Tarjeta5 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">6 Meses sin Inter&eacute;ses</h4><p class="card-text">$27,019.52</p></div></div></div><div class="col-6 offset-3 text-center general21Tarjeta6 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">9 Meses sin Inter&eacute;ses</h4><p class="card-text">$26,921.91</p></div></div></div><div class="col-6 offset-3 text-center general21Tarjeta7 tarjetasPagoCard"><div class="card"><div class="card-body"><h4 class="card-title">12 Meses sin Inter&eacute;ses</h4><p class="card-text">$26,937.74</p></div></div></div></div></div>
 
-
+        </div>
                   
                 </div>
 
                 <div class="col-12 py-4 text-center seccionPaso3">
-                    <h2>Aqui paso 3</h2>
+                    
+                    <button class="btn">
+                        <img src="assets/cotizador/btnContacto.png">
+                    </button>
+
                 </div>
 
             </div>                         
