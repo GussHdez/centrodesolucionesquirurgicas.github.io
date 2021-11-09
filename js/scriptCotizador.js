@@ -1,10 +1,7 @@
-$('.pipedriveWebForms').on('click', '.sc-dQoVA', function() {
-    $('.seccionPaso1').hide(500, function(){
-        $('.seccionPaso2').show(500);
-        $('.paso1').attr('src','../assets/cotizador/boton1paso1s.png');
-        $('.paso2').attr('src','../assets/cotizador/boton2paso2s.png');
-    });
-});
+
+
+var valueCategoria;
+var valueSubCategoria;
 
 $(document).ready(function() {
     var $plastica = $('.plastica'); 
@@ -12,6 +9,10 @@ $(document).ready(function() {
     $("#categoria").on('change', function (e) {
         var optionSelected = $("option:selected", this);
         var valueSelected = this.value;
+
+        $('.paso3').attr('src','assets/cotizador/boton3paso2.png');
+        $('.seccionPaso3').css('display','block');
+
         
         $('#cirugias').show(700);
         
@@ -159,7 +160,7 @@ $(document).ready(function() {
     
     $("#SubPlastica").on('change', function (e) {
         var optionSelected = $("option:selected", this);
-        var valueSelected = this.value;
+        var valueSelected = this.value; valueSubCategoria = valueSelected;
         
         var p1 = 0;
         var p2 = 0;
@@ -3312,7 +3313,7 @@ $(document).ready(function() {
     
     $("#SubObstetrica").on('change', function (e) {
         var optionSelected = $("option:selected", this);
-        var valueSelected = this.value;
+        var valueSelected = this.value; valueSubCategoria = valueSelected;
          
         var obs1 = 0;
         var obs2 = 0;
@@ -4378,7 +4379,7 @@ $(document).ready(function() {
     
     $("#SubRecto").on('change', function (e) {
         var optionSelected = $("option:selected", this);
-        var valueSelected = this.value;
+        var valueSelected = this.value; valueSubCategoria = valueSelected;
          
         var rec1 = 0;
         var rec2 = 0;
@@ -5443,7 +5444,7 @@ $(document).ready(function() {
     
     $("#SubBariatrica").on('change', function (e) {
         var optionSelected = $("option:selected", this);
-        var valueSelected = this.value;
+        var valueSelected = this.value; valueSubCategoria = valueSelected;
         
         var bar1 = 0;
         var bar2 = 0;
@@ -5837,7 +5838,7 @@ $(document).ready(function() {
     
     $("#SubOncologica").on('change', function (e) {
         var optionSelected = $("option:selected", this);
-        var valueSelected = this.value;
+        var valueSelected = this.value; valueSubCategoria = valueSelected;
         
         var onc1 = 0;
         var onc2 = 0;
@@ -11511,7 +11512,7 @@ $(document).ready(function() {
     
     $("#SubUrologica").on('change', function (e) {
         var optionSelected = $("option:selected", this);
-        var valueSelected = this.value;
+        var valueSelected = this.value; valueSubCategoria = valueSelected;
         
         var uro1 = 0;
         var uro2 = 0;
@@ -13578,7 +13579,7 @@ $(document).ready(function() {
     
     $("#SubCabeza").on('change', function (e) {
         var optionSelected = $("option:selected", this);
-        var valueSelected = this.value;
+        var valueSelected = this.value; valueSubCategoria = valueSelected;
         
         var cab1 = 0;
         var cab2 = 0;
@@ -16329,7 +16330,7 @@ $(document).ready(function() {
     
     $("#SubPaliativos").on('change', function (e) {
         var optionSelected = $("option:selected", this);
-        var valueSelected = this.value;
+        var valueSelected = this.value; valueSubCategoria = valueSelected;
         
         var pal1 = 0;
         var pal2 = 0;
@@ -17318,7 +17319,7 @@ $(document).ready(function() {
     
     $("#SubVascular").on('change', function (e) {
         var optionSelected = $("option:selected", this);
-        var valueSelected = this.value;
+        var valueSelected = this.value; valueSubCategoria = valueSelected;
         
         var vas1 = 0;
         var vas2 = 0;
@@ -19833,7 +19834,7 @@ $(document).ready(function() {
     
     $("#SubGeneral").on('change', function (e) {
         var optionSelected = $("option:selected", this);
-        var valueSelected = this.value;
+        var valueSelected = this.value; valueSubCategoria = valueSelected;
         
         var gen1 = 0;
         var gen2 = 0;
@@ -21159,7 +21160,7 @@ $(document).ready(function() {
     /*
     $("#pagotarjeta1Plastica1").on('change', function (e) {
         var optionSelected = $("option:selected", this);
-        var valueSelected = this.value;
+        var valueSelected = this.value; valueSubSubCategoria = valueSelected;
         
         var p1t1 = 0;
         var p1t2 = 0;
