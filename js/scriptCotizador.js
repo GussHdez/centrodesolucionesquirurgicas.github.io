@@ -1,3 +1,11 @@
+$('.pipedriveWebForms').on('click', '.sc-dQoVA', function() {
+    $('.seccionPaso1').hide(500, function(){
+        $('.seccionPaso2').show(500);
+        $('.paso1').attr('src','../assets/cotizador/boton1paso1s.png');
+        $('.paso2').attr('src','../assets/cotizador/boton2paso2s.png');
+    });
+});
+
 $(document).ready(function() {
     var $plastica = $('.plastica'); 
    
