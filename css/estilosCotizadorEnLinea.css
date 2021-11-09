@@ -21,18 +21,56 @@ body{
     color: aliceblue;
 }
 
+.captionCotizador{
+    color: #31A0D0;
+}
+
+.btnLeft{
+    transform: translateX(43px);
+}
+
+.btnRight{
+    transform: translateX(-50px);
+}
+
+.paso1N{
+    display: none;
+}
+
+.paso2N{
+    display: none;
+}
+
+.paso3N{
+    display: none;
+}
+
+.seccionPaso2{
+    display: none;
+}
+
+.secccionPaso3{
+    display: none;
+}
+
 .imgCotizadorFondo{
     min-width: 100%;
     min-height: 100%
     z-index: 0;
     position: absolute;
-    background-image: url(fondo_cotizador.png);
+    background-image: url(../assets/cotizador/fondo_cot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fondoCotizador{
+    background-image: url(../assets/cotizador/fondo_cot.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .piePagina{
-    position: fixed;
+    position: sticky;
     bottom: 0 !important;
     z-index: 1 !important;
     width: 100% !important;
