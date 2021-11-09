@@ -49,8 +49,16 @@ body{
     display: none;
 }
 
-.secccionPaso3{
+.seccionPaso3{
     display: none;
+}
+
+.btnHeader{
+    cursor: pointer;
+}
+
+.btnHeader:hover{
+    opacity: 0.7;
 }
 
 .imgCotizadorFondo{
