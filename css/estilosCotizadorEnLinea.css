@@ -78,11 +78,16 @@ body{
 }
 
 .piePagina{
-    position: sticky;
+    position: fixed;
     bottom: 0 !important;
     z-index: 1 !important;
     width: 100% !important;
     background-color: white !important;
+}
+
+.popupCotizador{
+    background: none;
+    border: none;
 }
 
 select{
@@ -156,6 +161,11 @@ select option {
 .imgFooterCotizador{
     width: 95%;
     transform: translateY(-8px);
+}
+
+.imgPopUp{
+    width: 100%;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
