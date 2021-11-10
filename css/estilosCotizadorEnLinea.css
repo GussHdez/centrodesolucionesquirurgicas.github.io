@@ -82,7 +82,8 @@ body{
     bottom: 0 !important;
     z-index: 1 !important;
     width: 100% !important;
-    background-color: white !important;
+    background-color: #8FA1B7 !important;
+    padding-top: 1%;
 }
 
 .popupCotizador{
@@ -155,7 +156,7 @@ select option {
 }
 
 .menuFooterCotizador li a{
-    color: darkcyan;
+    color: white;
 }
 
 .imgFooterCotizador{
