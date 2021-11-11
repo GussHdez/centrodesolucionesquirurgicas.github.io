@@ -40,3 +40,14 @@ $('.btnCenter').on('click', function(){
 
 	}
 });
+
+$('.close').on('click', function() {
+	$('.modalInfo5Seg').show(500);
+});
+
+$(document).ready(function() {
+    setTimeout(function (){
+        $('.modalInfo5Seg').show(500);
+    }, 5500);
+
+});

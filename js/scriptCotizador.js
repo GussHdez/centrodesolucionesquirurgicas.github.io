@@ -4,6 +4,8 @@ var valueCategoria;
 var valueSubCategoria;
 
 $(document).ready(function() {
+
+
     var $plastica = $('.plastica'); 
    
     $("#categoria").on('change', function (e) {
