@@ -42,7 +42,7 @@ $('.btnCenter').on('click', function(){
 });
 
 $('.close').on('click', function() {
-	$('.modalInfo5Seg').show(500);
+	$('.modalInfo5Seg').hide(500);
 });
 
 $(document).ready(function() {
