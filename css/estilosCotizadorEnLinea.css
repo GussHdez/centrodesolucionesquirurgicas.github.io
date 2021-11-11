@@ -135,12 +135,12 @@ select option {
 }
 
 .CostoMembresiaCard{
-    color: darkcyan !important;
+    color: rgb(82, 219, 219) !important;
     padding: 3rem;
 }
 
 .CostoMembresiaCard .card{
-    color: darkcyan !important;
+    color: rgb(82, 219, 219) !important;
 }
 
 .card-title{
@@ -1073,4 +1073,3 @@ select option {
 #pagotarjeta19General19 { display: none; }
 #pagotarjeta20General20 { display: none; }
 #pagotarjeta21General21 { display: none; }
-
