@@ -205,6 +205,12 @@ a{
     width: 100%;
 }
 
+.redes{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
 .imgFooterCol{
     text-align: center;
 }
