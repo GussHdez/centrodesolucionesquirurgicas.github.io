@@ -324,7 +324,9 @@ a{
     }
     
     .mainCardSection4 {
-        height: 25rem;
+        height: auto;
+        width: 94%;
+        padding-left: 10%;
     }
     
     .cardSection4 {
