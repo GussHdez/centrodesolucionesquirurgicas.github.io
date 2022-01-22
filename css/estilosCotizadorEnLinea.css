@@ -177,6 +177,10 @@ select option {
     cursor: pointer;
 }
 
+pieCotizador{
+    margin-top: 12%;	
+}
+
 @media screen and (max-width: 600px) {
     .imgCotizadorFondo{
         background-image: url(Fondo_encuesta.png);
