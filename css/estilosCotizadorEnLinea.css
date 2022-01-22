@@ -77,13 +77,13 @@ body{
     position: absolute;
     background-image: url(../assets/cotizador/fondo_cot.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
 }
 
 .fondoCotizador{
     background-image: url(../assets/cotizador/fondo_cot.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
 }
 
 .piePagina{
