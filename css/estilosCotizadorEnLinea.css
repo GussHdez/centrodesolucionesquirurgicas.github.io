@@ -89,7 +89,7 @@ body{
 .piePagina{
     position: fixed;
     bottom: 0 !important;
-    z-index: 1 !important;
+    z-index: 4 !important;
     width: 100% !important;
     background-color: #8FA1B7 !important;
     padding-top: 1%;
