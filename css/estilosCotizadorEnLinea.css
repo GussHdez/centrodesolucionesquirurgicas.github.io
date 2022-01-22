@@ -87,7 +87,6 @@ body{
 }
 
 .piePagina{
-    position: fixed;
     bottom: 0 !important;
     z-index: 4 !important;
     width: 100% !important;
