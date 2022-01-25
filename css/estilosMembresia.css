@@ -52,3 +52,9 @@
 .piePagina{
     background: #8FA1B7;
 }
+
+@media (max-width: 600px) {
+      .tituloContacto{
+            font-size: 2rem;
+        } 
+}
