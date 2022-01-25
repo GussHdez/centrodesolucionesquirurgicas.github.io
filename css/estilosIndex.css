@@ -397,5 +397,6 @@ a{
     
     .footerPortrait .col-12 a{
         font-size: 15;
+        color: white;
     }
 }
