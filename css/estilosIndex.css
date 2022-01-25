@@ -379,6 +379,10 @@ a{
         padding: 1rem;
     }
     
+    .piePagina{
+        display: flex !important;
+    }
+    
     .footerLandscape{
         display: none;
     }
