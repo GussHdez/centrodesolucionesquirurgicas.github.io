@@ -266,6 +266,11 @@ a{
 
 @media (max-width: 600px) {
     
+    .navMenu{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
     .subNav{
         background-color: white;
         padding: 2rem;
