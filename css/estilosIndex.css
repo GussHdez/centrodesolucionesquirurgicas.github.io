@@ -231,6 +231,17 @@ a{
         height: 450px;
     }
 
+/*=============================================
+TABLET HORIZONTAL (LG revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+    .navMenu {
+        padding-left: 0rem; 
+        padding-right: 0rem; 
+    }
+}
+
 @media (max-width: 768px) {
     .carousel-inner .carousel-item > div {
         display: none;
