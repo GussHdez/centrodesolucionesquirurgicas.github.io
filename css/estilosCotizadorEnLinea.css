@@ -177,6 +177,10 @@ select option {
     cursor: pointer;
 }
 
+.popupA{
+    width: 80% !important;
+}
+
 pieCotizador{
     margin-top: 12%;	
 }
